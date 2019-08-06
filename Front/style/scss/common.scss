@@ -1,0 +1,381 @@
+@font-face {
+	font-family:Campton-Medium;
+	src:url(../../fonts/Campton-Medium.ttf);
+}
+@font-face {
+	font-family:Roboto-Regular;
+	src:url(../../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family:Roboto-Bold;
+	src:url(../../fonts/Roboto-Bold.ttf);
+}
+body, html, *
+{
+	padding: 0px;
+	margin: 0px;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+body, html {
+	width: 100%;
+	height: 100%;
+}
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, i
+{
+	font-weight: normal;
+	font-style: normal;
+}
+body.block
+{
+	overflow:hidden;
+}
+
+/* ------------------------------------------------------------- */
+/* ********************* CONTAINER GENERAL ********************* */
+/* ------------------------------------------------------------- */
+
+main
+{
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+}
+
+/* ----------------------------------------------------------------- */
+/* ********************* END CONTAINER GENERAL ********************* */
+/* ----------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------- */
+/* ********************* VARIABLES ********************* */
+/* ----------------------------------------------------- */
+
+/*==============================
+=            COLORS            =
+==============================*/
+
+	/*----------  PRIMARY COLORS  ----------*/
+	$colorPrimary_1: #3DB5A9; // RGB(61, 181,169) - Keppel
+	$colorPrimary_2: #F57C4E; // RGB(245,124,78 ) - Jaffa
+	$colorPrimary_3: #007EB0; // RGB(0,  126,176) - Deep Cerulean
+	
+	/*----------  SECONDARY COLORS  ----------*/
+	$colorSecondary_1: #1A2238; // RGB( 26, 34, 56) - Mirage
+	$colorSecondary_2: #A8EE9F; // RGB(168,238,159) - Madang
+	$colorSecondary_3: #707070; // RGB(112,112,112) - Dove Gray
+	$colorSecondary_4: #F57C4E; // RGB(253,157,167) - Sweet Pink
+	$colorSecondary_5: #E9E9E9; // RGB(233,233,233) - Mercury
+
+	/*----------  GRADIENT COLORS  ----------*/
+	$colorGradient_1_1: #FC7F4D; // RGB(252,127, 77) - Orange
+	$colorGradient_1_2: #FD9DA2; // RGB(253,157,162) - Orange
+	$colorGradient_2_1: #007EB0; // RGB(  0,126,176) - Green
+	$colorGradient_2_2: #A8EE9F; // RGB(168,238,159) - Green
+	$colorGradient_3_1: #FFFFFF; // RGB(255,255,255) - Light Green
+	$colorGradient_3_2: #A8EE9F; // RGB(168,238,159) - Light Green
+
+/*=====  End of COLORS  ======*/
+
+
+/*=============================
+=            FONTS            =
+=============================*/
+
+	$font_1: Campton-Medium;
+	$font_2: Roboto-Regular;
+	$font_3: Roboto-Bold;
+
+/*=====  End of FONTS  ======*/
+
+
+/*=================================
+=            TEXT SIZE            =
+=================================*/
+
+	/*----------  H1  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$h1_textsize_desktop: 64px;
+		$h1_lineheight_desktop: 61px;
+
+
+	/*----------  H2  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$h2_textsize_desktop: 54px;
+		$h2_lineheight_desktop: 60px;
+
+
+	/*----------  H3  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$h3_textsize_desktop: 34px;
+		$h3_lineheight_desktop: 42px;
+
+
+	/*----------  H4  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$h4_textsize_desktop: 28px;
+		$h4_lineheight_desktop: 34px;
+
+
+	/*----------  H5  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$h5_textsize_desktop: 20px;
+		$h5_lineheight_desktop: 24px;
+
+
+	/*----------  H6  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$h6_textsize_desktop: 18px;
+		$h6_lineheight_desktop: 24px;
+
+
+
+	/*----------  PARAGRAPH HUGE  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$paragraphHuge_textsize_desktop: 20px;
+		$paragraphHuge_lineheight_desktop: 30px;
+	
+	/*----------  PARAGRAPH BIG  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$paragraphLarge_textsize_desktop: 18px;
+		$paragraphLarge_lineheight_desktop: 27px;
+
+
+	/*----------  PARAGRAPH MEDIUM  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$paragraphMedium_textsize_desktop: 16px;
+		$paragraphMedium_lineheight_desktop: 24px;
+
+
+	/*----------  BUTTON BIG/LINK  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$buttonBig_textsize_desktop: 16px;
+		$buttonBig_lineheight_desktop: 19px;
+
+	/*----------  BUTTON MEDIUM  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$buttonMedium_textsize_desktop: 14px;
+		$buttonMedium_lineheight_desktop: 16px;
+
+
+/*=====  End of TEXT SIZE  ======*/
+
+
+/*============================
+=            GRID            =
+============================*/
+
+	$grid_desktop_1: 1200px;
+	$grid_desktop_2: 1100px;
+	$grid_desktop_3: 1000px;
+	$grid_desktop_4: 900px;
+
+	$grid_tablet: 100%;
+	$grid_mobile: 100%;
+
+/*=====  End of GRID  ======*/
+
+
+/*===================================
+=            BREAK POINT            =
+===================================*/
+
+	$breakPoint_tablet: 1250px;
+	$breakPoint_mobile: 700px;
+
+
+/*=====  End of BREAK POINT  ======*/
+
+/* --------------------------------------------------------- */
+/* ********************* END VARIABLES ********************* */
+/* --------------------------------------------------------- */
+
+/* ------------------------------------------------- */
+/* ********************* MIXIN ********************* */
+/* ------------------------------------------------- */
+
+	/*----------  FUNCTION  ----------*/
+	/*
+	@mixin rgba-background($hexcolor, $opacity) {
+	  background-color: rgba($hexcolor, $opacity); 
+	}*/
+
+	/*----------  HEADING  ----------*/
+
+		/*----------  H1  ----------*/
+		@mixin styleH1{
+			font-family: $font_1;
+		  	color: $colorSecondary_1;
+
+			@media screen and (min-width: $breakPoint_tablet){
+				font-size: $h1_textsize_desktop;
+				line-height: $h1_lineheight_desktop;
+			}
+			@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){}
+			@media screen and (max-width: $breakPoint_mobile){}	
+		}
+
+		/*----------  H2  ----------*/
+		@mixin styleH2{
+			font-family: $font_1;
+		  	color: $colorSecondary_1;
+			font-size: $h2_textsize_desktop;
+			line-height: $h2_lineheight_desktop;
+		}
+
+		/*----------  H3  ----------*/
+		@mixin styleH3{
+			font-family: $font_1;
+		  	color: $colorSecondary_1;
+			font-size: $h3_textsize_desktop;
+			line-height: $h3_lineheight_desktop;
+		}
+
+		/*----------  H4  ----------*/
+		@mixin styleH4{
+			font-family: $font_1;
+		  	color: $colorSecondary_1;
+			font-size: $h4_textsize_desktop;
+			line-height: $h4_lineheight_desktop;
+		}
+
+		/*----------  H5  ----------*/
+		@mixin styleH5{
+			font-family: $font_1;
+		  	color: $colorSecondary_1;
+			font-size: $h5_textsize_desktop;
+			line-height: $h5_lineheight_desktop;
+		}
+
+		/*----------  H5  ----------*/
+		@mixin styleH5{
+			font-family: $font_1;
+		  	color: $colorSecondary_1;
+			font-size: $h6_textsize_desktop;
+			line-height: $h6_lineheight_desktop;
+		}
+
+
+		/*----------  PARAGRAPH HUGE  ----------*/
+		@mixin styleParagraphHuge{
+			font-family: $font_2;
+		  	color: $colorSecondary_3;
+			font-size: $paragraphHuge_textsize_desktop;
+			line-height: $paragraphHuge_lineheight_desktop;
+		}
+
+		/*----------  PARAGRAPH BIG  ----------*/
+		@mixin styleParagraphBig{
+			font-family: $font_2;
+		  	color: $colorSecondary_3;
+			font-size: $paragraphBig_textsize_desktop;
+			line-height: $paragraphBig_lineheight_desktop;
+		}
+
+		/*----------  PARAGRAPH MEDIUM  ----------*/
+		@mixin styleParagraphMedium{
+			font-family: $font_2;
+		  	color: $colorSecondary_3;
+			font-size: $paragraphMedium_textsize_desktop;
+			line-height: $paragraphMedium_lineheight_desktop;
+		}
+
+
+		/*----------  STYLE BUTTON  ----------*/
+			/*----------  BUTTON BIG  ----------*/
+			@mixin styleButtonBig($background : $colorPrimary_1, $color : #FFF){
+			  	padding: 20px 36px;
+			  	border-radius: 30px;
+			  	background-color: $background;
+				.btn-text{
+					color: $color;
+					font-family: $font_3;
+					font-size: $buttonBig_textsize_desktop;
+					line-height: $buttonBig_lineheight_desktop;
+				}
+			}
+
+			/*----------  BUTTON MEDIUM  ----------*/
+			@mixin styleButtonMedium{
+			  	padding: 15px 25px;
+			  	border-radius: 25px;
+			  	background-color: $colorMain_4;
+				.btn-text{
+					font-family: $font_3;
+					font-size: $buttonMedium_textsize_desktop;
+					line-height: $buttonMedium_lineheight_desktop;
+				}
+			}
+
+			/*----------  BUTTON LINK  ----------*/
+			@mixin styleButtonLink{
+			  	padding: 11px 15px 11px 15px;
+			  	border-radius: 4px;
+			  	background-color: $colorMain_4;
+				.btn-text{
+					font-family: $font_3;
+					font-size: $buttonBig_textsize_desktop;
+					line-height: $buttonBig_lineheight_desktop;
+				}
+			}
+
+
+		/*----------  GRID  ----------*/
+
+			/*----------  COMMON  ----------*/
+			@mixin styleGrid-common{
+				margin-right: auto;
+				margin-left: auto;
+				@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+					width: $grid_tablet;
+					padding-right: 50px;
+					padding-left: 50px;
+				}
+				@media screen and (max-width: $breakPoint_mobile){
+					width: $grid_mobile;
+					padding-right: 25px;
+					padding-left: 25px;
+				}
+			}
+
+			/*----------  SIZE 1  ----------*/
+			@mixin styleGrid1{
+				@include styleGrid-common;
+				@media screen and (min-width: $breakPoint_tablet){
+					width: $grid_desktop_1;
+				}
+			}
+
+			/*----------  SIZE 2  ----------*/
+			@mixin styleGrid2{
+				@include styleGrid-common;
+				@media screen and (min-width: $breakPoint_tablet){
+					width: $grid_desktop_2;
+				}
+			}
+
+			/*----------  SIZE 3  ----------*/
+			@mixin styleGrid3{
+				@include styleGrid-common;
+				@media screen and (min-width: $breakPoint_tablet){
+					width: $grid_desktop_3;
+				}
+			}
+
+			/*----------  SIZE 4  ----------*/
+			@mixin styleGrid4{
+				@include styleGrid-common;
+				@media screen and (min-width: $breakPoint_tablet){
+					width: $grid_desktop_4;
+				}
+			}
+
+
+
+/* ----------------------------------------------------- */
+/* ********************* END MIXIN ********************* */
+/* ----------------------------------------------------- */
