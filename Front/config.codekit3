@@ -144,15 +144,15 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/home/erwann-circle.png": {
-		"ft": 32768,
-		"iS": 20582,
+	"/img/home/dev/header.jpg": {
+		"ft": 16384,
+		"iS": 44327,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/home/erwann-circle.png",
+		"oAP": "/img/home/dev/header.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/img/home/erwann-me.png": {
@@ -161,8 +161,8 @@
 		"oA": 0,
 		"oAP": "/img/home/erwann-me.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -174,7 +174,7 @@
 		"oAP": "/img/home/list-photo-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/home/list-photo-2.jpg": {
@@ -185,7 +185,7 @@
 		"oAP": "/img/home/list-photo-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/home/list-photo-3.jpg": {
@@ -196,12 +196,44 @@
 		"oAP": "/img/home/list-photo-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/home/list-time.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/list-time.svg",
+		"oF": 0,
 		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/logos/bfm.png": {
+		"ft": 32768,
+		"iS": 2278,
+		"oA": 0,
+		"oAP": "/img/home/logos/bfm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/logos/elle.png": {
+		"ft": 32768,
+		"iS": 1998,
+		"oA": 0,
+		"oAP": "/img/home/logos/elle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/home/logos/france2.png": {
 		"ft": 32768,
-		"iS": 6824,
+		"iS": 5395,
 		"oA": 0,
 		"oAP": "/img/home/logos/france2.png",
 		"oF": 0,
@@ -210,34 +242,78 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/home/logos/Franceinfo.png": {
+	"/img/home/logos/franceinfo.png": {
 		"ft": 32768,
-		"iS": 8470,
+		"iS": 6404,
 		"oA": 0,
-		"oAP": "/img/home/logos/Franceinfo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/home/logos/journaldudimanche.png": {
-		"ft": 32768,
-		"iS": 10049,
-		"oA": 0,
-		"oAP": "/img/home/logos/journaldudimanche.png",
+		"oAP": "/img/home/logos/franceinfo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/home/photo-bg.jpg": {
+	"/img/home/logos/journaldimanche.png": {
+		"ft": 32768,
+		"iS": 9123,
+		"oA": 0,
+		"oAP": "/img/home/logos/journaldimanche.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/logos/menhealth.png": {
+		"ft": 32768,
+		"iS": 7652,
+		"oA": 0,
+		"oAP": "/img/home/logos/menhealth.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/photo-bg-1.jpg": {
 		"ft": 16384,
-		"iS": 912200,
+		"iS": 612546,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/home/photo-bg.jpg",
+		"oAP": "/img/home/photo-bg-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/photo-bg-2.jpg": {
+		"ft": 16384,
+		"iS": 629014,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/photo-bg-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/photo-bg-3.jpg": {
+		"ft": 16384,
+		"iS": 395194,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/photo-bg-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/photo-bg-4.jpg": {
+		"ft": 16384,
+		"iS": 473580,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/photo-bg-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
