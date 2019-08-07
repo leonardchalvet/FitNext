@@ -6,7 +6,91 @@
 ================================*/
 
 
+#section-cover {
+	padding-top: 150px;
+	.wrapper {
+		@include styleGrid3;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.container-illu {
+		position: relative;
+		width: 500px;
+		height: 650px;
+		.bg {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.video {
+			position: absolute;
+			top: 23px;
+			left: 132px;
+			width: 240px;
+			height: calc(100% - 115px);
+		}
+	}
+	.container-text {
+		width: 420px;
+		h1 {
+			@include styleH1;
+		}
+		p {
+			position: relative;
+			padding-left: 25px;
+			margin-top: 30px;
+			overflow: hidden;
+			@include styleParagraphBig;
+			&:before {
+				content: " ";
+				position: absolute;
+				width: 2px;
+				height: 100%;
+				left: 0;
+				top: 0;
+				background-color: $colorPrimary_2;
+				transform: translateY(0);
+				transition: transform 1000ms cubic-bezier(0.070, 0.965, 0.560, 1.000);
+			}
+			&.anim {
+				&:before {
+					transform: translateY(100%);
+				}
+			}
+		}
+		.btn {
+			margin-top: 45px;
+			@include styleButtonBig;
+		}
+		.sep {
+			margin: 60px 0;
+			width: 100%;
+			height: 1px;
+			background-color: #D8D8D8;
+		}
+		.container-logo {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.logo {
+				height: 20px;
+				img {
+					height: 100%;
+				}
+			}
+		}
+	}
+}
 
+#section-list {
+	margin-top: 150px;
+}
 
 /*====================================
 =            END PAGE HOME           =

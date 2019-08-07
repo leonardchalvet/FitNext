@@ -1,0 +1,1 @@
+$(window).on("load",function(){function n(){var n=$window.height()/1.5;$(".sectionAnim_container").each(function(){$window.scrollTop()>=$(this).offset().top-n+n/4&&($(this).hasClass("reach")||$(this).addClass("reach"))})}$window=$(window),$window.scroll(function(){n()}),n()});
