@@ -49,6 +49,200 @@
 		"oAP": "/fonts/Roboto-Regular.ttf",
 		"oF": 0
 		},
+	"/img/common/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/article-1.jpg": {
+		"ft": 16384,
+		"iS": 74260,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/article-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/article-2.jpg": {
+		"ft": 16384,
+		"iS": 130109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/article-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/article-3.jpg": {
+		"ft": 16384,
+		"iS": 90690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/article-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/cover-illu.png": {
+		"ft": 32768,
+		"iS": 126945,
+		"oA": 0,
+		"oAP": "/img/home/cover-illu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/dev/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/dev/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/dev/bdg.png": {
+		"ft": 32768,
+		"iS": 333528,
+		"oA": 0,
+		"oAP": "/img/home/dev/bdg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/dev/dot.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/dev/dot.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/dev/dottwice.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/dev/dottwice.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/erwann-circle.png": {
+		"ft": 32768,
+		"iS": 20582,
+		"oA": 0,
+		"oAP": "/img/home/erwann-circle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/erwann-me.png": {
+		"ft": 32768,
+		"iS": 1460151,
+		"oA": 0,
+		"oAP": "/img/home/erwann-me.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/list-photo-1.jpg": {
+		"ft": 16384,
+		"iS": 267994,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/list-photo-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/list-photo-2.jpg": {
+		"ft": 16384,
+		"iS": 206561,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/list-photo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/list-photo-3.jpg": {
+		"ft": 16384,
+		"iS": 345451,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/list-photo-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/logos/france2.png": {
+		"ft": 32768,
+		"iS": 6824,
+		"oA": 0,
+		"oAP": "/img/home/logos/france2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/logos/Franceinfo.png": {
+		"ft": 32768,
+		"iS": 8470,
+		"oA": 0,
+		"oAP": "/img/home/logos/Franceinfo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/logos/journaldudimanche.png": {
+		"ft": 32768,
+		"iS": 10049,
+		"oA": 0,
+		"oAP": "/img/home/logos/journaldudimanche.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/photo-bg.jpg": {
+		"ft": 16384,
+		"iS": 912200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/photo-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/img-test/background-1.jpg": {
 		"ft": 16384,
 		"iS": 1065333,
@@ -112,6 +306,17 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
+	"/script/js/common.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/common-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/index.js": {
 		"bF": 0,
 		"ft": 64,
@@ -134,6 +339,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/common-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/common-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/index-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -141,6 +357,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/index-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/minify/jQuery-3.4.1-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/jQuery-3.4.1-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
