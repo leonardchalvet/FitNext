@@ -78,6 +78,8 @@ main
 	$colorGradient_2_2: #A8EE9F; // RGB(168,238,159) - Green
 	$colorGradient_3_1: #FFFFFF; // RGB(255,255,255) - Light Green
 	$colorGradient_3_2: #A8EE9F; // RGB(168,238,159) - Light Green
+	$colorGradient_4_1: #FFFFFF; // RGB(255,255,255) - Light Pink
+	$colorGradient_4_2: #F7EEF1; // RGB(247,238,241) - Light Pink
 
 /*=====  End of COLORS  ======*/
 
@@ -144,11 +146,15 @@ main
 		$paragraphBig_textsize_desktop: 18px;
 		$paragraphBig_lineheight_desktop: 27px;
 
-
 	/*----------  PARAGRAPH MEDIUM  ----------*/
 		/*----------  DESKTOP  ----------*/
 		$paragraphMedium_textsize_desktop: 16px;
 		$paragraphMedium_lineheight_desktop: 24px;
+
+	/*----------  PARAGRAPH SMALL  ----------*/
+		/*----------  DESKTOP  ----------*/
+		$paragraphSmall_textsize_desktop: 14px;
+		$paragraphSmall_lineheight_desktop: 16px;
 
 
 	/*----------  BUTTON BIG/LINK  ----------*/
@@ -284,10 +290,18 @@ main
 			line-height: $paragraphMedium_lineheight_desktop;
 		}
 
+		/*----------  PARAGRAPH SMALL  ----------*/
+		@mixin styleParagraphSmall{
+			font-family: $font_2;
+		  	color: $colorSecondary_3;
+			font-size: $paragraphSmall_textsize_desktop;
+			line-height: $paragraphSmall_lineheight_desktop;
+		}
+
 
 		/*----------  STYLE BUTTON  ----------*/
 			/*----------  BUTTON BIG  ----------*/
-			@mixin styleButtonBig($background : $colorPrimary_1, $color : #FFF){
+			@mixin styleButtonBig($background : $colorPrimary_1, $color : #FFF, $arrow : true){
 			  	padding: 20px 36px;
 			  	border-radius: 30px;
 			  	text-decoration: none;
@@ -306,10 +320,14 @@ main
 				}
 				.btn-arrow {
 					margin-left: 21px;
-					stroke: $color;
 					width: 12px;
 					height: 11px;
 					transition: background .25s ease;
+					@if ($arrow) {
+						stroke: $color;
+					} @else {
+						stroke: $colorPrimary_1;
+					}
 				}
 				&:hover {
 					background-color: transparent;
@@ -331,16 +349,30 @@ main
 			  	width: fit-content;
 			  	display: flex;
 			  	align-items: center;
+			  	background-color: #FFF;
+			  	transition: background .25s ease;
 				.btn-text{
 					font-family: $font_3;
 					font-size: $buttonMedium_textsize_desktop;
 					line-height: $buttonMedium_lineheight_desktop;
+					color: $colorPrimary_1;
+					transition: background .25s ease;
 				}
 				.btn-arrow {
 					margin-left: 17px;
 					stroke: $colorPrimary_1;
 					width: 12px;
 					height: 11px;
+					transition: background .25s ease;
+				}
+				&:hover {
+					background-color: $colorPrimary_1;
+					.btn-text {
+						color: #FFF;
+					}
+					.btn-arrow {
+						stroke: #FFF;
+					}
 				}
 			}
 
