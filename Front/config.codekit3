@@ -204,6 +204,16 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/home/dev/dottwicephoto.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/dev/dottwicephoto.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/home/dev/header.jpg": {
 		"ft": 16384,
 		"iS": 44327,
@@ -214,6 +224,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/img/home/dev/quotearrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/dev/quotearrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
 		},
 	"/img/home/erwann-me.png": {
 		"ft": 32768,
@@ -335,28 +355,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/home/photo-bg-1.jpg": {
-		"ft": 16384,
-		"iS": 612546,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/home/photo-bg-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/home/photo-bg-2.jpg": {
-		"ft": 16384,
-		"iS": 629014,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/home/photo-bg-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/img/home/photo-bg-3.jpg": {
 		"ft": 16384,
 		"iS": 395194,
@@ -365,15 +363,15 @@
 		"oAP": "/img/home/photo-bg-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/img/home/photo-bg-4.jpg": {
+	"/img/home/quote-pp.jpg": {
 		"ft": 16384,
-		"iS": 473580,
+		"iS": 52852,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/home/photo-bg-4.jpg",
+		"oAP": "/img/home/quote-pp.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -81,7 +81,7 @@
 											</svg>
 										</div>
 										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_2">Pro-microbiote</h6>
+											<h6 class="elAnim__slide anim__delayMedium_2">Une nutrition pro-microbiote</h6>
 											<p class="elAnim__slide anim__delayMedium_3">Le micro-biote intestinal conditionne la santé, le moral et la perte de poids</p>
 										</div>
 									</div>
@@ -109,7 +109,7 @@
 									</div>
 								</div>
 								<div class="elAnim__slide anim__delayMedium_8">
-									<a class="btn" href="">
+									<a class="btn" href="https://www.fitnext.com/fr/conseils/perte-poids">
 										<span class="btn-text">En savoir plus</span>
 										<span class="btn-arrow">
 											<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
@@ -162,7 +162,7 @@
 										</div>
 									</div>
 								</div>
-								<a class="btn elAnim__slide anim__delayMedium_6" href="">
+								<a class="btn elAnim__slide anim__delayMedium_6" href="https://www.fitnext.com/fr/conseils/sport">
 									<span class="btn-text">En savoir plus</span>
 									<span class="btn-arrow">
 										<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +217,7 @@
 									</div>
 								</div>
 								<div class="elAnim__slide anim__delayMedium_6">
-									<a class="btn" href="">
+									<a class="btn" href="https://www.fitnext.com/fr/conseils/methode/methode-fitnext-coaching-ligne-novateur">
 										<span class="btn-text">En savoir plus</span>
 										<span class="btn-arrow">
 											<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +241,10 @@
 						</div>
 					</div>
 					<div class="sectionAnim_container">
-						<div class="container-btn elAnim__slide anim__delayMedium_1">
+						<h4 class="elAnim__slide anim__delayMedium_1">
+							Quel objectif souhaitez-vous atteindre ?
+						</h4>
+						<div class="container-btn elAnim__slide anim__delayMedium_2">
 							<a class="btn" href="">
 								<span class="btn-text">Créer mon programme</span>
 								<span class="btn-arrow">
@@ -257,65 +260,78 @@
 				</div>
 			</section>
 
-			<!--
-
-			<section id="section-photo">
+			<section id="section-photo" class="sectionAnim_container">
 				<div class="el">
-					<div class="bg" style="background-image: url(img/home/photo-bg-1.jpg);"></div>
+					<div class="bg elAnim__fade anim__delayMedium_4" style="background-image: url(img/home/photo-bg-1.jpg);"></div>
 					<div class="wrapper">
-						<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-							<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-						</svg>
-						<h2>
+						<div class="elAnim__slide anim__delayMedium_6">
+							<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
+								<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+							</svg>
+						</div>
+						<h2 class="elAnim__slide anim__delayMedium_10">
 							Un meilleur microbiote réduit les risques de cancers et de maladies inflammatoires et diminue les facteurs de risques cardiovasculaires. 
 						</h2>
-						<p>Pathogenesis to Therapy.</p>
+						<p class="elAnim__slide anim__delayMedium_12">Pathogenesis to Therapy.</p>
 					</div>
 				</div>
 				<div class="el">
-					<div class="bg" style="background-image: url(img/home/photo-bg-1.jpg);"></div>
+					<div class="bg" style="background-image: url(img/home/photo-bg-2.jpg);"></div>
 					<div class="wrapper">
-						<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-							<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-						</svg>
+						<div class="elAnim__slide">
+							<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
+								<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+							</svg>
+						</div>
 						<h2>
-							Un meilleur microbiote réduit les risques de cancers et de maladies inflammatoires et diminue les facteurs de risques cardiovasculaires. 
+							 Il devient indéniable que la flore intestinale joue un rôle dans la survenue de l’obésité. 
 						</h2>
-						<p>Pathogenesis to Therapy.</p>
+						<p>Revue Médicale Suisse</p>
 					</div>
 				</div>
 				<div class="el">
-					<div class="bg" style="background-image: url(img/home/photo-bg-1.jpg);"></div>
+					<div class="bg" style="background-image: url(img/home/photo-bg-3.jpg);"></div>
 					<div class="wrapper">
-						<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-							<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-						</svg>
+						<div class="elAnim__slide">
+							<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
+								<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+							</svg>
+						</div>
 						<h2>
-							Un meilleur microbiote réduit les risques de cancers et de maladies inflammatoires et diminue les facteurs de risques cardiovasculaires. 
+							La pratique de l’exercice physique régulier diminue le risque de maladie cardiovasculaire et d’obésité.
 						</h2>
-						<p>Pathogenesis to Therapy.</p>
+						<p>Cardiovascular Effects and Benefits of Exercise</p>
 					</div>
 				</div>
 				<div class="el">
-					<div class="bg" style="background-image: url(img/home/photo-bg-1.jpg);"></div>
+					<div class="bg" style="background-image: url(img/home/photo-bg-4.jpg);"></div>
 					<div class="wrapper">
-						<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-							<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-						</svg>
+						<div class="elAnim__slide">
+							<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
+								<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+							</svg>
+						</div>
 						<h2>
-							Un meilleur microbiote réduit les risques de cancers et de maladies inflammatoires et diminue les facteurs de risques cardiovasculaires. 
+							Les personnes qui pratiquent 1h minimum d’exercices à poids de corps limitent leurs risques de décès toute cause de 29%.
 						</h2>
-						<p>Pathogenesis to Therapy.</p>
+						<p>American Journal of Epidemiology.</p>
 					</div>
+				</div>
+				<div class="container-nav elAnim__fade anim__delayMedium_7">
+					<svg viewBox="0 0 40 36" xmlns="http://www.w3.org/2000/svg">
+					  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+					    <path d="M21.412 1l17.01 17.01-17.01 17.01M38.422 18.02H1"/>
+					  </g>
+					</svg>
 				</div>
 			</section>
 
 			<section id="section-erwann" class="sectionAnim_container">
 				<div class="wrapper">
 					<div class="container-text">
-						<h2>Erwann Mentheour</h2>
-						<h4>Fondateur de Fitnext</h4>
-						<p>
+						<h2 class="wrapLine">Erwann Mentheour</h2>
+						<h4 class="elAnim__slide anim__delayMedium_4">Fondateur de Fitnext</h4>
+						<p class="elAnim__slide anim__delayMedium_6">
 							Erwann Mentheour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable.<br>
 							<br>
 							Il est l’auteur de nombreux best sellers comme 
@@ -323,7 +339,7 @@
 							<br>
 							Il a conçu La Méthode Fitnext en s’appuyant sur l'intelligence déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
 						</p>
-						<a class="btn" href="">
+						<a class="btn elAnim__slide anim__delayMedium_8" href="">
 							<span class="btn-text">En savoir plus</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
@@ -334,21 +350,210 @@
 							</span>
 						</a>
 					</div>
-					<div class="container-illu">
+					<div class="container-illu elAnim__fade anim__delayMedium_10">
 						<div class="bg" style="background-image: url(img/home/erwann-me.png);"></div>
 					</div>
 				</div>
 			</section>
 
-			<section id="section-quote">
+			<section id="section-quote" class="sectionAnim_container">
 				<div class="wrapper">
+					<div class="container-quote">
+						<div class="container-el">
+							<div class="el">
+								<div class="info elAnim__slide anim__delayMedium_1">
+									21 kilos perdus en 6 mois
+								</div>
+								<p class="elAnim__slide anim__delayMedium_2">
+									<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
+									  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+									</svg>
+									Je me sens mieux, aussi bien dans mon corp que dans ma tête
+								</p>
+								<div class="pp elAnim__slide anim__delayMedium_3">
+									<div class="bg" style="background-image: url(img/home/quote-pp.jpg);"></div>
+								</div>
+								<div class="name elAnim__slide anim__delayMedium_4">
+									Isabelle F.
+								</div>
+								<div class="use elAnim__slide anim__delayMedium_5">
+									Utilise fitnext depuis 18 mois
+								</div>
+							</div>
+							<div class="el">
+								<div class="info elAnim__slide anim__delayMedium_1">
+									21 kilos perdus en 6 mois
+								</div>
+								<p class="elAnim__slide anim__delayMedium_2">
+									<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
+									  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+									</svg>
+									Je me sens mieux, aussi bien dans mon corp que dans ma tête
+								</p>
+								<div class="pp elAnim__slide anim__delayMedium_3">
+									<div class="bg" style="background-image: url(img/home/quote-pp.jpg);"></div>
+								</div>
+								<div class="name elAnim__slide anim__delayMedium_4">
+									Isabelle F.
+								</div>
+								<div class="use elAnim__slide anim__delayMedium_5">
+									Utilise fitnext depuis 18 mois
+								</div>
+							</div>
+							<div class="el">
+								<div class="info elAnim__slide anim__delayMedium_1">
+									21 kilos perdus en 6 mois
+								</div>
+								<p class="elAnim__slide anim__delayMedium_2">
+									<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
+									  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+									</svg>
+									Je me sens mieux, aussi bien dans mon corp que dans ma tête
+								</p>
+								<div class="pp elAnim__slide anim__delayMedium_3">
+									<div class="bg" style="background-image: url(img/home/quote-pp.jpg);"></div>
+								</div>
+								<div class="name elAnim__slide anim__delayMedium_4">
+									Isabelle F.
+								</div>
+								<div class="use elAnim__slide anim__delayMedium_5">
+									Utilise fitnext depuis 18 mois
+								</div>
+							</div>
+						</div>
+						<div class="container-nav elAnim__slide anim__delayMedium_6">
+							<div class="arrow left">
+								<svg viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
+								  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+								    <path d="M18.088 1.5L1.078 18.51l17.01 17.01M1.078 18.52H38.5"/>
+								  </g>
+								</svg>
+							</div>
+							<div class="arrow right">
+								<svg viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
+								  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+								    <path d="M18.088 1.5L1.078 18.51l17.01 17.01M1.078 18.52H38.5"/>
+								  </g>
+								</svg>
+							</div>
+						</div>
+					</div>
 					<div class="container-text">
-						<h2>
-							Retrouvez les <em>témoignages</em> de notre communauté de 62000 coachés.
+						<h2 class="wrapLine">
+							Retrouvez les témoignages de notre communauté de 62000 coachés.
 						</h2>
-						<p>
+						<p class="elAnim__slide anim__delayMedium_elAnim__slide anim__delayMedium_11">
 							qui ont révélé le meilleur d’eux-mêmes.
 						</p>
+						<div class="elAnim__slide anim__delayMedium_12">
+							<a class="btn" href="">
+								<span class="btn-text">Créer mon programme</span>
+								<span class="btn-arrow">
+									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+									  </g>
+									</svg>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-article" class="sectionAnim_container">
+				<div class="wrapper">
+					<div class="sep elAnim__slide anim__delayMedium_1"></div>
+					<div class="head">
+						<h2 class="wrapLine anim__delayMedium_2">Pour aller plus loin</h2>
+						<div class="elAnim__slide anim__delayMedium_3">
+							<a class="btn" href="">
+								<span class="btn-text">Voir le blog</span>
+								<span class="btn-arrow">
+									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+									  </g>
+									</svg>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="container-el">
+						<a href="https://www.fitnext.com/fr/conseils/methode/programme-perte-de-poids-fitnext-regime" class="el elAnim__slide anim__delayMedium_4">
+							<div href="" class="illu">
+								<div class="bg" style="background-image: url(img/home/article-1.jpg);"></div>
+							</div>
+							<div class="by">Par Tom Kuegler</div>
+							<h4>
+								Types Of Paper In Catalog Printing
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+							</p>
+							<div class="btn">
+								<span class="btn-text">Lire l'article</span>
+								<span class="btn-arrow">
+									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+									  </g>
+									</svg>
+								</span>
+							</div>
+						</a>
+						<a href="https://www.fitnext.com/fr/conseils/perte-poids/avoir-ventre-plat-grace-programme" class="el elAnim__slide anim__delayMedium_5">
+							<div href="" class="illu">
+								<div class="bg" style="background-image: url(img/home/article-2.jpg);"></div>
+							</div>
+							<div class="by">Par Tom Kuegler</div>
+							<h4>
+								7 Ways To Advertise Your Business For Free
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+							</p>
+							<div class="btn">
+								<span class="btn-text">Lire l'article</span>
+								<span class="btn-arrow">
+									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+									  </g>
+									</svg>
+								</span>
+							</div>
+						</a>
+						<a href="https://www.fitnext.com/fr/conseils/coaching-alimentation/detox" class="el elAnim__slide anim__delayMedium_6">
+							<div href="" class="illu">
+								<div class="bg" style="background-image: url(img/home/article-3.jpg);"></div>
+							</div>
+							<div class="by">Par Tom Kuegler</div>
+							<h4>
+								Nailing It On The Head With Free Internet
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+							</p>
+							<div class="btn">
+								<span class="btn-text">Lire l'article</span>
+								<span class="btn-arrow">
+									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+									  </g>
+									</svg>
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-foot" class="sectionAnim_container">
+				<div class="wrapper">
+					<h2 class="elAnim__slide anim__delayMedium_2" >Quel objectif souhaitez-vous atteindre ?</h2>
+					<div class="elAnim__slide anim__delayMedium_4">
 						<a class="btn" href="">
 							<span class="btn-text">Créer mon programme</span>
 							<span class="btn-arrow">
@@ -360,179 +565,8 @@
 							</span>
 						</a>
 					</div>
-					<div class="container-quote">
-						<div class="quote">
-							<div class="container-text">
-								<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-									<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-								</svg>
-								<p>Je me sens mieux, aussi bien dans mon corps que dans ma tête.</p>
-								<div class="container-profil">
-									<div class="pp">
-										<div class="bg" style="background-image: url(img/img-test/user.jpg);"></div>
-									</div>
-									<div class="text">
-										<div class="name">
-											Isabelle F.
-										</div>
-										<div class="info">
-											Utilise fitnext depuis 18 mois
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="bdg">
-								<img src="img/home/dev/bdg.png">
-							</div>
-						</div>
-						<div class="quote">
-							<div class="container-text">
-								<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-									<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-								</svg>
-								<p>J'ai gagné un bien-être intérieur, de l'assurance et je m'apprécie enfin.</p>
-								<div class="container-profil">
-									<div class="pp">
-										<div class="bg" style="background-image: url(img/img-test/user.jpg);"></div>
-									</div>
-									<div class="text">
-										<div class="name">
-											Isabelle F.
-										</div>
-										<div class="info">
-											Utilise fitnext depuis 18 mois
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="bdg">
-								<img src="img/home/dev/bdg.png">
-							</div>
-						</div>
-						<div class="quote">
-							<div class="container-text">
-								<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-									<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-								</svg>
-								<p>J'ai plus d'énergie et mon moral est bien meilleur.</p>
-								<div class="container-profil">
-									<div class="pp">
-										<div class="bg" style="background-image: url(img/img-test/user.jpg);"></div>
-									</div>
-									<div class="text">
-										<div class="name">
-											Isabelle F.
-										</div>
-										<div class="info">
-											Utilise fitnext depuis 18 mois
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="bdg">
-								<img src="img/home/dev/bdg.png">
-							</div>
-						</div>
-					</div>
 				</div>
 			</section>
-
-			<section id="section-article">
-				<div class="wrapper">
-					<div class="head">
-						<h2>Pour aller plus loin</h2>
-						<a class="btn" href="">
-							<span class="btn-text">Voir le blog</span>
-						</a>
-					</div>
-					<div class="container-el">
-						<a class="el">
-							<div href="" class="illu">
-								<div class="bg" style="background-image: url(img/home/article-1.jpg);"></div>
-							</div>
-							<div class="by">Par Tom Kuegler</div>
-							<h4>
-								Types Of Paper In Catalog Printing
-							</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
-							</p>
-							<div class="btn" href="">
-								<span class="btn-text">Lire l'article</span>
-								<span class="btn-arrow">
-									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-									  </g>
-									</svg>
-								</span>
-							</div>
-						</a>
-						<a class="el">
-							<div href="" class="illu">
-								<div class="bg" style="background-image: url(img/home/article-2.jpg);"></div>
-							</div>
-							<div class="by">Par Tom Kuegler</div>
-							<h4>
-								7 Ways To Advertise Your Business For Free
-							</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
-							</p>
-							<div class="btn" href="">
-								<span class="btn-text">Lire l'article</span>
-								<span class="btn-arrow">
-									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-									  </g>
-									</svg>
-								</span>
-							</div>
-						</a>
-						<a class="el">
-							<div href="" class="illu">
-								<div class="bg" style="background-image: url(img/home/article-3.jpg);"></div>
-							</div>
-							<div class="by">Par Tom Kuegler</div>
-							<h4>
-								Nailing It On The Head With Free Internet
-							</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
-							</p>
-							<div class="btn" href="">
-								<span class="btn-text">Lire l'article</span>
-								<span class="btn-arrow">
-									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-									  </g>
-									</svg>
-								</span>
-							</div>
-						</a>
-					</div>
-				</div>
-			</section>
-
-			<section id="section-foot">
-				<div class="wrapper">
-					<h2>Quel objectif souhaitez-vous atteindre ?</h2>
-					<a class="btn" href="">
-						<span class="btn-text">Je commence l'évaluation</span>
-						<span class="btn-arrow">
-							<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-							  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-							    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-							  </g>
-							</svg>
-						</span>
-					</a>
-				</div>
-			</section>
-
-			-->
 
 		</main>
 

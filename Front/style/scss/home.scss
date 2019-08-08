@@ -326,11 +326,15 @@ section {
 			}
 		}
 	}
-	.container-btn {
+	h4 {
 		margin-top: 100px;
+		@include styleH4;
+		text-align: center;
+	}
+	.container-btn {
 		width: 100%;
 		.btn {
-			margin: auto;
+			margin: 35px auto 0 auto;
 			@include styleButtonBig;
 		}
 	}
@@ -342,6 +346,7 @@ section {
 	padding-bottom: 125px;
 	width: 100%;
 	height: 650px;
+
 	.wrapper {
 		position: relative;
 		@include styleGrid2;
@@ -350,6 +355,7 @@ section {
 	}
 	.el {
 		position: absolute;
+		z-index: 1;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -366,7 +372,7 @@ section {
 		}
 		svg {
 			position: absolute;
-			top: 90px;
+			top: -20px;
 			left: 0;
 			width: 110px;
 			height: 80px;
@@ -375,6 +381,7 @@ section {
 		}
 		h2 {
 			position: relative;
+			display: inline-block;
 			z-index: 1;
 			@include styleH2;
 			width: calc(100% - 425px);
@@ -384,6 +391,40 @@ section {
 			margin-top: 30px;
 			@include styleH6;
 			color: #FFF;
+		}
+
+		transition: transform 1000ms ease;
+		transform: translateX(100%);
+		&.active {
+			z-index: 5;
+			transform: translateX(0);
+		}
+		&.left {
+			transform: translateX(-100%);
+		}
+	}
+	.container-nav {
+		cursor: pointer;
+		position: absolute;
+		z-index: 10;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 140px;
+		height: 140px;
+		background-color: #FFF;
+		svg {
+			width: 38px;
+			height: 35px;
+			transition: transform 250ms ease;
+		}
+		&:hover {
+			svg {
+				transform: scale(1.1);
+			}
 		}
 	}
 }
@@ -400,6 +441,12 @@ section {
 		width: 490px;
 		h2 {
 			@include styleH2;
+			span {
+				display: inline-block;
+			}
+			>span:first-child {
+				margin-right: 10px;
+			}
 		}
 		h4 {
 			margin-top: 5px;
@@ -438,22 +485,235 @@ section {
 #section-quote {
 	padding-top: 145px;
 	padding-bottom: 115px;
+	background: linear-gradient(to top, #{$colorGradient_4_1}, #{$colorGradient_4_2});
 
-	display: none;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		@include styleGrid2;
+	}
+
+	.container-quote {
+		width: 380px;
+		height: 300px;
+		.container-el {
+			position: relative;
+			height: 100%;
+			.el {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				.info {
+					margin: auto;
+					padding: 3px 12px;
+					@include styleH6;
+					background: linear-gradient(to right, #{$colorGradient_1_1}, #{$colorGradient_1_2});
+					width: fit-content;
+					color: #FFF;
+				}
+				p {
+					position: relative;
+					z-index: 0;
+					display: inline-block;
+					margin-top: 22px;
+					@include styleH4;
+					text-align: center;
+					svg {
+						position: absolute;
+						z-index: -1;
+						top: -10px;
+						left: 15px;
+						width: 42px;
+						height: 30px;
+					}
+				}
+				.pp {
+					position: relative;
+					margin-top: 14px;
+					margin-right: auto;
+					margin-left: auto;
+					width: 37px;
+					height: 37px;
+					.bg {
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						left: 0;
+						border-radius: 50%;
+						background-size: contain;
+						background-repeat: no-repeat;
+						background-position: center center;
+					}
+				}
+				.name {
+					margin-top: 8px;
+					@include styleParagraphMedium;
+					font-family: $font_3;
+					color: $colorSecondary_1;
+					text-align: center;
+				}
+				.use {
+					margin-top: 2px;
+					@include styleParagraphMedium;
+					text-align: center;
+				}
+			}
+		}
+		.container-nav {
+			margin-right: auto;
+			margin-left: auto;
+			display: flex;
+			justify-content: center;
+			.arrow {
+				cursor: pointer;
+				width: 36px;
+				height: 39px;
+				&.left {
+					margin-right: 33px;
+				}
+				&.right {
+					transform: rotateY(180deg);
+				}
+			}
+		}
+	}
+
+	.container-text {
+		width: 510px;
+		h2 {
+			@include styleH2;
+			span {
+				@for $i from 0 to 20 {
+				    &:nth-child(#{$i}) span {
+				    	transition-delay: ($i/10) + 0.6s !important;
+				    }
+				}
+			}
+		}
+		p {
+			margin-top: 15px;
+			@include styleParagraphHuge;
+		}
+		.btn {
+			margin-top: 60px;
+			@include styleButtonBig;
+		}
+	}
 }
 
 #section-article {
-	padding-top: 90px;
 	padding-bottom: 115px;
 
-	display: none;
+	.wrapper {
+		position: relative;
+		padding-top: 90px;
+		@include styleGrid1;
+	}
+
+	.sep {
+		position: absolute;
+		top: 0;
+		left: 0;	
+		width: 100%;
+		height: 1px;
+		background-color: #D8D8D8;
+	}
+
+	.head {
+		position: relative;
+		text-align: center;
+		h2 {
+			@include styleH2;
+		}
+		.btn {
+			position: absolute;
+			top: 0;
+			right: 0;
+			transform: translateY(-100%);
+			@include styleButtonMedium;
+			width: initial;
+		}
+	}
+
+	.container-el {
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		.el {
+			cursor: pointer;
+			width: 375px;
+			text-decoration: none;
+			.illu {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				height: 280px;
+				.bg {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center center;
+					transition: transform 250ms ease;
+				}
+			}
+			.by {
+				margin-top: 16px;
+				font-family: $font_2;
+				font-size: 13px;
+				color: $colorPrimary_1;
+			}
+			h4 {
+				margin-top: 2.5px;
+				@include styleH4;
+			}
+			p {
+				margin-top: 17.5px;
+				@include styleParagraphMedium;
+			}
+			.btn {
+				margin-top: 31px;
+				@include styleButtonLink;
+			}
+			&:hover {
+				.illu .bg {
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
 }
 
 #section-foot {
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-color: $colorPrimary_1;
 
-	display: none;
+	.wrapper {
+		@include styleGrid3;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	h2 {
+		@include styleH2;
+		@include gradient-text('linear-gradient(to right, #{$colorGradient_3_1}, #{$colorGradient_3_2})');
+		width: 630px;
+	}
+
+	.btn {
+		@include styleButtonBig(#FFF, $colorSecondary_1, false);
+		width: fit-content;
+	}
 }
 
 
