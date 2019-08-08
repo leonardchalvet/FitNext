@@ -154,4 +154,15 @@ $(window).on('load', function() {
 	});
 	setTimeout(function(){ animScroll() }, 1000);
 
+	$window.scroll(function() {
+
+	    if ( $window.scrollTop() >= 1 ) {
+	        $('#header-desktop').addClass('scroll');
+	        //$('#header-mobile').addClass('scroll');
+	    } else {
+	    	$('#header-desktop').removeClass('scroll');
+	    	//$('#header-mobile').removeClass('scroll');
+	    };
+	});
+
 })
