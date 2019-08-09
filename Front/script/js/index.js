@@ -1,62 +1,292 @@
 $(window).on('load', function() {
 
-	let iframe = document.querySelector('#section-cover .container-illu .video');
-    let player = new Vimeo.Player(iframe);
-	player.play();
-	$('#section-cover .container-text p').addClass('bottom');
-	setTimeout(function(){
-		$('#section-cover .container-text p').addClass('active');
-	}, 1800)
+	/**********************/
+	/*     COVER VIDEO    */
+	/**********************/
+		let iframe = document.querySelector('#section-cover .container-illu .video');
+	    let player = new Vimeo.Player(iframe);
+		player.play();
+		$('#section-cover p').addClass('bottom');
+		setTimeout(function(){
+			$('#section-cover p').addClass('active');
+		}, 1800)
 
-	//apparation direct, puis loop au moment T
-	let bool = false;
-	setInterval(function(){
-		player.getCurrentTime().then(function(seconds) {
-			if(seconds >= 6.75) {
-				if(!bool) {
-					$('#section-cover .container-text p').removeClass('active').addClass('bottom');
-					setTimeout(function(){
-						$('#section-cover .container-text p').removeClass('bottom').addClass('none');
-					}, 500)
-					setTimeout(function(){
-						$('#section-cover .container-text p').removeClass('none bottom');
-					}, 750)
-					setTimeout(function(){
-						$('#section-cover .container-text p').addClass('active');
-					}, 1000)
-					bool = true;
+		let bool = false;
+		setInterval(function(){
+			player.getCurrentTime().then(function(seconds) {
+				if(seconds >= 8.25) {
+					if(!bool) {
+						$('#section-cover p').removeClass('active').addClass('bottom');
+						setTimeout(function(){
+							$('#section-cover p').removeClass('bottom').addClass('none');
+						}, 500)
+						setTimeout(function(){
+							$('#section-cover p').removeClass('none bottom');
+						}, 750)
+						setTimeout(function(){
+							$('#section-cover p').addClass('active');
+						}, 1000)
+						bool = true;
+					}
 				}
+				else if(seconds < 1) {
+					bool = false;
+					$('#section-cover p').addClass('anim');
+				}
+			})
+		}, 50)
+
+
+
+	/********************/
+	/*     COVER LOGO   */
+	/********************/
+		let tabActive = [ 1 , 2 , 3 ];
+		for(let i = 0 ; i < tabActive.length ; i++) {
+			$('#section-cover .container-logo .logo:nth-child(' + (i+1) + ') img:nth-child(' + tabActive[i] + ')').addClass('active');
+		}
+		setInterval(function(){
+
+
+			let logoI = Math.floor((Math.random() * ($('#section-cover .container-logo .logo').length) + 1));
+				
+			let r = 1;
+			let index = -1;
+			do {
+				r = Math.floor((Math.random() * ($('#section-cover .container-logo .logo:nth-child(1) img').length) + 1));
+				index = jQuery.inArray(r, tabActive);
+			} while(index != -1);
+
+			tabActive[(logoI-1)] = r;
+
+			$('#section-cover .container-logo .logo img').removeClass('active');
+			for(let i = 0 ; i < tabActive.length ; i++) {
+				$('#section-cover .container-logo .logo:nth-child(' + (i+1) + ') img:nth-child(' + tabActive[i] + ')').addClass('active');
 			}
-			else if(seconds < 1) {
-				bool = false;
-				$('#section-cover .container-text p').addClass('anim');
+
+		}, 3000)
+
+
+
+	/********************/
+	/*       PHOTO      */
+	/********************/
+		function sectionPhotoCaroussel(Delay, Section, El, Nav){
+			
+			El = Section + ' ' + El;
+			Nav = Section + ' ' + Nav;
+
+			var valDelay = 0;
+			var numberEl = $(El).length;
+			var countEl = 1;
+			
+			var drtc;
+
+			function prg(drtc){
+
+				if (drtc === 'next') {
+					countEl++;
+				} else if (drtc === 'prev') {
+					countEl--;
+				};
+
+				if (countEl <= numberEl && countEl >= 1) {
+
+					$(El + '.active').removeClass('active').addClass('left');
+					$(El + ':nth-child('+countEl+')').addClass('active');
+
+					setTimeout(function(){
+						$(El + '.left').removeClass('left');
+					}, 1000)
+
+					clearInterval(interval);
+					interval = setInterval(function() {
+				      	prg('next');
+				    }, valDelay);
+
+				} else if (countEl < 1) {
+					countEl = numberEl;
+					prg();
+				} else {
+					countEl = 1;
+					prg();
+				};
+				
+			};
+
+			let state = false;
+			$(Nav).click(function(){
+				if(!state) {
+					clearInterval(interval);
+					prg('next');
+
+					state = true;
+					setTimeout(function(){
+						state= false;
+					},2000)
+				}
+			})
+
+			valDelay = Delay;
+
+			var interval = setInterval(function() {
+		    	prg('next');
+		    }, valDelay);
+
+		};
+
+		let stateStartPhoto = false;
+		$window = $(window);
+		$window.scroll(function() {
+			let windowHeight = $window.height();
+			if( !stateStartPhoto && 
+				$window.scrollTop() >= $('#section-photo').offset().top - windowHeight ) {
+				
+				sectionPhotoCaroussel(
+					7000,
+					'#section-photo',  
+					".el",
+					".container-nav"
+				);
+				stateStartPhoto = true;
 			}
 		})
-	}, 50)
 
-	let tabActive = [ 1 , 2 , 3 ];
-	for(let i = 0 ; i < tabActive.length ; i++) {
-		$('#section-cover .container-text .container-logo .logo:nth-child(' + (i+1) + ') img:nth-child(' + tabActive[i] + ')').addClass('active');
-	}
-	setInterval(function(){
+		$('#section-photo .el:nth-child(1)').addClass('active');
 
 
-		let logoI = Math.floor((Math.random() * ($('#section-cover .container-text .container-logo .logo').length) + 1));
+	/********************/
+	/*       QUOTE      */
+	/********************/
+		function sectionQuoteCaroussel(Delay, Section, El, Nav){
 			
-		let r = 1;
-		let index = -1;
-		do {
-			r = Math.floor((Math.random() * ($('#section-cover .container-text .container-logo .logo:nth-child(1) img').length) + 1));
-			index = jQuery.inArray(r, tabActive);
-		} while(index != -1);
+			El = Section + ' ' + El;
+			Nav = Section + ' ' + Nav;
 
-		tabActive[(logoI-1)] = r;
+			var valDelay = 0;
+			var numberEl = $(El).length;
+			var countEl = 1;
+			
+			var drtc;
 
-		$('#section-cover .container-text .container-logo .logo img').removeClass('active');
-		for(let i = 0 ; i < tabActive.length ; i++) {
-			$('#section-cover .container-text .container-logo .logo:nth-child(' + (i+1) + ') img:nth-child(' + tabActive[i] + ')').addClass('active');
-		}
+			function prg(drtc){
 
-	}, 3000)
+				if (drtc === 'next') {
+					countEl++;
+				} else if (drtc === 'prev') {
+					countEl--;
+				};
 
+				if (countEl <= numberEl && countEl >= 1) {
+					if(drtc === 'next') {
+						$(El + '.active').removeClass('active').addClass('left');
+						$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+
+						if (countEl == 1) {
+							$(El + '.active').nextAll().removeClass('left').addClass('right displayNone');
+							$(El + ':last-child').removeClass('right displayNone').addClass('left');
+						}
+						else if (countEl == numberEl) {
+							$(El + '.active').prevAll().removeClass('right').addClass('left');
+							$(El + ':first-child').removeClass('left').addClass('right displayNone');
+						}
+						else {
+							$(El + '.active').nextAll().removeClass('left').addClass('right displayNone');
+							$(El + '.active').prevAll().removeClass('right').addClass('left');
+						}						
+					}
+					else if(drtc === 'prev') {
+						$(El + '.active').removeClass('active').addClass('right');
+						$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+
+						if (countEl == 1) {
+							//$(El + '.active').nextAll().removeClass('right').addClass('left');
+							//$(El + ':last-child').removeClass('left').addClass('right');
+						}
+						else if (countEl == numberEl) {
+							$(El + '.active').prevAll().removeClass('right').addClass('left');
+							$(El + ':first-child').removeClass('left').addClass('right');
+						}
+						else {
+							$(El + '.active').nextAll().removeClass('left').addClass('right');
+							$(El + '.active').prevAll().removeClass('right').addClass('left');
+						}
+					}
+
+					setTimeout(function(){
+						$(El).removeClass('displayNone');
+					}, 1000)
+
+					clearInterval(interval);
+					interval = setInterval(function() {
+				      	prg('next');
+				    }, valDelay);
+
+				} else if (countEl < 1) {
+					countEl = numberEl + 1;
+					prg(drtc);
+				} else {
+					countEl = 0;
+					prg(drtc);
+				};
+				
+			};
+
+			function init(){	    
+				$(El + ':nth-child(1)').addClass('active');
+				$(El + '.active').nextAll().addClass('right');
+				$(El + ':last-child').removeClass('right').addClass('left');
+			};
+
+			let state = false;
+			$(Nav + ':nth-child(1)').click(function(){
+				if(!state) {
+					clearInterval(interval);
+					prg('prev');
+
+					state = true;
+					setTimeout(function(){
+						state= false;
+					},1000)
+				}
+			})
+
+			$(Nav + ':nth-child(2)').click(function(){
+				if(!state) {
+					clearInterval(interval);
+					prg('next');
+
+					state = true;
+					setTimeout(function(){
+						state= false;
+					},1000)
+				}
+			})
+
+			init();
+
+			valDelay = Delay;
+
+			var interval = setInterval(function() {
+		    	prg('next');
+		    }, valDelay);
+
+		};
+
+		let stateStartQuote = false;
+		$window = $(window);
+		$window.scroll(function() {
+			let windowHeight = $window.height();
+			if( !stateStartQuote && 
+				$window.scrollTop() >= $('#section-photo').offset().top - windowHeight ) {
+				
+				sectionQuoteCaroussel(
+					7000,
+					'#section-quote',  
+					".container-el .el",
+					".container-nav .arrow"
+				);
+				stateStartQuote = true;
+			}
+		})
 })
