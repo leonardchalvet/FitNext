@@ -932,11 +932,33 @@ section {
 	}
 
 	#section-quote {
-		display: none;
+		.wrapper {
+			flex-direction: column;
+		}
+		.container-quote {
+			margin-top: 50px;
+			order: 2;
+			width: 300px;
+		}
+		.container-text {
+			order: 1;
+			width: 100%;
+			text-align: center;
+			.btn {
+				width: 100%;
+				span {
+					margin: auto;
+				}
+			}
+		}
 	}
 
 	#section-article {
 		padding-bottom: 55px;
+		.sep {
+			left: 25px;
+			width: calc(100% - 50px);
+		}
 		.head {
 			h2 {
 				text-align: left;
