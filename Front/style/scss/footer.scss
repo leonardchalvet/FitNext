@@ -100,6 +100,26 @@ footer {
 	}
 }
 
+
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) {
+	footer {
+		.row {
+			flex-wrap: wrap;
+			.col {
+				&:first-child {
+					margin-right: 0;
+					width: 100%;
+					margin-bottom: 50px;
+				}
+			}
+			.container-col .col:first-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+
 @media screen and (max-width: $breakPoint_mobile) {
 	footer {
 		.row {

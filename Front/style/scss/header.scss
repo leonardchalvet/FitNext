@@ -142,7 +142,7 @@
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-between;
-			align-items: baseline;
+			align-items: center;
 			.logo{
 				text-decoration: none;
 				display: block;
@@ -277,7 +277,7 @@
 =========================================*/
 
 
-@media screen and (max-width: $breakPoint_mobile) {
+@media screen and (max-width: $breakPoint_tablet) {
 	#header-desktop {
 		display: none;
 	}
