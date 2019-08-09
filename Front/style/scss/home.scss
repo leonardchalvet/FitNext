@@ -489,6 +489,7 @@ section {
 			margin-top: 40px;
 			@include styleParagraphHuge;
 			em {
+				display: block;
 				color: $colorSecondary_1;
 			}
 		}

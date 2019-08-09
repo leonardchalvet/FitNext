@@ -182,35 +182,17 @@ $(window).on('load', function() {
 						$(El + '.active').removeClass('active').addClass('left');
 						$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
 
-						if (countEl == 1) {
-							$(El + '.active').nextAll().removeClass('left').addClass('right displayNone');
-							$(El + ':last-child').removeClass('right displayNone').addClass('left');
-						}
-						else if (countEl == numberEl) {
-							$(El + '.active').prevAll().removeClass('right').addClass('left');
-							$(El + ':first-child').removeClass('left').addClass('right displayNone');
-						}
-						else {
-							$(El + '.active').nextAll().removeClass('left').addClass('right displayNone');
-							$(El + '.active').prevAll().removeClass('right').addClass('left');
-						}						
+						setTimeout(function() {
+							$(El + ':not(.active)').removeClass('left').addClass('right displayNone');
+						}, 500)
 					}
 					else if(drtc === 'prev') {
 						$(El + '.active').removeClass('active').addClass('right');
 						$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
 
-						if (countEl == 1) {
-							//$(El + '.active').nextAll().removeClass('right').addClass('left');
-							//$(El + ':last-child').removeClass('left').addClass('right');
-						}
-						else if (countEl == numberEl) {
-							$(El + '.active').prevAll().removeClass('right').addClass('left');
-							$(El + ':first-child').removeClass('left').addClass('right');
-						}
-						else {
-							$(El + '.active').nextAll().removeClass('left').addClass('right');
-							$(El + '.active').prevAll().removeClass('right').addClass('left');
-						}
+						setTimeout(function() {
+							$(El + ':not(.active)').removeClass('right').addClass('left displayNone');
+						}, 500)
 					}
 
 					setTimeout(function(){
