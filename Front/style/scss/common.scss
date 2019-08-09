@@ -103,30 +103,45 @@ main
 		/*----------  DESKTOP  ----------*/
 		$h1_textsize_desktop: 64px;
 		$h1_lineheight_desktop: 61px;
+		/*----------  MOBILE  ----------*/
+		$h1_textsize_mobile: 40px;
+		$h1_lineheight_mobile: 37px;
 
 
 	/*----------  H2  ----------*/
 		/*----------  DESKTOP  ----------*/
 		$h2_textsize_desktop: 54px;
 		$h2_lineheight_desktop: 64px;
+		/*----------  MOBILE  ----------*/
+		$h2_textsize_mobile: 27px;
+		$h2_lineheight_mobile: 31px;
 
 
 	/*----------  H3  ----------*/
 		/*----------  DESKTOP  ----------*/
 		$h3_textsize_desktop: 34px;
 		$h3_lineheight_desktop: 42px;
+		/*----------  MOBILE  ----------*/
+		$h3_textsize_mobile: 24px;
+		$h3_lineheight_mobile: 31px;
 
 
 	/*----------  H4  ----------*/
 		/*----------  DESKTOP  ----------*/
 		$h4_textsize_desktop: 28px;
 		$h4_lineheight_desktop: 34px;
+		/*----------  MOBILE  ----------*/
+		$h4_textsize_mobile: 24px;
+		$h4_lineheight_mobile: 31px;
 
 
 	/*----------  H5  ----------*/
 		/*----------  DESKTOP  ----------*/
 		$h5_textsize_desktop: 20px;
 		$h5_lineheight_desktop: 24px;
+		/*----------  MOBILE  ----------*/
+		$h5_textsize_mobile: 16px;
+		$h5_lineheight_mobile: 22px;
 
 
 	/*----------  H6  ----------*/
@@ -150,6 +165,8 @@ main
 		/*----------  DESKTOP  ----------*/
 		$paragraphMedium_textsize_desktop: 16px;
 		$paragraphMedium_lineheight_desktop: 24px;
+		/*----------  MOBILE  ----------*/
+		$paragraphMedium_lineheight_mobile: 30px;
 
 	/*----------  PARAGRAPH SMALL  ----------*/
 		/*----------  DESKTOP  ----------*/
@@ -166,6 +183,9 @@ main
 		/*----------  DESKTOP  ----------*/
 		$buttonMedium_textsize_desktop: 14px;
 		$buttonMedium_lineheight_desktop: 16px;
+		/*----------  MOBILE  ----------*/
+		$buttonMedium_textsize_mobile: 16px;
+		$buttonMedium_lineheight_mobile: 19px;
 
 
 /*=====  End of TEXT SIZE  ======*/
@@ -217,12 +237,12 @@ main
 			font-family: $font_1;
 		  	color: $colorSecondary_1;
 
-			@media screen and (min-width: $breakPoint_tablet){
-				font-size: $h1_textsize_desktop;
-				line-height: $h1_lineheight_desktop;
-			}
+			@media screen and (min-width: $breakPoint_tablet){}
 			@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){}
-			@media screen and (max-width: $breakPoint_mobile){}	
+			@media screen and (max-width: $breakPoint_mobile){
+				font-size: $h1_textsize_mobile;
+				line-height: $h1_lineheight_mobile;
+			}	
 		}
 
 		/*----------  H2  ----------*/
@@ -231,6 +251,10 @@ main
 		  	color: $colorSecondary_1;
 			font-size: $h2_textsize_desktop;
 			line-height: $h2_lineheight_desktop;
+			@media screen and (max-width: $breakPoint_mobile){
+				font-size: $h2_textsize_mobile;
+				line-height: $h2_lineheight_mobile;
+			}
 		}
 
 		/*----------  H3  ----------*/
@@ -239,6 +263,10 @@ main
 		  	color: $colorSecondary_1;
 			font-size: $h3_textsize_desktop;
 			line-height: $h3_lineheight_desktop;
+			@media screen and (max-width: $breakPoint_mobile){
+				font-size: $h3_textsize_mobile;
+				line-height: $h3_lineheight_mobile;
+			}
 		}
 
 		/*----------  H4  ----------*/
@@ -247,6 +275,10 @@ main
 		  	color: $colorSecondary_1;
 			font-size: $h4_textsize_desktop;
 			line-height: $h4_lineheight_desktop;
+			@media screen and (max-width: $breakPoint_mobile){
+				font-size: $h4_textsize_mobile;
+				line-height: $h4_lineheight_mobile;
+			}
 		}
 
 		/*----------  H5  ----------*/
@@ -255,6 +287,10 @@ main
 		  	color: $colorSecondary_1;
 			font-size: $h5_textsize_desktop;
 			line-height: $h5_lineheight_desktop;
+			@media screen and (max-width: $breakPoint_mobile){
+				font-size: $h5_textsize_mobile;
+				line-height: $h5_lineheight_mobile;
+			}
 		}
 
 		/*----------  H5  ----------*/
@@ -288,6 +324,9 @@ main
 		  	color: $colorSecondary_3;
 			font-size: $paragraphMedium_textsize_desktop;
 			line-height: $paragraphMedium_lineheight_desktop;
+			@media screen and (max-width: $breakPoint_mobile){
+				line-height: $paragraphMedium_lineheight_mobile;
+			}
 		}
 
 		/*----------  PARAGRAPH SMALL  ----------*/
@@ -355,6 +394,10 @@ main
 					font-family: $font_3;
 					font-size: $buttonMedium_textsize_desktop;
 					line-height: $buttonMedium_lineheight_desktop;
+					@media screen and (max-width: $breakPoint_mobile){
+						font-size: $buttonMedium_textsize_mobile;
+						line-height: $buttonMedium_lineheight_mobile;
+					}
 					color: $colorPrimary_1;
 					transition: background .25s ease;
 				}
