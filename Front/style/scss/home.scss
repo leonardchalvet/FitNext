@@ -418,14 +418,16 @@ section {
 			}
 		}
 
-		transition: transform 1000ms ease;
-		transform: translateX(100%);
+		transition: all 1000ms ease;
+		transform: scale(1);
 		&.active {
 			z-index: 5;
-			transform: translateX(0);
+			transform: scale(1.1);
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 		}
-		&.left {
-			transform: translateX(-100%);
+		&.hide {
+			transform: translateX(-20%);
+			clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 		}
 	}
 	.container-nav {
@@ -513,7 +515,7 @@ section {
 }
 
 #section-quote {
-	padding-top: 145px;
+	padding-top: 90px;
 	padding-bottom: 115px;
 	background: linear-gradient(to top, #{$colorGradient_4_1}, #{$colorGradient_4_2});
 
@@ -526,7 +528,7 @@ section {
 
 	.container-quote {
 		width: 380px;
-		height: 300px;
+		height: 335px;
 		.container-el {
 			position: relative;
 			height: 100%;
@@ -575,8 +577,8 @@ section {
 					margin-top: 14px;
 					margin-right: auto;
 					margin-left: auto;
-					width: 37px;
-					height: 37px;
+					width: 65px;
+					height: 65px;
 					.bg {
 						position: absolute;
 						width: 100%;
@@ -892,12 +894,13 @@ section {
 
 
 	#section-photo {
-		height: 480px;
+		height: 500px;
 		.wrapper {
 			padding-top: 125px;
-			padding-bottom: 135px;
 		}
 		.el {
+			padding-left: 15px;
+			padding-right: 15px;
 			.icn {
 				top: -30px;
 			    left: 35px;
@@ -931,8 +934,11 @@ section {
 		}
 	}
 
+
 	#section-quote {
+		padding-bottom: 200px;
 		.wrapper {
+			position: relative;
 			flex-direction: column;
 		}
 		.container-quote {
@@ -944,14 +950,30 @@ section {
 			order: 1;
 			width: 100%;
 			text-align: center;
-			.btn {
-				width: 100%;
+			h2 {
 				span {
-					margin: auto;
+					@for $i from 0 to 20 {
+					    &:nth-child(#{$i}) span {
+					    	transition-delay: ($i/10) + 0.1s !important;
+					    }
+					}
+				}
+			}
+			.container-btn {
+				position: absolute;
+				width: calc(100% - 50px);
+				left: 25px;
+				bottom: -150px;
+				.btn {
+					width: 100%;
+					span {
+						margin: auto;
+					}
 				}
 			}
 		}
 	}
+
 
 	#section-article {
 		padding-bottom: 55px;
@@ -985,6 +1007,7 @@ section {
 			display: block;
 		}
 	}	
+
 
 	#section-foot {
 		padding-top: 75px;

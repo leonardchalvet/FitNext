@@ -382,7 +382,7 @@
 									<p class="elAnim__slide wrapLine">Je me sens mieux, aussi bien dans mon corp que dans ma tête</p>
 								</div>
 								<div class="pp elAnim__slide anim__delayMedium_6">
-									<div class="bg" style="background-image: url(img/home/quote-pp.jpg);"></div>
+									<div class="bg" style="background-image: url(img/home/quote-pp-1.jpg);"></div>
 								</div>
 								<div class="name elAnim__slide anim__delayMedium_7">
 									Isabelle F.
@@ -402,10 +402,10 @@
 									<p>J'ai gagné un bien-être intérieur, de l'assurance et je m'apprécie enfin.</p>
 								</div>
 								<div class="pp">
-									<div class="bg" style="background-image: url(img/home/quote-pp.jpg);"></div>
+									<div class="bg" style="background-image: url(img/home/quote-pp-2.jpg);"></div>
 								</div>
 								<div class="name">
-									Isabelle F.
+									Elodie.
 								</div>
 								<div class="use">
 									Utilise fitnext depuis 18 mois
@@ -422,10 +422,10 @@
 									<p>J'ai plus d'énergie et mon moral est bien meilleur.</p>
 								</div>
 								<div class="pp">
-									<div class="bg" style="background-image: url(img/home/quote-pp.jpg);"></div>
+									<div class="bg" style="background-image: url(img/home/quote-pp-3.jpg);"></div>
 								</div>
 								<div class="name">
-									Isabelle F.
+									Isabelle.
 								</div>
 								<div class="use">
 									Utilise fitnext depuis 18 mois
@@ -456,7 +456,7 @@
 						<p class="elAnim__slide anim__delayMedium_elAnim__slide anim__delayMedium_11">
 							qui ont révélé le meilleur d’eux-mêmes.
 						</p>
-						<div class="elAnim__slide anim__delayMedium_12">
+						<div class="container-btn elAnim__slide anim__delayMedium_12">
 							<a class="btn" href="">
 								<span class="btn-text">Créer mon programme</span>
 								<span class="btn-arrow">

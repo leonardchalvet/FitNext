@@ -92,11 +92,11 @@ $(window).on('load', function() {
 
 				if (countEl <= numberEl && countEl >= 1) {
 
-					$(El + '.active').removeClass('active').addClass('left');
+					$(El + '.active').removeClass('active').addClass('hide');
 					$(El + ':nth-child('+countEl+')').addClass('active');
 
 					setTimeout(function(){
-						$(El + '.left').removeClass('left');
+						$(El + '.hide').removeClass('hide');
 					}, 1000)
 
 					clearInterval(interval);
