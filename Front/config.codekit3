@@ -443,12 +443,34 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/home/quote-pp.jpg": {
+	"/img/home/quote-pp-1.jpg": {
 		"ft": 16384,
-		"iS": 52852,
+		"iS": 28815,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/home/quote-pp.jpg",
+		"oAP": "/img/home/quote-pp-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/quote-pp-2.jpg": {
+		"ft": 16384,
+		"iS": 22174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/quote-pp-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/quote-pp-3.jpg": {
+		"ft": 16384,
+		"iS": 26074,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/quote-pp-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
