@@ -5,7 +5,6 @@
 			<a href="">Erwann Mentheour</a>
 			<a href="">Formules</a>
 			<a href="">Conseils</a>
-			<a href="">Connexion</a>
 		</div>
 		<a href="" class="logo">
 			<img src="img/common/logo.svg">
@@ -62,6 +61,7 @@
 				<a href="">Erwann Mentheour</a>
 				<a href="">Formules</a>
 				<a href="">Conseils</a>
+				<a href="">Connexion</a>
 			</div>
 			<div class="container-btn">
 				<a href="" class="btn">
