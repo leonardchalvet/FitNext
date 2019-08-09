@@ -784,6 +784,10 @@ section {
 
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) {
 
+	#section-cover .wrapper {
+		padding-left: 50%;
+	}
+
 	#section-photo {
 		.el {
 			padding-left: 50px;
