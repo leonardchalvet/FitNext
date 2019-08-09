@@ -236,7 +236,8 @@ main
 		@mixin styleH1{
 			font-family: $font_1;
 		  	color: $colorSecondary_1;
-
+		  	font-size: $h1_textsize_desktop;
+			line-height: $h1_lineheight_desktop;
 			@media screen and (min-width: $breakPoint_tablet){}
 			@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){}
 			@media screen and (max-width: $breakPoint_mobile){

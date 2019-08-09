@@ -5,6 +5,7 @@
 			<a href="">Erwann Mentheour</a>
 			<a href="">Formules</a>
 			<a href="">Conseils</a>
+			<a href="">Connexion</a>
 		</div>
 		<a href="" class="logo">
 			<img src="img/common/logo.svg">
@@ -56,7 +57,24 @@
 
 	<div class="container-link">
 		<div class="wrapper">
-			
+			<div class="link">
+				<a href="">La méthode</a>
+				<a href="">Erwann Mentheour</a>
+				<a href="">Formules</a>
+				<a href="">Conseils</a>
+			</div>
+			<div class="container-btn">
+				<a href="" class="btn">
+					<span class="btn-text">Commencer maintenant</span>
+					<span class="btn-arrow">
+						<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+						  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+						    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+						  </g>
+						</svg>
+					</span>
+				</a>
+			</div>
 		</div>
 	</div>
 
