@@ -179,20 +179,33 @@ $(window).on('load', function() {
 
 				if (countEl <= numberEl && countEl >= 1) {
 					if(drtc === 'next') {
-						$(El + '.active').removeClass('active').addClass('left');
-						$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
 
+						$(El + ':not(.active)').removeClass('left').addClass('right displayNone');
 						setTimeout(function() {
-							$(El + ':not(.active)').removeClass('left').addClass('right displayNone');
-						}, 500)
+							$(El).removeClass('displayNone');
+							setTimeout(function() {
+								$(El + '.active').removeClass('active').addClass('left');
+								$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+
+								setTimeout(function() {
+									$(El + ':not(.active)').removeClass('left').addClass('right displayNone');
+								}, 400)
+							}, 50)
+						}, 50)
 					}
 					else if(drtc === 'prev') {
-						$(El + '.active').removeClass('active').addClass('right');
-						$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
-
+						$(El + ':not(.active)').removeClass('right').addClass('left displayNone');
 						setTimeout(function() {
-							$(El + ':not(.active)').removeClass('right').addClass('left displayNone');
-						}, 500)
+							$(El).removeClass('displayNone');
+							setTimeout(function() {
+								$(El + '.active').removeClass('active').addClass('right');
+								$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+
+								setTimeout(function() {
+									$(El + ':not(.active)').removeClass('right').addClass('left displayNone');
+								}, 400)
+							}, 50)
+						}, 50)
 					}
 
 					setTimeout(function(){
