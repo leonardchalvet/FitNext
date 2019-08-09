@@ -957,6 +957,9 @@ section {
 			a {
 				width: 100%;
 			}
+			&:nth-child(3) .bg {
+				background-position: top right;
+			}
 		}
 		.container-nav {
 			top: auto;

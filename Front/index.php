@@ -495,12 +495,12 @@
 							<div href="" class="illu">
 								<div class="bg" style="background-image: url(img/home/article-1.jpg);"></div>
 							</div>
-							<div class="by">Par Tom Kuegler</div>
+							<div class="by">Par Erwann Menthéour</div>
 							<h4>
-								Types Of Paper In Catalog Printing
+								Programme perte de poids et rééquilibrage alimentaire 
 							</h4>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+								Vous avez décidé de perdre du poids durablement sans y laisser votre santé ? Vous souhaitez tonifier votre ligne ou acquérir …
 							</p>
 							<div class="btn">
 								<span class="btn-text">Lire l'article</span>
@@ -517,12 +517,12 @@
 							<div href="" class="illu">
 								<div class="bg" style="background-image: url(img/home/article-2.jpg);"></div>
 							</div>
-							<div class="by">Par Tom Kuegler</div>
+							<div class="by">Par Erwann Menthéour</div>
 							<h4>
-								7 Ways To Advertise Your Business For Free
+								Avoir un ventre plat grâce au programme fitnext 
 							</h4>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+								Comment avoir un ventre plat ? Avouons-le, beaucoup d’hommes et de femmes rêvent d’avoir un ventre plat. Qui n’a jamais regardé son…
 							</p>
 							<div class="btn">
 								<span class="btn-text">Lire l'article</span>
@@ -539,12 +539,12 @@
 							<div href="" class="illu">
 								<div class="bg" style="background-image: url(img/home/article-3.jpg);"></div>
 							</div>
-							<div class="by">Par Tom Kuegler</div>
+							<div class="by">Par Erwann Menthéour</div>
 							<h4>
-								Nailing It On The Head With Free Internet
+								La détox : grands principes effets bénéfiques 
 							</h4>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+								On entend tout et n’importe quoi sur la détox : danger pour la santé pour les uns, lubie d’écolo sectaire pour les autres, ou encore …
 							</p>
 							<div class="btn">
 								<span class="btn-text">Lire l'article</span>
