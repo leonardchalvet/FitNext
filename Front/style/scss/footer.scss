@@ -107,6 +107,13 @@ footer {
 			padding-bottom: 25px;
 			flex-wrap: wrap;
 			.col {
+				&:first-child {
+					.container-el {
+						.el {
+							width: 140px;
+						}
+					}
+				}
 				&:first-child, &:nth-child(2), &:nth-child(3) {
 					margin-right: 0;
 				}
