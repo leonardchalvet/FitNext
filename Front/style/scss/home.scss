@@ -128,6 +128,23 @@ section {
 		margin-top: 45px;
 		@include styleButtonBig;
 	}
+	.txt-under-btn {
+		padding-left: 5px;
+		margin-top: 15px;
+		display: flex;
+		align-items: center;
+		.icn {
+			width: 12px;
+			height: 12px;
+			margin-right: 10px;
+			svg {
+				width: 100%;
+			}
+		}
+		span {
+			@include styleParagraphSmall;
+		}
+	}
 	.sep {
 		margin-top: 60px;
 		width: 450px;
@@ -157,6 +174,35 @@ section {
 				}
 				&.active {
 					transition-delay: 250ms;
+				}
+			}
+		}
+	}
+	.scroll {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		font-family: $font_3;
+		font-size: 13px;
+		color: $colorPrimary_1;
+		.dot {
+			position: absolute;
+			left: 50%;
+			bottom: -12px;
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background-color: $colorPrimary_1;
+
+			animation: slideDot 1.5s linear 1s infinite alternate;
+
+			@keyframes slideDot {
+				from {
+					transform: translateX(-50%) translateY(0px);
+				}
+				to {
+					transform: translateX(-50%) translateY(10px);
 				}
 			}
 		}

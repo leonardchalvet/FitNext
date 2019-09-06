@@ -28,13 +28,13 @@
 						<iframe class="video" src="https://player.vimeo.com/video/352471925?api=1&background=1&mute=0&autoplay=0&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 
-					<h1 class="elAnim__fade anim__delayMedium_0 wrapLine">Révélez le meilleur de vous-même</h1>
+					<h1 class="elAnim__fade anim__delayMedium_0 wrapLine">Transformez votre physique. Boostez votre bien être.</h1>
 					<p class="elAnim__slide anim__delayMedium_7">
-						Le coach digital qui place votre bien être au coeur de votre transformation physique.
+						Le coach digital de transformation physique 100% Nutrition, Sport & bien-être.
 					</p>
 					<div class="container-btn elAnim__slide anim__delayMedium_10">
 						<a class="btn" href="">
-							<span class="btn-text">Commencer maintenant</span>
+							<span class="btn-text">Découvrir comment</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -44,9 +44,15 @@
 							</span>
 						</a>
 					</div>
-					<div class="sep elAnim__slide anim__delayMedium_12"></div>
+					<div class="txt-under-btn elAnim__slide anim__delayMedium_12">
+						<div class="icn">
+							<img src="img/home/clock.svg" alt="">
+						</div>
+						<span>Bilan personnalisé d'une minute</span>
+					</div>
+					<div class="sep elAnim__slide anim__delayMedium_14"></div>
 					<div class="container-logo">
-						<?php $delay = 14;
+						<?php $delay = 16;
 							for($i=0;$i<3;$i++) { ?>
 							<div class="logo elAnim__slide anim__delayMedium_<?php echo($delay); ?>">
 								<img src="img/home/logos/france2.png">
@@ -57,6 +63,10 @@
 								<img src="img/home/logos/menhealth.png">
 							</div>
 						<?php $delay++; } ?>
+					</div>
+					<div class="scroll elAnim__slide anim__delayMedium_22">
+						<span>Scroll</span>
+						<div class="dot"></div>
 					</div>
 				</div>
 			</section>

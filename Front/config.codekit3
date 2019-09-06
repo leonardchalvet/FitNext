@@ -59,6 +59,16 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/footer/apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/apple.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/footer/fb.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -74,6 +84,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/footer/in.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/playstore.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/playstore.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 4010962575359,
@@ -121,6 +141,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/img/home/clock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/clock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
 		},
 	"/img/home/cover-illu.png": {
 		"ft": 32768,

@@ -111,6 +111,16 @@
 				span:nth-child(2) {
 					display: block;
 				}
+
+				&:hover {
+					background-color: transparent;
+					.btn-text {
+						color: $colorPrimary_1;
+					}
+					.btn-arrow {
+						stroke: $colorPrimary_1;
+					}
+				}
 			}
 		}
 	}
