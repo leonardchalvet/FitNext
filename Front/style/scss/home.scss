@@ -6,6 +6,9 @@
 ================================*/
 
 section {
+	&:not(#section-list) {
+		overflow: hidden;
+	}
 	h1, h2, p {
 		&.wrapLine {
 			display: block;
@@ -35,6 +38,7 @@ section {
 
 #section-cover {
 	padding-top: 150px;
+	padding-bottom: 150px;
 
 	.wrapper {
 		position: relative;
@@ -181,7 +185,7 @@ section {
 	.scroll {
 		position: absolute;
 		left: 50%;
-		bottom: 0;
+		bottom: -40px;
 		transform: translateX(-50%);
 		font-family: $font_3;
 		font-size: 13px;
@@ -210,189 +214,295 @@ section {
 }
 
 #section-list {
-	padding-top: 150px;
-	padding-bottom: 110px;
+	padding-bottom: 130px;
 	.wrapper {
-		@include styleGrid2;
+		@include styleGrid3;
 	}
-	h2 {
-		@include styleH2;
-		width: calc(100% - 300px);
-		span {
-			em {
-				&:first-child {
-					color: $colorPrimary_2;
+	.flex {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+	}
+	.container-text {
+		padding-bottom: 10px;
+		position: sticky;
+		top: 150px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		width: calc(50% - 150px);
+		height: 70vh;
+		max-height: 720px;
+
+		h2 {
+			@include styleH2;
+			em:nth-child(1) {
+				color: $colorPrimary_2;
+			}
+			em:nth-child(2) {
+				color: $colorPrimary_1;
+			}
+		}
+		.quote {
+			position: relative;
+			.icn {
+				position: absolute;
+				z-index: 0;
+				top: -10px;
+				left: 0px;
+
+				width: 42px;
+				height: 30px;
+				
+				svg {
+					width: 100%;
 				}
-				&:last-child {
-					color: $colorPrimary_1;
+			}
+			.container-el {
+				position: relative;
+				padding-left: 10px;
+				z-index: 1;
+				.el {
+					@include styleH5;
+					&.displayNone {
+						display: none;
+					}
+					&.displayBlock {
+						display: block;
+					}
+					&.show {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		ul.container-nav {
+			padding-left: 30px;
+			position: relative;
+			&:before, &:after {
+				content: " ";
+				position: absolute;
+				left: 0;
+				width: 1px;
+			}
+			&:before {
+				top: 0;
+				height: 100%;
+				background-color: #D8D8D8;
+			}
+			&:after {
+				height: calc(100% / 3 - 5px);
+				background-color: $colorSecondary_1;
+				transition: all .25s ease;
+			}
+			&.li-1 {
+				&:after {
+					top: 0%;
+					transform: translateY(0%);
+				}
+				li:nth-child(1) span {
+					color: $colorSecondary_1;
+				}
+			}
+			&.li-2 {
+				&:after {
+					top: 50%;
+					transform: translateY(-50%);
+				}
+				li:nth-child(2) span {
+					color: $colorSecondary_1;
+				}
+			}
+			&.li-3 { 
+				&:after {
+					top: 100%;
+					transform: translateY(-100%);
+				}
+				li:nth-child(3) span {
+					color: $colorSecondary_1;
+				}
+			}
+			li {
+				cursor: pointer;
+				position: relative;
+				@include styleH6;
+				color: #707070;
+				list-style: none;
+				&:not(:last-child) {
+					margin-bottom: 10px;
+				}
+				span {
+					transition: all .25s ease;
 				}
 			}
 		}
 	}
-	.container-el {
-		margin-top: 90px;
-		.el {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			.container-text {
-				width: calc(50% - 60px);
-				h3 {
-					@include styleH3;
-				}
-				.ul {
-					margin-top: 50px;
-					width: calc(100% - 45px);
-					.li {
-						display: flex;
-						align-items: baseline;
-						&:not(:last-child) {
-							margin-bottom: 30px;
-						}
-						.dot {
-							margin-right: 15px;
-							svg {
-								width: 8px;
-								height: 14px;
-							}
-						}
-						.text {
-							h6 {
-								@include styleH6;
-							}
-							p {
-								@include styleParagraphMedium;
-							}
-						}
-					}
-				}
-				.btn {
-					margin-top: 45px;
-					@include styleButtonLink;
-				}
-			}
-			.container-illu {
-				position: relative;
-				overflow: hidden;
-				width: 50%;
-				height: 560px;
-				.bg {
-					position: absolute;
-					width: 100%;
-					height: 100%;
-					top: 0;
-					left: 0;
-					background-size: cover;
-					background-repeat: no-repeat;
-					background-position: center center;
-
-					transform: scale(1.2);
-				}
-				.quote {
-					position: absolute;
-					bottom: 30px;
-					left: 50%;
-					transform: translateX(-50%);
-					padding: 45px 50px;
-					width: calc(100% - 50px);
-					background-color: #FFF;
-					svg {
-						position: absolute;
-						top: 35px;
-						left: 33px;
-						width: 42px;
-						height: 30px;
-					}
-					p {
-						position: relative;
-						@include styleH5;
-					}
-				}
-			}
-			&:nth-child(even) {
-				.container-text {
-					order: 2;
-				}
-				.container-illu {
-					order: 1;
-				}
-			}
-			&:nth-child(1) {
-				.container-text .ul .li .dot svg {
-					fill: $colorPrimary_1;
-				}
-				.container-illu .more {
-					position: absolute;
-					top: 30px;
-					right: 30px;
-					display: flex;
-					p {
-						padding: 10px;
-						width: 110px;
-						text-align: center;
-						font-family: $font_3;
-						font-size: 14px;
-						&:first-child {
-							background-color: #FFF;
-							border-radius: 3px 0px 0px 3px;
-						}
-						&:last-child {
-							color: #FFF;
-							background-color: rgba(26, 34, 56, .2);
-							border-radius: 0px 3px 3px 0px;
-						}
-					}
-				}
-			}
-			&:nth-child(2) {
-				.container-text .ul .li .dot svg {
-					fill: $colorPrimary_2;
-				}
-				.container-illu .more {
-					padding: 7px 12.5px;
-					position: absolute;
-					top: 30px;
-					left: 50%;
-					transform: translateX(-50%);
-					display: flex;
-					align-items: center;
-					border-radius: 3px;
-					background-color: rgba(26, 34, 56, .4);
-					width: 215px;
-					img {
-						width: 15px;
-						height: 15px;
-						margin-right: 8.5px;
+	.container-cards {
+		width: 50%;
+		.card {
+			position: relative;
+			padding: 60px 110px 25px 110px;
+			&:nth-child(1), &:nth-child(2) {
+				.text {
+					h6 {
+						color: #FFF;
 					}
 					p {
 						color: #FFF;
-						font-family: $font_3;
-						font-size: 14px;
+						opacity: .7;
 					}
-				}	
-			}
-			&:nth-child(3) {
-				.container-text .ul .li .dot svg {
-					fill: $colorSecondary_1;
+				}
+				.container-link {
+					a.link {
+						.link-text {
+							color: #FFF;
+						}
+						.link-arrow {
+							stroke: #FFF;
+						}
+					}
 				}
 			}
-			&.reach {
-				.container-illu .bg {
-					transform: scale(1);
+			&:nth-child(1) .color {
+				background-color: $colorGradient_2_1;
+			}
+			&:nth-child(2) .color {
+				background-color: $colorPrimary_2;
+			}
+			&:nth-child(3) {
+				.color {
+					background-color: #FAFAFA;
+				}
+				.text {
+					h6 {
+						color: $colorSecondary_1;
+					}
+					p {
+						color: $colorSecondary_3;
+					}
+				}
+				.container-link {
+					a.link {
+						.link-text {
+							color: $colorSecondary_1;
+						}
+						.link-arrow {
+							stroke: $colorPrimary_1;
+						}
+					}
+				}
+			}
+			&:not(:last-child) {
+				margin-bottom: 55px;
+			}
+			.color {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 25px;
+			}
+			.container-illu {
+				position: relative;
+				z-index: 1;
+				width: 280px;
+				.bg {
+					img {
+						width: 100%;
+					}
+				}
+				.video {
+					position: absolute;
+					left: 50%;
+					transform: translateX(-50%);
+					bottom: 25px;
+					width: calc(100% - 20px);
+					img {
+						width: 100%;
+					}
+				}
+			}
+			.text {
+				position: relative;
+				z-index: 1;
+				margin-top: 40px;
+				h6 {
+					margin-top: 15px;
+					@include styleH6;
+				}
+				p {
+					margin-top: 3px;
+					@include styleParagraphMedium;
+				}
+			}
+			.sep {
+				position: absolute;
+				z-index: 1;
+				bottom: 70px;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background-color: #D8D8D8;
+				opacity: .2;
+			}
+			.container-link {
+				position: relative;
+				z-index: 1;
+				display: flex;
+				justify-content: center;
+				margin-top: 25px;
+				padding-top: 25px;
+				a.link {
+					position: relative;
+				  	text-decoration: none;
+				  	display: flex;
+				  	align-items: center;
+				  	width: fit-content;
+					.link-text{
+						font-family: $font_3;
+						font-size: $buttonBig_textsize_desktop;
+						line-height: $buttonBig_lineheight_desktop;
+						transform: translateX(0);
+						transition: transform .25s ease;
+					}
+					.link-arrow {
+						margin-left: 23px;
+						width: 12px;
+						height: 11px;
+						transform: translateX(0);
+						transition: transform .25s ease;
+					}
+					&:hover {
+						.link-text {
+							transform: translateX(-5px);
+						}
+						.link-arrow {
+							transform: translateX(5px);
+						}
+					}
 				}
 			}
 		}
 	}
-	h4 {
-		margin-top: 100px;
-		@include styleH4;
+	.container-action {
+		margin-top: 125px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		text-align: center;
-	}
-	.container-btn {
 		width: 100%;
-		.btn {
-			margin: 35px auto 0 auto;
-			@include styleButtonBig;
+		h3 {
+			@include styleH3;
+		}
+		.container-btn {
+			margin-top: 30px;
+			.btn {
+				@include styleButtonBig;
+			}
 		}
 	}
 }
@@ -509,13 +619,17 @@ section {
 
 #section-erwann {
 	padding-top: 60px;
+	background-color: $colorGradient_4_2;
 	.wrapper {
+		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		@include styleGrid2;
 	}
 	.container-text {
+		padding-top: 150px;
+		padding-bottom: 120px;
 		width: 490px;
 		h2 {
 			@include styleH2;
@@ -535,7 +649,6 @@ section {
 			margin-top: 40px;
 			@include styleParagraphHuge;
 			em {
-				display: block;
 				color: $colorSecondary_1;
 			}
 		}
@@ -545,9 +658,11 @@ section {
 		}
 	}
 	.container-illu {
-		position: relative;
+		position: absolute;
+		right: 0;
+		bottom: 0;
 		width: 550px;
-		height: 700px;
+		height: 810px;
 		.bg {
 			position: absolute;
 			width: 100%;
@@ -557,6 +672,41 @@ section {
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center center;
+		}
+	}
+}
+
+#section-book {
+	background-color: $colorGradient_4_2;
+	.wrapper {
+		padding: 60px 100px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		@include styleGrid2;
+		border-radius: 16px;
+		background-color: #FFF;
+	}
+	.container-illu {
+		width: 240px;
+		height: 270px;
+		img {
+			width: 100%;
+		}
+	}
+	.container-text {
+		width: 510px;
+		h6 {
+			@include styleH6;
+			color: $colorPrimary_3;
+		}
+		p {
+			margin-top: 15px;
+			@include styleH3;
+		}
+		.btn {
+			margin-top: 25px;
+			@include styleButtonLink;
 		}
 	}
 }
