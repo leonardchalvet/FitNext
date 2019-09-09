@@ -214,6 +214,16 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/home/dev/dottwice2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/dev/dottwice2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/home/dev/dottwicephoto.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -244,6 +254,39 @@
 		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
+		},
+	"/img/home/dev/sectionList-1.png": {
+		"ft": 32768,
+		"iS": 92851,
+		"oA": 0,
+		"oAP": "/img/home/dev/sectionList-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/dev/sectionList-2.png": {
+		"ft": 32768,
+		"iS": 104099,
+		"oA": 0,
+		"oAP": "/img/home/dev/sectionList-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/dev/sectionList-3.png": {
+		"ft": 32768,
+		"iS": 106687,
+		"oA": 0,
+		"oAP": "/img/home/dev/sectionList-3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/img/home/erwann-me.png": {
 		"ft": 32768,
@@ -359,6 +402,17 @@
 		"iS": 7652,
 		"oA": 0,
 		"oAP": "/img/home/logos/menhealth.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/phone.png": {
+		"ft": 32768,
+		"iS": 18167,
+		"oA": 0,
+		"oAP": "/img/home/phone.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -484,6 +538,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/home/sectionHome-illu.png": {
+		"ft": 32768,
+		"iS": 243964,
+		"oA": 0,
+		"oAP": "/img/home/sectionHome-illu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/img-test/background-1.jpg": {
