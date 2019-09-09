@@ -30,11 +30,11 @@
 
 					<h1 class="elAnim__fade anim__delayMedium_0 wrapLine">Transformez votre physique. Boostez votre bien être.</h1>
 					<p class="elAnim__slide anim__delayMedium_7">
-						Le coach digital de transformation physique 100% Nutrition, Sport & bien-être.
+						Votre coach digital sport & nutrition
 					</p>
 					<div class="container-btn elAnim__slide anim__delayMedium_10">
 						<a class="btn" href="">
-							<span class="btn-text">Découvrir comment</span>
+							<span class="btn-text">Découvrir votre programme personnalisé</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -48,7 +48,7 @@
 						<div class="icn">
 							<img src="img/home/clock.svg" alt="">
 						</div>
-						<span>Bilan personnalisé d'une minute</span>
+						<span>Votre bilan en moins d'une minute</span>
 					</div>
 					<div class="sep elAnim__slide anim__delayMedium_14"></div>
 					<div class="container-logo">
@@ -73,54 +73,79 @@
 
 			<section id="section-list">
 				<div class="wrapper">
-					<div class="sectionAnim_container">
-						<h2 class="elAnim__slide anim__delayMedium_0 wrapLine">
-							Le meilleur équilibre entre <em>sport</em> & <em>nutrition</em> pour atteindre vos objectifs.
-						</h2>
-					</div>
-					<div class="container-el">
-						<div class="el sectionAnim_container">
-							<div class="container-text">
-								<h3 class="elAnim__slide anim__delayMedium_1">Le meilleur de la nutrution.</h3>
-								<div class="ul">
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_2">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_2">Une nutrition pro-microbiote</h6>
-											<p class="elAnim__slide anim__delayMedium_3">Le micro-biote intestinal conditionne la santé, le moral et la perte de poids</p>
-										</div>
+					<div class="flex">
+						<div class="container-text sectionAnim_container">
+							<h2 class="elAnim__slide anim__delayMedium_1">
+								Le meilleur du <em>sport</em> & de la <em>nutrition</em>.
+							</h2>
+							<div class="quote">
+								<div class="icn elAnim__slide anim__delayMedium_3">
+									<svg viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
+									  <path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
+									</svg>
+								</div>
+								<div class="container-el elAnim__slide anim__delayMedium_5">
+									<div class="el displayBlock show">
+										Aucun entraînement ne gagne contre une mauvaise alimentation.
 									</div>
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_4">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_4">Désintoxication de l'organisme en 40 jours </h6>
-											<p class="elAnim__slide anim__delayMedium_5">Notre programme mono-diète 40jours pour une désintoxication profonde de l'organisme</p>
-										</div>
+									<div class="el displayNone">
+										Une séance de poids de corps est beaucoup plus efficaces qu'un jogging.
 									</div>
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_6">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_6">Plaisir et liberté</h6>
-											<p class="elAnim__slide anim__delayMedium_7">Des recettes gourmandes selon vos souhaits, des conseils au restaurant, des repas libres</p>
-										</div>
+									<div class="el displayNone">
+										Un coach vous fera faire ce que vous ne feriez pas tout seul.
 									</div>
 								</div>
-								<div class="elAnim__slide anim__delayMedium_8">
-									<a class="btn" href="https://www.fitnext.com/fr/conseils/perte-poids">
-										<span class="btn-text">En savoir plus</span>
-										<span class="btn-arrow">
+							</div>
+							<ul class="container-nav li-1 elAnim__slide anim__delayMedium_7">
+								<li class="elAnim__slide anim__delayMedium_7">
+									<span class="active">La Nutrition</span>
+								</li>
+								<li class="elAnim__slide anim__delayMedium_8">
+									<span>Le Sport</span>
+								</li>
+								<li class="elAnim__slide anim__delayMedium_9">
+									<span>Un Coach</span>
+								</li>
+							</ul>
+						</div>
+						<div class="container-cards">
+							<div class="card sectionAnim_container">
+								<div class="color elAnim__fade anim__delayMedium_1"></div>
+								<div class="container-illu elAnim__fade anim__delayMedium_3">
+									<div class="bg">
+										<img src="img/home/phone.png">
+									</div>
+									<div class="video">
+										<img src="img/home/dev/sectionList-1.png">
+									</div>
+								</div>
+								<div class="text">
+									<div class="elAnim__slide anim__delayMedium_5">
+										<h6>
+											Une nutrition pro-microbiot
+										</h6>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_7">
+										<p>
+											Boostez votre microbiote intestinal qui conditionne la santé, le moral et la perte de poids. Détoxifiez votre organisme en 40 jours.
+										</p>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_9">
+										<h6>
+											Plaisir et liberté
+										</h6>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_11">
+										<p>
+											Des recettes gourmandes, des conseils au restaurant, des repas libres.
+										</p>
+									</div>
+								</div>
+								<div class="sep"></div>
+								<div class="container-link elAnim__slide anim__delayMedium_13">
+									<a class="link" href="">
+										<span class="link-text">En savoir plus</span>
+										<span class="link-arrow">
 											<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 											  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
 											    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
@@ -130,105 +155,42 @@
 									</a>
 								</div>
 							</div>
-							<div class="container-illu">
-								<div class="bg elAnim__fade anim__delayMedium_8" style="background-image: url(img/home/list-photo-1.jpg);"></div>
-								<div class="more elAnim__slide anim__delayMedium_8">
-									<p>Au restaurant</p>
-									<p>Je cuisine</p>
-								</div>
-								<div class="quote elAnim__slide anim__delayMedium_9">
-									<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-  										<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-									</svg>
-									<p>Aucun entraînement ne gagne contre une mauvaise alimentation.</p>
-								</div>
-							</div>
-						</div>
-						<div class="el sectionAnim_container">
-							<div class="container-text">
-								<h3 class="elAnim__slide anim__delayMedium_1">Le meilleur du sport.</h3>
-								<div class="ul">
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_2">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_2">Efficacité optimale</h6>
-											<p class="elAnim__slide anim__delayMedium_3">Des exercices de Fitness, HIIT*, bodyweight et cardio calibrés en fonction de vos capacités, de vos progrès et de vos objectifs</p>
-										</div>
+							<div class="card sectionAnim_container">
+								<div class="color elAnim__fade anim__delayMedium_1"></div>
+								<div class="container-illu elAnim__fade anim__delayMedium_3">
+									<div class="bg">
+										<img src="img/home/phone.png">
 									</div>
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_4">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_4">Adapté à votre agenda</h6>
-											<p class="elAnim__slide anim__delayMedium_5">Séances de 9 à 50 minutes, sans matériel, chez soi ou à l’extérieur</p>
-										</div>
+									<div class="video">
+										<img src="img/home/dev/sectionList-2.png">
 									</div>
 								</div>
-								<a class="btn elAnim__slide anim__delayMedium_6" href="https://www.fitnext.com/fr/conseils/sport">
-									<span class="btn-text">En savoir plus</span>
-									<span class="btn-arrow">
-										<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-										  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-										    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-										  </g>
-										</svg>
-									</span>
-								</a>
-							</div>
-							<div class="container-illu">
-								<div class="bg elAnim__fade anim__delayMedium_7" style="background-image: url(img/home/list-photo-2.jpg);"></div>
-								<div class="elAnim__slide anim__delayMedium_7">
-									<div class="more">
-										<img src="img/home/list-time.svg">
-										<p>00:15sec, Burpees, Tour 2</p>
+								<div class="text">
+									<div class="elAnim__slide anim__delayMedium_5">
+										<h6>
+											Efficacité optimale
+										</h6>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_7">
+										<p>
+											Des exercices de Fitness, HIIT*, bodyweight et cardio calibrés en fonction de vos capacités, de vos progrès et de vos objectifs
+										</p>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_9">
+										<h6>
+											Adapté à votre agenda
+										</h6>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_11">
+										<p>
+											Séances de 9 à 50 minutes, sans matériel, chez soi ou à l’extérieur
+										</p>
 									</div>
 								</div>
-								<div class="quote elAnim__slide anim__delayMedium_8">
-									<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-  										<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-									</svg>
-									<p>3 fois 30 secondes  d’exercices Fitnext = 40 minutes de footing!</p>
-								</div>
-							</div>
-						</div>
-						<div class="el sectionAnim_container">
-							<div class="container-text">
-								<h3 class="elAnim__slide anim__delayMedium_1">Le meilleur coaching pour vous.</h3>
-								<div class="ul">
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_2">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_2">S'adapte en continu</h6>
-											<p class="elAnim__slide anim__delayMedium_3">programme proposé en fonction de vos ressentis, progressions, objectifs, envies et agenda.</p>
-										</div>
-									</div>
-									<div class="li">
-										<div class="dot elAnim__slide anim__delayMedium_4">
-											<svg viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M8 0v14H0V5.886z" fill-rule="nonzero"/>
-											</svg>
-										</div>
-										<div class="text">
-											<h6 class="elAnim__slide anim__delayMedium_4">A votre écoute</h6>
-											<p class="elAnim__slide anim__delayMedium_5">des conseils, des explications et de la motivation avec le support de notre équipe de coachs.</p>
-										</div>
-									</div>
-								</div>
-								<div class="elAnim__slide anim__delayMedium_6">
-									<a class="btn" href="https://www.fitnext.com/fr/conseils/methode/methode-fitnext-coaching-ligne-novateur">
-										<span class="btn-text">En savoir plus</span>
-										<span class="btn-arrow">
+								<div class="container-link elAnim__slide anim__delayMedium_13">
+									<a class="link" href="">
+										<span class="link-text">En savoir plus</span>
+										<span class="link-arrow">
 											<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 											  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
 											    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
@@ -238,22 +200,58 @@
 									</a>
 								</div>
 							</div>
-							<div class="container-illu">
-								<div class="bg elAnim__fade anim__delayMedium_7" style="background-image: url(img/home/list-photo-3.jpg);"></div>
-								<div class="quote elAnim__slide anim__delayMedium_8">
-									<svg class="icn" viewBox="0 0 42 30" xmlns="http://www.w3.org/2000/svg">
-  										<path d="M42 0v30H24V12.614L42 0zM18 0v30H0V12.614L18 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-									</svg>
-									<p>Un coach vous fera faire ce que vous ne feriez pas tout seul.</p>
+							<div class="card sectionAnim_container">
+								<div class="color elAnim__fade anim__delayMedium_1"></div>
+								<div class="container-illu elAnim__fade anim__delayMedium_3">
+									<div class="bg">
+										<img src="img/home/phone.png">
+									</div>
+									<div class="video">
+										<img src="img/home/dev/sectionList-3.png">
+									</div>
+								</div>
+								<div class="text">
+									<div class="elAnim__slide anim__delayMedium_5">
+										<h6>
+											S'adapte en continu
+										</h6>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_7">
+										<p>
+											programme proposé en fonction de vos ressentis, progressions, objectifs, envies et agenda.
+										</p>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_9">
+										<h6>
+											A votre écoute
+										</h6>
+									</div>
+									<div class="elAnim__slide anim__delayMedium_11">
+										<p>
+											des conseils, des explications et de la motivation avec le support de notre équipe de coachs.
+										</p>
+									</div>
+								</div>
+								<div class="container-link elAnim__slide anim__delayMedium_13">
+									<a class="link" href="">
+										<span class="link-text">En savoir plus</span>
+										<span class="link-arrow">
+											<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+											  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+											    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+											  </g>
+											</svg>
+										</span>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="sectionAnim_container">
-						<h4 class="elAnim__slide anim__delayMedium_1">
+					<div class="container-action sectionAnim_container">
+						<h3 class="elAnim__slide anim__delayMedium_1">
 							Quel objectif souhaitez-vous atteindre ?
-						</h4>
-						<div class="container-btn elAnim__slide anim__delayMedium_2">
+						</h3>
+						<div class="container-btn elAnim__slide anim__delayMedium_3">
 							<a class="btn" href="">
 								<span class="btn-text">Créer mon programme</span>
 								<span class="btn-arrow">
@@ -353,15 +351,13 @@
 						<h2 class="wrapLine">Erwann Mentheour</h2>
 						<h4 class="elAnim__slide anim__delayMedium_4">Fondateur de Fitnext</h4>
 						<p class="elAnim__slide anim__delayMedium_6">
-							Erwann Mentheour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable.<br>
-							<br>
-							Il est l’auteur de nombreux best sellers comme 
-							<em>«Et si on arrêtait d’empoisonner nos enfants».</em><br>
-							<br>
-							Il a conçu La Méthode Fitnext en s’appuyant sur l'intelligence déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
+							Erwann Mentheour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable. Il est l’auteur de nombreux best sellers comme <em>«Et si on arrêtait d’empoisonner nos enfants»</em>.
 						</p>
-						<a class="btn elAnim__slide anim__delayMedium_8" href="">
-							<span class="btn-text">En savoir plus</span>
+						<p class="elAnim__slide anim__delayMedium_8">
+							Il a concu la 1ere méthode Fitnext il y a 10 ans en s'appuyant sur l'intellignece déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
+						</p>
+						<a class="btn elAnim__slide anim__delayMedium_10" href="">
+							<span class="btn-text">En savoir plus sur Erwann</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -371,8 +367,36 @@
 							</span>
 						</a>
 					</div>
-					<div class="container-illu elAnim__fade anim__delayMedium_10">
+					<div class="container-illu elAnim__fade anim__delayMedium_12">
 						<div class="bg" style="background-image: url(img/home/erwann-me.png);"></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-book" class="sectionAnim_container">
+				<div class="wrapper elAnim__fade anim__delayMedium_0">
+					<div class="container-illu elAnim__fade anim__delayMedium_2">
+						<img src="img/home/sectionHome-illu.png">
+					</div>
+					<div class="container-text">
+						<h6 class="elAnim__slide anim__delayMedium_4">
+							En rayon le 12/09
+						</h6>
+						<p class="elAnim__slide anim__delayMedium_6">
+							Découvrez la nouvelle méthode Fitnext enrichie des dernière recherches d'Erwann.
+						</p>
+						<div class="elAnim__slide anim__delayMedium_8">
+							<a class="btn" href="">
+								<span class="btn-text">Découvrir le livre</span>
+								<span class="btn-arrow">
+									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+									  </g>
+									</svg>
+								</span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -507,7 +531,7 @@
 							</div>
 							<div class="by">Par Erwann Menthéour</div>
 							<h4>
-								Programme perte de poids et rééquilibrage alimentaire 
+								Méthode fitnext : programme perte de …
 							</h4>
 							<p>
 								Vous avez décidé de perdre du poids durablement sans y laisser votre santé ? Vous souhaitez tonifier votre ligne ou acquérir …
