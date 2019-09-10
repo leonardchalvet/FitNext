@@ -60,7 +60,7 @@ footer {
 			}
 
 			h6 {
-				@include styleH6;
+				@include styleH5;
 				margin-bottom: 8px;
 			}
 			a {
@@ -122,6 +122,8 @@ footer {
 
 @media screen and (max-width: $breakPoint_mobile) {
 	footer {
+		padding-top: 40px;
+		padding-bottom: 90px;
 		.row {
 			padding-left: 0;
 			padding-bottom: 25px;
@@ -172,5 +174,11 @@ footer {
 				text-align: left;
 			}
 		}
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: $breakPoint_mobile) {
+	footer .row .col:first-child {
+		width: 100%;
 	}
 }
