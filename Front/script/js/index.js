@@ -69,6 +69,49 @@ $(window).on('load', function() {
 
 
 	/********************/
+	/*        */
+	/********************/
+		$('#section-list .container-text ul.container-nav li').click(function(){
+			$('#section-list .container-text ul.container-nav').removeClass('li-1 li-2 li-3');
+			$(this).parent().addClass('li-' + ($(this).index()+1) );
+			$('body').animate({ scrollTop: ($('.container-cards .card:nth-child(' + ($(this).index()+1) + ')').offset().top - 150 ) }, 500 );
+		});
+
+		$window = $(window);
+		let state = false;
+		function animScroll() {
+			let windowHeight = $window.height();
+		    $('#section-list .container-cards .card').each(function() {
+		    	if ($window.scrollTop() >= $(this).offset().top - 500 && $window.scrollTop() <= $(this).offset().top + ($(this).height()-350) ) {
+		    		let index = $(this).index() + 1;
+	            	if( !state && !$('#section-list .container-text .container-el .el:nth-child(' + index + ')').hasClass('show') ) {
+	            		state = true;
+	            		$('#section-list .container-text .container-el .el').removeClass('show');
+	            		setTimeout(function(){
+	            			$('#section-list .container-text .container-el .el').removeClass('displayBlock').addClass('displayNone');
+	            			$('#section-list .container-text .container-el .el:nth-child(' + index + ')').addClass('displayBlock').removeClass('displayNone');
+	            		}, 200)
+
+	            		setTimeout(function(){
+	            			$('#section-list .container-text .container-el .el:nth-child(' + index + ')').addClass('show');
+	            			state = false;
+	            		}, 250)
+	            	}
+		        }
+		    });
+		};
+		$window.scroll(function() {
+		    animScroll();
+		});
+		setTimeout(function(){ animScroll() }, 1000);
+
+		$('#section-list .container-text .container-el .el:first-child').addClass('displayBlock show');
+		$('#section-list .container-text .container-el .el:not(:first-child)').addClass('displayNone');
+		$('#section-list .container-text .container-nav').addClass('li-1');
+
+
+
+	/********************/
 	/*       PHOTO      */
 	/********************/
 		function sectionPhotoCaroussel(Delay, Section, El, Nav){
@@ -123,7 +166,7 @@ $(window).on('load', function() {
 					state = true;
 					setTimeout(function(){
 						state= false;
-					},2000)
+					},900)
 				}
 			})
 
