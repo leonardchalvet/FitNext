@@ -105,16 +105,16 @@ main
 		$h1_lineheight_desktop: 45px;
 		/*----------  MOBILE  ----------*/
 		$h1_textsize_mobile: 40px;
-		$h1_lineheight_mobile: 37px;
+		$h1_lineheight_mobile: 41px;
 
 
 	/*----------  H2  ----------*/
 		/*----------  DESKTOP  ----------*/
-		$h2_textsize_desktop: 54px;
-		$h2_lineheight_desktop: 64px;
+		$h2_textsize_desktop: 42px;
+		$h2_lineheight_desktop: 49px;
 		/*----------  MOBILE  ----------*/
-		$h2_textsize_mobile: 27px;
-		$h2_lineheight_mobile: 31px;
+		$h2_textsize_mobile: 34px;
+		$h2_lineheight_mobile: 39px;
 
 
 	/*----------  H3  ----------*/
@@ -131,23 +131,17 @@ main
 		$h4_textsize_desktop: 28px;
 		$h4_lineheight_desktop: 34px;
 		/*----------  MOBILE  ----------*/
-		$h4_textsize_mobile: 24px;
-		$h4_lineheight_mobile: 31px;
+		$h4_textsize_mobile: 20px;
+		$h4_lineheight_mobile: 24px;
 
 
 	/*----------  H5  ----------*/
 		/*----------  DESKTOP  ----------*/
-		$h5_textsize_desktop: 20px;
+		$h5_textsize_desktop: 18px;
 		$h5_lineheight_desktop: 24px;
 		/*----------  MOBILE  ----------*/
-		$h5_textsize_mobile: 16px;
-		$h5_lineheight_mobile: 22px;
-
-
-	/*----------  H6  ----------*/
-		/*----------  DESKTOP  ----------*/
-		$h6_textsize_desktop: 18px;
-		$h6_lineheight_desktop: 24px;
+		$h5_textsize_mobile: 18px;
+		$h5_lineheight_mobile: 24px;
 
 
 
@@ -292,14 +286,6 @@ main
 				font-size: $h5_textsize_mobile;
 				line-height: $h5_lineheight_mobile;
 			}
-		}
-
-		/*----------  H5  ----------*/
-		@mixin styleH6{
-			font-family: $font_1;
-		  	color: $colorSecondary_1;
-			font-size: $h6_textsize_desktop;
-			line-height: $h6_lineheight_desktop;
 		}
 
 
