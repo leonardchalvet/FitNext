@@ -2,9 +2,9 @@
 	<div class="wrapper">
 		<div class="container-link">
 			<a href="">La méthode</a>
-			<a href="">Erwann Mentheour</a>
 			<a href="">Formules</a>
-			<a href="">Conseils</a>
+			<a href="">Devenir coach expert</a>
+			<a href="">Blog</a>
 		</div>
 		<a href="" class="logo">
 			<img src="img/common/logo.svg">
@@ -32,25 +32,13 @@
 	
 	<div class="head">
 		<div class="wrapper">
-			<a class="logo" href="" >
-				<img src="img/common/logo.svg" alt="">
-			</a>
-			<div class="container-action">
-				<a class="btn" href="">
-					<span class="btn-text">Commencer</span>
-					<span class="btn-arrow">
-						<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-						  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-						    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-						  </g>
-						</svg>
-					</span>
-				</a>
-				<div class="container-burger">
+			<div class="container-burger">
 					<div class="line"></div>
 					<div class="line"></div>
 				</div>
-			</div>
+			<a class="logo" href="" >
+				<img src="img/common/logo.svg" alt="">
+			</a>
 		</div>
 	</div>
 
@@ -58,9 +46,9 @@
 		<div class="wrapper">
 			<div class="link">
 				<a href="">La méthode</a>
-				<a href="">Erwann Mentheour</a>
 				<a href="">Formules</a>
-				<a href="">Conseils</a>
+				<a href="">Devenir coach expert</a>
+				<a href="">Blog</a>
 				<a href="">Connexion</a>
 			</div>
 			<div class="container-btn">
@@ -79,3 +67,16 @@
 	</div>
 
 </header>
+
+<aside id="button-fixe">
+	<a href="" class="btn">
+		<span class="btn-text">Créer mon programme</span>
+		<span class="btn-arrow">
+			<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+			  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+			    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+			  </g>
+			</svg>
+		</span>
+	</a>
+</aside>
