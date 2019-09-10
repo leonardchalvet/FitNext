@@ -42,7 +42,6 @@ section {
 
 	.wrapper {
 		position: relative;
-		display: none;
 		@include styleGrid3;
 		display: flex;
 		flex-direction: column;
@@ -266,6 +265,9 @@ section {
 				z-index: 1;
 				.el {
 					@include styleH5;
+					opacity: 0;
+					transform: translateY(10px);
+					transition: all .25s ease;
 					&.displayNone {
 						display: none;
 					}
@@ -274,6 +276,7 @@ section {
 					}
 					&.show {
 						opacity: 1;
+						transform: translateY(0px);
 					}
 				}
 			}
@@ -327,7 +330,7 @@ section {
 			li {
 				cursor: pointer;
 				position: relative;
-				@include styleH6;
+				@include styleH5;
 				color: #707070;
 				list-style: none;
 				&:not(:last-child) {
@@ -432,7 +435,7 @@ section {
 				margin-top: 40px;
 				h6 {
 					margin-top: 15px;
-					@include styleH6;
+					@include styleH5;
 				}
 				p {
 					margin-top: 3px;
@@ -509,19 +512,18 @@ section {
 
 #section-photo {
 	position: relative;
-	padding-top: 90px;
-	padding-bottom: 125px;
 	width: 100%;
 	height: 650px;
 
 	.wrapper {
 		position: relative;
 		@include styleGrid2;
-		padding-top: 110px;
-		padding-bottom: 125px;
 	}
 	.el {
 		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		overflow: hidden;
 		z-index: 1;
 		top: 0;
@@ -574,7 +576,7 @@ section {
 			}
 		}
 
-		transition: all 1000ms ease;
+		transition: all 800ms ease;
 		transform: scale(1);
 		&.active {
 			z-index: 5;
@@ -621,41 +623,39 @@ section {
 	padding-top: 60px;
 	background-color: $colorGradient_4_2;
 	.wrapper {
-		position: relative;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		@include styleGrid2;
-	}
-	.container-text {
 		padding-top: 150px;
 		padding-bottom: 120px;
-		width: 490px;
-		h2 {
-			@include styleH2;
-			span {
-				display: inline-block;
-			}
-			>span:first-child {
-				margin-right: 10px;
-			}
+		position: relative;
+		@include styleGrid2;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding-right: 600px;
+	}	
+	h2 {
+		@include styleH2;
+		span {
+			display: inline-block;
 		}
-		h4 {
-			margin-top: 5px;
-			@include styleH4;
-			color: $colorPrimary_3;
+		>span:first-child {
+			margin-right: 10px;
 		}
-		p {
-			margin-top: 40px;
-			@include styleParagraphHuge;
-			em {
-				color: $colorSecondary_1;
-			}
+	}
+	h4 {
+		margin-top: 5px;
+		@include styleH4;
+		color: $colorPrimary_3;
+	}
+	p {
+		margin-top: 40px;
+		@include styleParagraphHuge;
+		em {
+			color: $colorSecondary_1;
 		}
-		a {
-			margin-top: 40px;
-			@include styleButtonLink;
-		}
+	}
+	a {
+		margin-top: 40px;
+		@include styleButtonLink;
 	}
 	.container-illu {
 		position: absolute;
@@ -697,7 +697,7 @@ section {
 	.container-text {
 		width: 510px;
 		h6 {
-			@include styleH6;
+			@include styleH5;
 			color: $colorPrimary_3;
 		}
 		p {
@@ -729,7 +729,6 @@ section {
 		.container-el {
 			position: relative;
 			height: 100%;
-			overflow: hidden;
 			.el {
 				position: absolute;
 				top: 0;
@@ -739,7 +738,7 @@ section {
 				.info {
 					margin: auto;
 					padding: 3px 12px;
-					@include styleH6;
+					@include styleH5;
 					background: linear-gradient(to right, #{$colorGradient_1_1}, #{$colorGradient_1_2});
 					width: fit-content;
 					color: #FFF;
@@ -801,16 +800,19 @@ section {
 					text-align: center;
 				}
 
-				transition: transform 750ms ease;
+				transition: all 600ms ease;
 				transform: translateX(100%);
 				&.left {
 					transform: translateX(-100%);
+					opacity: 0;
 				}
 				&.right {
 					transform: translateX(100%);
+					opacity: 0;
 				}
 				&.active {
 					transform: translateX(0);
+					opacity: 1;
 				}
 				&.displayNone {
 					display: none;
@@ -944,14 +946,6 @@ section {
 			}
 		}
 	}
-
-	.container-btn {
-		display: none;
-		.btn {
-			margin: 50px auto 0 0;
-			@include styleButtonMedium;
-		}
-	}
 }
 
 #section-foot {
@@ -993,6 +987,17 @@ section {
 		}
 	}
 
+	#section-erwann {
+		.wrapper {
+			padding-right: 600px;
+		}
+	}
+
+	#section-book {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
 	#section-article {
 		.head .btn {
 			display: none;
@@ -1030,11 +1035,12 @@ section {
 
 	#section-cover {
 		padding-top: 90px;
-		.wrapper {
-		}
+		padding-bottom: 70px;
 		.container-illu {
-			order: 3;
-			margin-top: 50px;
+			order: 6;
+			margin-top: 20px;
+			margin-right: auto;
+			margin-left: auto;
 			position: relative;
 			width: 300px;
 			height: 425px;
@@ -1056,105 +1062,112 @@ section {
 		}
 		h1 {
 			order: 1;
-			width: 250px;
+			width: 100%;
+			text-align: center;
 		}
 		.container-btn {
 			order: 2;
+			text-align: center;
+			margin: auto;
+		}
+		.txt-under-btn {
+			display: flex;
+			justify-content: center;
+			order: 3;
 		}
 		p {
-			order: 4;
+			order: 7;
 			margin-top: 0;
-			width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+			width: fit-content;
 		}
 		.sep {
-			order: 5;
+			order: 4;
+			margin-top: 28px;
 			width: 100%;
 		}
 		.container-logo {
-			order: 6;
+			&:after {
+				content: " ";
+				position :absolute;
+				bottom: 20px;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background-color: #D8D8D8;
+			}
+			position: relative;
+			order: 5;
+			margin-top: 28px;
 			transform: translateX(0);
 			width: 100%;
 		}
+		.scroll {
+			display: none;
+		}
 	}
-
 
 	#section-list {
-		padding-top: 50px;
-		padding-bottom: 80px;
-		h2 {
-			width: 100%;
-		}
-		.container-el {
-			margin-top: 55px;
-			.el {
-				flex-direction: column;
-				.container-text {
-					width: 100%;
+		padding-bottom: 50px;
+		.flex {
+			flex-direction: column;
+			flex-wrap: wrap;
+			.container-text {
+				position: relative;
+				top: 0;
+				padding-bottom: 0px;
+				width: 100%;
+				height: auto;
+				.quote,
+				.container-nav {
+					display: none;
 				}
-				.container-illu {
-					margin-top: 40px;
-					width: calc(100% + 50px);
-					height: 425px;
-					.quote {
-						padding: 30px 38px 30px 28px;
-						width: calc(100% - 25px);
-						svg {
-							top: 18px;
-							left: 16px;
-						}
-					}
-				}
-				&:nth-child(even) {
-					.container-text {
-						order: 1;
+			}
+			.container-cards {
+				margin-top: 25px;
+				width: 100%;
+				.card {
+					padding: 42px 42px 25px 42px;
+					&:not(:last-child) {
+						margin-bottom: 22px;
 					}
 					.container-illu {
-						order: 2;
+						width: 100%;
 					}
 				}
-				&:nth-child(1) .container-illu .more {
-					top: 20px;
-					right: 20px;
-				}
-				&:nth-child(2) .container-illu .more {
-					top: 20px;
-				}
-				&:not(:last-child) {
-					margin-bottom: 65px;
-				}
 			}
 		}
-		h4 {
-			margin-top: 35px;
+		.container-action {
+			margin-top: 50px;
 			text-align: left;
-		}
-		 .container-btn .btn {
-			width: 100%;
-			span {
-				margin: auto;
+			.container-btn {
+				width: 100%;
+				.btn {
+					width: 100%;
+					justify-content: center;
+				}
 			}
 		}
+
 	}
 
-
 	#section-photo {
-		height: 500px;
-		.wrapper {
-			padding-top: 125px;
-		}
 		.el {
-			padding-left: 15px;
-			padding-right: 15px;
 			.icn {
 				top: -30px;
-			    left: 35px;
+			    left: 45px;
 			    height: 60px;
 			}
 			a {
-				width: 100%;
+				padding-left: 3vw;
+				width: calc(100% - 6vw);
 			}
 			&:nth-child(3) .bg {
 				background-position: top right;
+			}
+			.logo {
+				padding-left: 3vw;
 			}
 		}
 		.container-nav {
@@ -1166,37 +1179,98 @@ section {
 		}
 	}
 
-
 	#section-erwann {
+		padding-top: 50px;
 		.wrapper {
-			flex-direction: column;
-			align-items: center;
+			padding-top: 0px;
+			padding-bottom: 50px;
 		}
-		.container-text {
-			width: 100%;
+		h2 {
+			order: 1;
+		}
+		h4 {
+			order: 2;
+		}
+		p {
+			margin-top: 22px;
+			&:nth-child(3) {
+				order: 3;
+			}
+			&:nth-child(4) {
+				margin-top: 35px;
+				order: 6;
+			}
+		}
+		.btn {
+			order: 5;
+			margin-top: 22px;
+			margin-right: auto;
+			margin-left: auto;
 		}
 		.container-illu {
-			width: 325px;
-			height: 415px;
+			order: 4;
+			margin-top: 25px;
+			position: relative;
+			right: auto;
+			bottom: auto; 
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			height: 300px;
+			overflow: hidden;
+			&:before {
+				content: " ";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background-color: #D8D8D8;
+			}
+			.bg {
+				left: 50%;
+				transform: translateX( calc(-50% + 15px) );
+				width: 250px;
+				height: calc(100% + 100px);
+			}
 		}
 	}
 
+	#section-book {
+		padding-left: 15px;
+		padding-right: 15px;
+		.wrapper {
+			padding: 45px 30px;
+			flex-direction: column;
+		}
+		.container-text {
+			margin-top: 45px;
+			width: 100%;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center; 
+			justify-content: center;
+		}
+	}
 
 	#section-quote {
-		padding-bottom: 200px;
+		padding-top: 70px;
+		padding-bottom: 180px;
 		.wrapper {
 			position: relative;
 			flex-direction: column;
 		}
 		.container-quote {
-			margin-top: 50px;
+			margin-top: 25px;
 			order: 2;
-			width: calc(100% + 50px);
+			width: 100%;
+			height: 200px;
 			.container-el {
 				width: 100%;
 				.el {
 					left: 50%;
-					width: 300px;
+					width: 100%;
 					&.left {
 						transform: translateX(-200%);
 					}
@@ -1206,6 +1280,54 @@ section {
 					&.active {
 						transform: translateX(-50%);
 					}
+					.info {
+						margin-left: 0;
+					}
+					.text {
+						text-align: left;
+						p {
+							height: 80px;
+						}
+						svg {
+							top: 0;
+							left: 0;
+						}
+					}
+					.person {
+						margin-top: 25px;
+						display: flex;
+						align-items: center;
+						.pp {
+							width: 35px;
+							height: 35px;
+							margin: 0;
+						}
+						.infoP {
+							margin-left: 10px;
+							.name {
+								margin-top: 0;
+								text-align: left;
+								line-height: 20px;
+							}
+							.use {
+								margin-top: 0;
+								line-height: 20px;
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+			.container-nav {
+				position: absolute;
+				right: 20px;
+				bottom: 10px;
+				.arrow {
+					width: 29px;
+					height: 30px;
+					&.left {
+						margin-right: 20px;
+					}
 				}
 			}
 		}
@@ -1214,6 +1336,7 @@ section {
 			width: 100%;
 			text-align: center;
 			h2 {
+				text-align: left;
 				span {
 					@for $i from 0 to 20 {
 					    &:nth-child(#{$i}) span {
@@ -1222,11 +1345,14 @@ section {
 					}
 				}
 			}
+			p {
+				text-align: left;
+			}
 			.container-btn {
 				position: absolute;
 				width: calc(100% - 50px);
 				left: 25px;
-				bottom: -150px;
+				bottom: -110px;
 				.btn {
 					width: 100%;
 					span {
@@ -1237,53 +1363,57 @@ section {
 		}
 	}
 
-
 	#section-article {
 		padding-bottom: 55px;
-		.sep {
-			left: 25px;
-			width: calc(100% - 50px);
+		.wrapper {
+			padding-top: 70px;
 		}
 		.head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			text-align: left;
 			h2 {
 				text-align: left;
 			}
 			.btn {
-				display: none;
+				padding: 15px;
+				position: relative;
+				top: auto;
+				right: auto;
+				transform: none;
+				width: max-content;
 			}
 		}
 		.container-el {
-			margin-top: 30px;
+			margin-top: 40px;
 			flex-direction: column;
 			.el {
 				width: 100%;
-				.illu {
-					width: calc(100% + 50px);
-					transform: translateX(-25px);
-				}
 				&:not(:last-child) {
 					margin-bottom: 65px;
 				}
 			}
 		}
-		.container-btn {
-			display: block;
-		}
 	}	
 
-
 	#section-foot {
-		padding-top: 75px;
-		padding-bottom: 75px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 		.wrapper {
 			flex-direction: column;
 			align-items: flex-start;
+		}
+		div.elAnim__slide {
+			width: 100%;
 		}
 		h2 {
 			width: 100%;
 		}
 		.btn {
-			margin-top: 50px;
+			display: flex;
+			justify-content: center;
+			margin-top: 25px;
 			width: 100%;
 		}
 	}
