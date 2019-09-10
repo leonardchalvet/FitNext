@@ -34,7 +34,7 @@
 					</p>
 					<div class="container-btn elAnim__slide anim__delayMedium_10">
 						<a class="btn" href="">
-							<span class="btn-text">Découvrir votre programme personnalisé</span>
+							<span class="btn-text">Découvrer votre programme personnalisé</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -85,20 +85,20 @@
 									</svg>
 								</div>
 								<div class="container-el elAnim__slide anim__delayMedium_5">
-									<div class="el displayBlock show">
+									<div class="el">
 										Aucun entraînement ne gagne contre une mauvaise alimentation.
 									</div>
-									<div class="el displayNone">
+									<div class="el">
 										Une séance de poids de corps est beaucoup plus efficaces qu'un jogging.
 									</div>
-									<div class="el displayNone">
+									<div class="el">
 										Un coach vous fera faire ce que vous ne feriez pas tout seul.
 									</div>
 								</div>
 							</div>
-							<ul class="container-nav li-1 elAnim__slide anim__delayMedium_7">
+							<ul class="container-nav elAnim__slide anim__delayMedium_7">
 								<li class="elAnim__slide anim__delayMedium_7">
-									<span class="active">La Nutrition</span>
+									<span>La Nutrition</span>
 								</li>
 								<li class="elAnim__slide anim__delayMedium_8">
 									<span>Le Sport</span>
@@ -347,26 +347,24 @@
 
 			<section id="section-erwann" class="sectionAnim_container">
 				<div class="wrapper">
-					<div class="container-text">
-						<h2 class="wrapLine">Erwann Mentheour</h2>
-						<h4 class="elAnim__slide anim__delayMedium_4">Fondateur de Fitnext</h4>
-						<p class="elAnim__slide anim__delayMedium_6">
-							Erwann Mentheour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable. Il est l’auteur de nombreux best sellers comme <em>«Et si on arrêtait d’empoisonner nos enfants»</em>.
-						</p>
-						<p class="elAnim__slide anim__delayMedium_8">
-							Il a concu la 1ere méthode Fitnext il y a 10 ans en s'appuyant sur l'intellignece déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
-						</p>
-						<a class="btn elAnim__slide anim__delayMedium_10" href="">
-							<span class="btn-text">En savoir plus sur Erwann</span>
-							<span class="btn-arrow">
-								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-								    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-								  </g>
-								</svg>
-							</span>
-						</a>
-					</div>
+					<h2 class="wrapLine">Erwann Mentheour</h2>
+					<h4 class="elAnim__slide anim__delayMedium_4">Fondateur de Fitnext</h4>
+					<p class="elAnim__slide anim__delayMedium_6">
+						Erwann Mentheour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable. Il est l’auteur de nombreux best sellers comme <em>«Et si on arrêtait d’empoisonner nos enfants»</em>.
+					</p>
+					<p class="elAnim__slide anim__delayMedium_8">
+						Il a concu la 1ere méthode Fitnext il y a 10 ans en s'appuyant sur l'intellignece déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
+					</p>
+					<a class="btn elAnim__slide anim__delayMedium_10" href="">
+						<span class="btn-text">En savoir plus sur Erwann</span>
+						<span class="btn-arrow">
+							<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+							  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+							    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+							  </g>
+							</svg>
+						</span>
+					</a>
 					<div class="container-illu elAnim__fade anim__delayMedium_12">
 						<div class="bg" style="background-image: url(img/home/erwann-me.png);"></div>
 					</div>
@@ -374,7 +372,7 @@
 			</section>
 
 			<section id="section-book" class="sectionAnim_container">
-				<div class="wrapper elAnim__fade anim__delayMedium_0">
+				<div class="wrapper">
 					<div class="container-illu elAnim__fade anim__delayMedium_2">
 						<img src="img/home/sectionHome-illu.png">
 					</div>
@@ -415,14 +413,18 @@
 									</svg>
 									<p class="elAnim__slide wrapLine">Je me sens mieux, aussi bien dans mon corp que dans ma tête</p>
 								</div>
-								<div class="pp elAnim__slide anim__delayMedium_6">
-									<div class="bg" style="background-image: url(img/home/quote-pp-1.jpg);"></div>
-								</div>
-								<div class="name elAnim__slide anim__delayMedium_7">
-									Isabelle F.
-								</div>
-								<div class="use elAnim__slide anim__delayMedium_8">
-									Utilise fitnext depuis 18 mois
+								<div class="person">
+									<div class="pp elAnim__slide anim__delayMedium_6">
+										<div class="bg" style="background-image: url(img/home/quote-pp-1.jpg);"></div>
+									</div>
+									<div class="infoP">
+										<div class="name elAnim__slide anim__delayMedium_7">
+											Isabelle F.
+										</div>
+										<div class="use elAnim__slide anim__delayMedium_8">
+											Utilise fitnext depuis 18 mois
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="el">
@@ -435,14 +437,18 @@
 									</svg>
 									<p>J'ai gagné un bien-être intérieur, de l'assurance et je m'apprécie enfin.</p>
 								</div>
-								<div class="pp">
-									<div class="bg" style="background-image: url(img/home/quote-pp-2.jpg);"></div>
-								</div>
-								<div class="name">
-									Elodie.
-								</div>
-								<div class="use">
-									Utilise fitnext depuis 18 mois
+								<div class="person">
+									<div class="pp">
+										<div class="bg" style="background-image: url(img/home/quote-pp-2.jpg);"></div>
+									</div>
+									<div class="infoP">
+										<div class="name">
+											Elodie.
+										</div>
+										<div class="use">
+											Utilise fitnext depuis 18 mois
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="el">
@@ -455,14 +461,18 @@
 									</svg>
 									<p>J'ai plus d'énergie et mon moral est bien meilleur.</p>
 								</div>
-								<div class="pp">
-									<div class="bg" style="background-image: url(img/home/quote-pp-3.jpg);"></div>
-								</div>
-								<div class="name">
-									Isabelle.
-								</div>
-								<div class="use">
-									Utilise fitnext depuis 18 mois
+								<div class="person">
+									<div class="pp">
+										<div class="bg" style="background-image: url(img/home/quote-pp-3.jpg);"></div>
+									</div>
+									<div class="infoP">
+										<div class="name">
+											Isabelle.
+										</div>
+										<div class="use">
+											Utilise fitnext depuis 18 mois
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -590,18 +600,6 @@
 									</svg>
 								</span>
 							</div>
-						</a>
-					</div>
-					<div class="container-btn">
-						<a class="btn" href="">
-							<span class="btn-text">Voir le blog</span>
-							<span class="btn-arrow">
-								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-								    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-								  </g>
-								</svg>
-							</span>
 						</a>
 					</div>
 				</div>
