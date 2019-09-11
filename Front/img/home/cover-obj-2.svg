@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="350px" viewBox="0 0 349 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Circle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.5337372%" y1="27.5788304%" x2="27.5337372%" y2="117.939404%" id="linearGradient-1">
+            <stop stop-color="#FD9DA2" offset="0%"></stop>
+            <stop stop-color="#FC752F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="WebDesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1a5-Home" transform="translate(-190.000000, -354.000000)" fill="url(#linearGradient-1)">
+            <g id="Cover" transform="translate(175.000000, 48.000000)">
+                <g id="illu">
+                    <g id="Circle">
+                        <path d="M364,481.095537 C364,577.468537 285.874,655.595537 189.5,655.595537 C93.126,655.595537 15,577.468537 15,481.095537 C15,384.721537 93.126,306.595537 189.5,306.595537 C285.874,306.595537 364,384.721537 364,481.095537" id="Circle-2" transform="translate(189.500000, 481.095537) scale(1, -1) translate(-189.500000, -481.095537) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
