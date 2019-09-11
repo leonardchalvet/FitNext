@@ -148,7 +148,7 @@ $(window).on('load', function() {
 	            }
 	        }
 
-	        if ($window.scrollTop() >= $('#section-list').offset().top - windowHeight) {
+	        if ($window.scrollTop() >= $('#section-list').offset().top - windowHeight - 100) {
 	    		if (!$('#button-fixe').hasClass('show')) {
 	                $('#button-fixe').addClass('show');
 	            }

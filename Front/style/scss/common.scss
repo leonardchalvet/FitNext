@@ -104,8 +104,8 @@ main
 		$h1_textsize_desktop: 44px;
 		$h1_lineheight_desktop: 45px;
 		/*----------  MOBILE  ----------*/
-		$h1_textsize_mobile: 40px;
-		$h1_lineheight_mobile: 41px;
+		$h1_textsize_mobile: 36px;
+		$h1_lineheight_mobile: 38px;
 
 
 	/*----------  H2  ----------*/
@@ -113,8 +113,8 @@ main
 		$h2_textsize_desktop: 42px;
 		$h2_lineheight_desktop: 49px;
 		/*----------  MOBILE  ----------*/
-		$h2_textsize_mobile: 34px;
-		$h2_lineheight_mobile: 39px;
+		$h2_textsize_mobile: 30px;
+		$h2_lineheight_mobile: 32px;
 
 
 	/*----------  H3  ----------*/
@@ -328,7 +328,7 @@ main
 		/*----------  STYLE BUTTON  ----------*/
 			/*----------  BUTTON BIG  ----------*/
 			@mixin styleButtonBig($background : $colorPrimary_1, $color : #FFF, $arrow : true){
-			  	padding: 20px 36px;
+			  	padding: 20px 25px 20px 48px;
 			  	border-radius: 30px;
 			  	text-decoration: none;
 			  	background-color: $background;
@@ -362,6 +362,13 @@ main
 					}
 					.btn-arrow {
 						stroke: $background;
+					}
+				}
+				@media screen and (max-width: $breakPoint_mobile){
+					.btn-arrow {
+						margin-left: 10px;
+						width: 16px;
+						height: 12px;
 					}
 				}
 			}
@@ -404,6 +411,13 @@ main
 						stroke: #FFF;
 					}
 				}
+				@media screen and (max-width: $breakPoint_mobile){
+					.btn-arrow {
+						margin-left: 10px;
+						width: 16px;
+						height: 12px;
+					}
+				}
 			}
 
 			/*----------  BUTTON LINK  ----------*/
@@ -442,6 +456,13 @@ main
 					&:before {
 						opacity: 1;
 						transform: translateY(0);
+					}
+				}
+				@media screen and (max-width: $breakPoint_mobile){
+					.btn-arrow {
+						margin-left: 10px;
+						width: 16px;
+						height: 12px;
 					}
 				}
 			}
