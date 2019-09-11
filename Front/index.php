@@ -118,7 +118,7 @@
 										<img src="img/home/phone.png">
 									</div>
 									<div class="video">
-										<img src="img/home/dev/sectionList-1.png">
+										<img src="img/home/dev/list-photo-1.png">
 									</div>
 								</div>
 								<div class="text">
@@ -164,7 +164,7 @@
 										<img src="img/home/phone.png">
 									</div>
 									<div class="video">
-										<img src="img/home/dev/sectionList-2.png">
+										<img src="img/home/dev/list-photo-2.png">
 									</div>
 								</div>
 								<div class="text">
@@ -209,7 +209,7 @@
 										<img src="img/home/phone.png">
 									</div>
 									<div class="video">
-										<img src="img/home/dev/sectionList-3.png">
+										<img src="img/home/dev/list-photo-3.png">
 									</div>
 								</div>
 								<div class="text">

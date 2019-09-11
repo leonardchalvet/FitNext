@@ -434,16 +434,13 @@ section {
 				z-index: 1;
 				width: 280px;
 				.bg {
+					display: none;
 					img {
 						width: 100%;
 					}
 				}
 				.video {
-					position: absolute;
-					left: 50%;
-					transform: translateX(-50%);
-					bottom: 25px;
-					width: calc(100% - 20px);
+					width: 100%;
 					img {
 						width: 100%;
 					}
@@ -1071,9 +1068,10 @@ section {
 				width: 100%;
 			}
 			.video {
-				top: 80px;
-			    left: 10px;
-			    width: 280px;
+				top: 75px;
+			    left: 0px;
+			    width: 300px;
+			    height: calc(100% - 108px);
 			}
 			.obj-1, .obj-2 {
 				width: 245px;
@@ -1092,10 +1090,10 @@ section {
 				width: 220px;
 			}
 			&:before {
-				top: 78px;
+				top: 72px;
 			}
 			&:after {
-				bottom: 34px;
+				bottom: 32px;
 			}
 		}
 		h1 {
