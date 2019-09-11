@@ -68,9 +68,9 @@ $(window).on('load', function() {
 
 
 
-	/********************/
-	/*        */
-	/********************/
+	/************************/
+	/*     SECTION LIST     */
+	/************************/
 		$('#section-list .container-text ul.container-nav li').click(function(){
 			$('#section-list .container-text ul.container-nav').removeClass('li-1 li-2 li-3');
 			$(this).parent().addClass('li-' + ($(this).index()+1) );
@@ -90,6 +90,7 @@ $(window).on('load', function() {
 	            		setTimeout(function(){
 	            			$('#section-list .container-text .container-el .el').removeClass('displayBlock').addClass('displayNone');
 	            			$('#section-list .container-text .container-el .el:nth-child(' + index + ')').addClass('displayBlock').removeClass('displayNone');
+	            			$('#section-list .container-text ul.container-nav').removeClass('li-1 li-2 li-3').addClass('li-' + index );
 	            		}, 200)
 
 	            		setTimeout(function(){
