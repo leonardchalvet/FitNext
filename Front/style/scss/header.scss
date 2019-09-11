@@ -213,7 +213,7 @@
 				text-decoration: none;
 				&:not(:last-child) {
 					@include styleParagraphHuge;
-					margin-bottom: 55px;
+					margin-bottom: 35px;
 				}
 				&:last-child {
 					position: relative;
@@ -259,7 +259,7 @@
 				transform: translateY(6px) rotate(45deg);
 			}
 			&:nth-child(2){
-				transform: translateY(-5px) rotate(-45deg);
+				transform: translateY(-4px) rotate(-45deg);
 			}
 		}
 		.container-link{
@@ -287,7 +287,7 @@
 	left: 0px;
 	z-index: 19;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background-color: $colorPrimary_1;
 
 	transition: transform .5s ease;
@@ -298,6 +298,10 @@
 		display: flex;
 		justify-content: center;
 		width: 100%;
+		.btn-arrow {
+			margin-left: 10px;
+			width: 17px;
+		}
 	}
 }
 /*=============================================
