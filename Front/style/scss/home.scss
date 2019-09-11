@@ -50,22 +50,40 @@ section {
 
 	.container-illu {
 		position: absolute;
+		z-index: 0;
 		top: 0;
 		left: 0;
 		width: 500px;
 		height: 650px;
 		.bg {
 			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
+			z-index: 1;
+			width: 335px;
+			height: 600px;
+			top: 0px;
+			left: 85px;
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center center;
 		}
+		.obj-1, .obj-2 {
+			position: absolute;
+			z-index: 0;
+			border-radius: 50%;
+			width: 350px;
+			height: 350px;
+		}
+		.obj-1 {
+			top: 15px;
+			right: 20px;
+		}
+		.obj-2 {
+			bottom: 110px;
+			left: 25px;
+		}
 		.video {
 			position: absolute;
+			z-index: 2;
 			top: 23px;
 			left: 132px;
 			width: 240px;
@@ -89,11 +107,13 @@ section {
 	}
 		
 	h1 {
+		z-index: 1;
 		margin-top: 25px;
 		width: 450px;
 		@include styleH1;
 	}
 	p {
+		z-index: 1;
 		width: 420px;
 		position: relative;
 		padding-left: 25px;
@@ -138,7 +158,7 @@ section {
 		align-items: center;
 		.icn {
 			width: 12px;
-			height: 12px;
+			height: 15px;
 			margin-right: 10px;
 			svg {
 				width: 100%;
@@ -473,7 +493,7 @@ section {
 						transition: transform .25s ease;
 					}
 					.link-arrow {
-						margin-left: 23px;
+						margin-left: 10px;
 						width: 12px;
 						height: 11px;
 						transform: translateX(0);
@@ -739,6 +759,7 @@ section {
 					margin: auto;
 					padding: 3px 12px;
 					@include styleH5;
+					border-radius: 3px;
 					background: linear-gradient(to right, #{$colorGradient_1_1}, #{$colorGradient_1_2});
 					width: fit-content;
 					color: #FFF;
@@ -1034,30 +1055,47 @@ section {
 @media screen and (max-width: $breakPoint_mobile) {
 
 	#section-cover {
-		padding-top: 90px;
+		padding-top: 70px;
 		padding-bottom: 70px;
 		.container-illu {
-			order: 6;
+			order: 7;
 			margin-top: 20px;
 			margin-right: auto;
 			margin-left: auto;
 			position: relative;
 			width: 300px;
-			height: 425px;
+			height: 540px;
+			.bg {
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
 			.video {
-				top: 40px;
-			    left: 75px;
-			    width: 150px;
+				top: 80px;
+			    left: 10px;
+			    width: 280px;
+			}
+			.obj-1, .obj-2 {
+				width: 245px;
+				height: 245px;
+			}
+			.obj-1 {
+				top: 110px;
+				right: -15px;
+			}
+			.obj-2 {
+				bottom: 65px;
+				left: -15px;
 			}
 			&:before, &:after {
-				left: 72px;
-				width: 155px;
+				left: 40px;
+				width: 220px;
 			}
 			&:before {
-				top: 41px;
+				top: 78px;
 			}
 			&:after {
-				bottom: 76px;
+				bottom: 34px;
 			}
 		}
 		h1 {
@@ -1066,24 +1104,32 @@ section {
 			text-align: center;
 		}
 		.container-btn {
-			order: 2;
+			order: 3;
 			text-align: center;
 			margin: auto;
+			.btn {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				.btn-arrow {
+					width: 22px;
+					height: 12px;
+				}
+			}
 		}
 		.txt-under-btn {
 			display: flex;
 			justify-content: center;
-			order: 3;
+			order: 4;
 		}
 		p {
-			order: 7;
-			margin-top: 0;
+			order: 2;
+			margin-top: 25px;
 			margin-right: auto;
 			margin-left: auto;
 			width: fit-content;
 		}
 		.sep {
-			order: 4;
+			order: 5;
 			margin-top: 28px;
 			width: 100%;
 		}
@@ -1098,7 +1144,7 @@ section {
 				background-color: #D8D8D8;
 			}
 			position: relative;
-			order: 5;
+			order: 6;
 			margin-top: 28px;
 			transform: translateX(0);
 			width: 100%;
@@ -1119,6 +1165,9 @@ section {
 				padding-bottom: 0px;
 				width: 100%;
 				height: auto;
+				h2 {
+					width: calc(100% - 20px);
+				}
 				.quote,
 				.container-nav {
 					display: none;
@@ -1135,6 +1184,14 @@ section {
 					.container-illu {
 						width: 100%;
 					}
+					.container-link {
+						.link {
+							.link-arrow {
+								width: 16px;
+								height: 12px;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1142,6 +1199,7 @@ section {
 			margin-top: 50px;
 			text-align: left;
 			.container-btn {
+				margin-top: 20px;
 				width: 100%;
 				.btn {
 					width: 100%;
@@ -1149,7 +1207,6 @@ section {
 				}
 			}
 		}
-
 	}
 
 	#section-photo {
