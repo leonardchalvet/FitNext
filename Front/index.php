@@ -91,7 +91,7 @@
 										Aucun entraînement ne gagne contre une mauvaise alimentation.
 									</div>
 									<div class="el">
-										Une séance de poids de corps est beaucoup plus efficaces qu'un jogging.
+										Une séance de poids de corps est beaucoup plus efficace qu'un jogging.
 									</div>
 									<div class="el">
 										Un coach vous fera faire ce que vous ne feriez pas tout seul.

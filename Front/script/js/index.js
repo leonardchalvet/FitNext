@@ -141,7 +141,7 @@ $(window).on('load', function() {
 
 					setTimeout(function(){
 						$(El + '.hide').removeClass('hide');
-					}, 1000)
+					}, 500)
 
 					clearInterval(interval);
 					interval = setInterval(function() {
@@ -167,7 +167,7 @@ $(window).on('load', function() {
 					state = true;
 					setTimeout(function(){
 						state= false;
-					},900)
+					}, 500)
 				}
 			})
 

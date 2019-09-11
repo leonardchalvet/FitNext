@@ -596,7 +596,7 @@ section {
 			}
 		}
 
-		transition: all 800ms ease;
+		transition: all 500ms ease;
 		transform: scale(1);
 		&.active {
 			z-index: 5;
