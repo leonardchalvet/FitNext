@@ -142,7 +142,7 @@ $(window).on('load', function() {
 	function animScroll() {
 		var windowHeight = $window.height();
 	    $('.sectionAnim_container').each(function() {
-	        if ($window.scrollTop() >= $(this).offset().top - windowHeight + (windowHeight/4)) {
+	        if ($window.scrollTop() >= $(this).offset().top - windowHeight) {
             	if (!$(this).hasClass('reach')) {
 	                $(this).addClass('reach');
 	            }

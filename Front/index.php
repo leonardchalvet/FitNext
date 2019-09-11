@@ -27,7 +27,7 @@
 						<div class="bg" style="background-image: url(img/home/cover-illu.png);"></div>
 						<img class="obj-1" src="img/home/cover-obj-1.svg">
 						<img class="obj-2" src="img/home/cover-obj-2.svg">
-						<iframe class="video" src="https://player.vimeo.com/video/352471925?api=1&background=1&mute=0&autoplay=0&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe class="video" src="https://player.vimeo.com/video/352471925?api=1&background=1&mute=0&autoplay=0&loop=1&quality=720p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 
 					<h1 class="elAnim__fade anim__delayMedium_0 wrapLine">Transformez votre physique. Boostez votre bien être.</h1>
@@ -36,7 +36,7 @@
 					</p>
 					<div class="container-btn elAnim__slide anim__delayMedium_10">
 						<a class="btn" href="">
-							<span class="btn-text">Découvrer votre programme personnalisé</span>
+							<span class="btn-text">Découvrez votre programme personnalisé</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -124,7 +124,7 @@
 								<div class="text">
 									<div class="elAnim__slide anim__delayMedium_5">
 										<h6>
-											Une nutrition pro-microbiot
+											Une nutrition pro-microbiote
 										</h6>
 									</div>
 									<div class="elAnim__slide anim__delayMedium_7">
@@ -175,7 +175,7 @@
 									</div>
 									<div class="elAnim__slide anim__delayMedium_7">
 										<p>
-											Des exercices de Fitness, HIIT*, bodyweight et cardio calibrés en fonction de vos capacités, de vos progrès et de vos objectifs
+											Des exercices de Fitness, HIIT*, bodyweight et cardio calibrés en fonction de vos capacités, de vos progrès et de vos objectifs.
 										</p>
 									</div>
 									<div class="elAnim__slide anim__delayMedium_9">
@@ -185,7 +185,7 @@
 									</div>
 									<div class="elAnim__slide anim__delayMedium_11">
 										<p>
-											Séances de 9 à 50 minutes, sans matériel, chez soi ou à l’extérieur
+											Séances de 9 à 50 minutes, sans matériel, chez soi ou à l’extérieur.
 										</p>
 									</div>
 								</div>
@@ -220,7 +220,7 @@
 									</div>
 									<div class="elAnim__slide anim__delayMedium_7">
 										<p>
-											programme proposé en fonction de vos ressentis, progressions, objectifs, envies et agenda.
+											Programme proposé en fonction de vos ressentis, progressions, objectifs, envies et agenda.
 										</p>
 									</div>
 									<div class="elAnim__slide anim__delayMedium_9">
@@ -230,7 +230,7 @@
 									</div>
 									<div class="elAnim__slide anim__delayMedium_11">
 										<p>
-											des conseils, des explications et de la motivation avec le support de notre équipe de coachs.
+											Des conseils, des explications et de la motivation avec le support de notre équipe de coachs.
 										</p>
 									</div>
 								</div>
@@ -349,13 +349,13 @@
 
 			<section id="section-erwann" class="sectionAnim_container">
 				<div class="wrapper">
-					<h2 class="wrapLine">Erwann Mentheour</h2>
+					<h2 class="wrapLine">Erwann Menthéour</h2>
 					<h4 class="elAnim__slide anim__delayMedium_4">Fondateur de Fitnext</h4>
 					<p class="elAnim__slide anim__delayMedium_6">
-						Erwann Mentheour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable. Il est l’auteur de nombreux best sellers comme <em>«Et si on arrêtait d’empoisonner nos enfants»</em>.
+						Erwann Menthéour, champion cycliste et coach de personnalités est aussi un expert en nutrition et en santé durable. Il est l’auteur de nombreux best sellers comme <em>«Et si on arrêtait d’empoisonner nos enfants»</em>.
 					</p>
 					<p class="elAnim__slide anim__delayMedium_8">
-						Il a concu la 1ere méthode Fitnext il y a 10 ans en s'appuyant sur l'intellignece déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
+						Il a conçu la 1ère méthode Fitnext il y a 10 ans en s'appuyant sur l'intelligence déployée autour des athlètes de haut niveau, ses nombreux travaux de recherche et ses expériences vécues avec ses coachés.
 					</p>
 					<a class="btn elAnim__slide anim__delayMedium_10" href="">
 						<span class="btn-text">En savoir plus sur Erwann</span>
@@ -413,7 +413,7 @@
 									<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
 									  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
 									</svg>
-									<p class="elAnim__slide wrapLine">Je me sens mieux, aussi bien dans mon corp que dans ma tête</p>
+									<p class="elAnim__slide wrapLine">Je me sens mieux, aussi bien dans mon corps que dans ma tête</p>
 								</div>
 								<div class="person">
 									<div class="pp elAnim__slide anim__delayMedium_6">
@@ -499,12 +499,9 @@
 						<h2 class="wrapLine">
 							Retrouvez les témoignages de notre communauté de 62000 coachés.
 						</h2>
-						<p class="elAnim__slide anim__delayMedium_elAnim__slide anim__delayMedium_11">
-							qui ont révélé le meilleur d’eux-mêmes.
-						</p>
-						<div class="container-btn elAnim__slide anim__delayMedium_12">
+						<div class="container-btn elAnim__slide anim__delayMedium_11">
 							<a class="btn" href="">
-								<span class="btn-text">Créer mon programme</span>
+								<span class="btn-text">Vous aussi, lancez-vous !</span>
 								<span class="btn-arrow">
 									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -612,7 +609,7 @@
 					<h2 class="elAnim__slide anim__delayMedium_2" >Quel objectif souhaitez-vous atteindre ?</h2>
 					<div class="elAnim__slide anim__delayMedium_4">
 						<a class="btn" href="">
-							<span class="btn-text">Créer mon programme</span>
+							<span class="btn-text">Définir mes objectifs</span>
 							<span class="btn-arrow">
 								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
 								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
