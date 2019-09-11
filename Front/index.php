@@ -189,6 +189,7 @@
 										</p>
 									</div>
 								</div>
+								<div class="sep"></div>
 								<div class="container-link elAnim__slide anim__delayMedium_13">
 									<a class="link" href="">
 										<span class="link-text">En savoir plus</span>
@@ -234,6 +235,7 @@
 										</p>
 									</div>
 								</div>
+								<div class="sep"></div>
 								<div class="container-link elAnim__slide anim__delayMedium_13">
 									<a class="link" href="">
 										<span class="link-text">En savoir plus</span>
