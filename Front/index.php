@@ -27,7 +27,7 @@
 						<div class="bg" style="background-image: url(img/home/cover-illu.png);"></div>
 						<img class="obj-1" src="img/home/cover-obj-1.svg">
 						<img class="obj-2" src="img/home/cover-obj-2.svg">
-						<iframe class="video" src="https://player.vimeo.com/video/352471925?api=1&background=1&mute=0&autoplay=0&loop=1&quality=720p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe class="video" src="https://player.vimeo.com/video/352471925?api=1&background=1&mute=0&autoplay=0&loop=1&quality=720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 
 					<h1 class="elAnim__fade anim__delayMedium_0 wrapLine">Transformez votre physique. Boostez votre bien être.</h1>
