@@ -49,6 +49,26 @@
 		"oAP": "/fonts/Roboto-Regular.ttf",
 		"oF": 0
 		},
+	"/img/common/iphone_back.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/common/iphone_back.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/iphone_behind.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/common/iphone_behind.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/common/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -461,6 +481,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/home/photo-bg-3.jpg": {
+		"ft": 16384,
+		"iS": 139916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/photo-bg-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/home/photo-bg-4.jpg": {
+		"ft": 16384,
+		"iS": 825871,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/home/photo-bg-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/home/photo-icn-1.png": {
 		"ft": 32768,
 		"iS": 9724,
@@ -604,6 +646,150 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/weight/cover-2/illu.jpg": {
+		"ft": 16384,
+		"iS": 288146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/cover-2/illu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/weight/cover-3/illu.jpg": {
+		"ft": 16384,
+		"iS": 487398,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/cover-3/illu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/weight/features/icn-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/features/icn-1.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/features/icn-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/features/icn-2.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/features/icn-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/features/icn-3.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/features/icn-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/features/icn-4.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/features/icn-5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/features/icn-5.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/features/icn-6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/features/icn-6.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/illu-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/illu-1.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/illu-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/weight/illu-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/quote-1/img-1.jpg": {
+		"ft": 16384,
+		"iS": 187745,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/quote-1/img-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/weight/quote-1/quote.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/quote-1/quote.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/result/check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/result/check.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/result/photo.jpg": {
+		"ft": 16384,
+		"iS": 515308,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/result/photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -641,6 +827,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/jQuery.3.3.1-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/js/weight.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/weight-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -689,6 +886,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/weight-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/weight-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/style/css/home.css": {
 		"aP": 1,
 		"bl": 0,
@@ -696,6 +904,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/home-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style/css/weight.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/weight-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -750,6 +968,43 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"/style/scss/weight.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/weight.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/weight_1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/weight_1.php",
+		"oF": 0
+		},
+	"/weight_2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/weight_2.php",
+		"oF": 0
+		},
+	"/weight_3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/weight_3.php",
+		"oF": 0
 		}
 	},
 "hooks": [

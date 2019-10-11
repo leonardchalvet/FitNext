@@ -375,7 +375,7 @@
 				</div>
 			</section>
 
-			<section id="section-book" class="sectionAnim_container">
+			<section id="common-section-book" class="sectionAnim_container">
 				<div class="wrapper">
 					<div class="container-illu elAnim__fade anim__delayMedium_2">
 						<img src="img/home/sectionHome-illu.png">
@@ -606,7 +606,7 @@
 				</div>
 			</section>
 
-			<section id="section-foot" class="sectionAnim_container">
+			<section id="common-section-foot" class="sectionAnim_container">
 				<div class="wrapper">
 					<h2 class="elAnim__slide anim__delayMedium_2" >Quel objectif souhaitez-vous atteindre ?</h2>
 					<div class="elAnim__slide anim__delayMedium_4">
