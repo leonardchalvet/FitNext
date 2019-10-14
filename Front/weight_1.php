@@ -52,10 +52,10 @@
 									</g>
 									<g transform="translate(-6.243 -12.467)">
 										<path class="second-line" d="M9.078 77.342c101.271 393.314 292.945 414.367 575.02 63.16" stroke="#FF7171" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-										<g class="second-rect" transform="translate(408.243 130.467)">
+										<g class="second-rect" transform="translate(409 130.467)">
 											<rect fill="#FF7171" width="178" height="36.52" rx="4.98"/>
-											<text font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#FFF">
-												<tspan x="12" y="25">Régimes restrictifs</tspan>
+											<text font-family="Roboto-Bold" font-size="16" fill="#FFF">
+												<tspan x="19" y="24">Régimes restrictifs</tspan>
 											</text>
 										</g>
 										<path class="first-line" d="M9.078 77.342c155.595 207.08 347.268 310.619 575.02 310.619" stroke="#3DB5A9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -68,7 +68,7 @@
 											<tspan x="6" y="30"> Comparatif perte de poids</tspan>
 										</text>
 									</g>
-									<g fill="#707070" font-family="Roboto-Regular, Roboto" font-size="18">
+									<g fill="#707070" font-family="Roboto-Regular" font-size="18">
 										<text transform="translate(-1.077 397.547)">
 											<tspan x=".829" y="17.36">1er mois</tspan>
 										</text>
@@ -95,15 +95,15 @@
 										</g>
 										<g class="second-rect" transform="translate(408.243 203.467)">
 											<rect fill="#FF7171" width="178" height="36.52" rx="4.98"/>
-											<text font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#FFF">
-												<tspan x="12.044" y="25">Regimes restrictifs</tspan>
+											<text font-family="Roboto-Bold" font-size="16" fill="#FFF">
+												<tspan x="19" y="24">Regimes restrictifs</tspan>
 											</text>
 										</g>
-										<text transform="translate(10 3)" fill="#1A2238" font-family="Campton-Medium, Campton" font-size="18" font-weight="400">
+										<text transform="translate(7 12.5)" fill="#1A2238" font-family="Campton-Medium, Campton" font-size="18" font-weight="400">
 											<tspan x="0" y="18"> Comparatif perte de poids</tspan>
 										</text>
 									</g>
-									<g fill="#707070" font-family="Roboto-Regular, Roboto" font-size="18">
+									<g fill="#707070" font-family="Roboto-Regular" font-size="18">
 										<text transform="translate(-1.077 397.547)">
 											<tspan x=".829" y="17.36">1er mois</tspan>
 										</text>
@@ -122,7 +122,7 @@
 				<div class="wrapper">
 					<div class="container-text">
 						<h2 class="elAnim__slide anim__delayMedium_2 wrapLine">
-							Le coach digital <em>sport</em> & <em>nutrition Fitnext</em>
+							Le coach digital <em>sport</em> & <em>nutrition</em> Fitnext
 						</h2>
 						<div class="container-el">
 							<div class="el elAnim__slide anim__delayMedium_4">
@@ -278,21 +278,27 @@
 								<div class="container-el elAnim__slide anim__delayMedium_8">
 									<div class="el">
 										<img class="quote" src="img/weight/quote-1/quote.svg">
-										<q class="medium wrapLine">
-											Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
-										</q>
+										<div class="text-quote">
+											<p class="wrapLine medium">
+												Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
+											</p>
+										</div>
 									</div>
 									<div class="el">
 										<img class="quote" src="img/weight/quote-1/quote.svg">
-										<q class="wrapLine">
-											Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
-										</q>
+										<div class="text-quote">
+											<p class="wrapLine">
+												Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
+											</p>
+										</div>
 									</div>
 									<div class="el">
 										<img class="quote" src="img/weight/quote-1/quote.svg">
-										<q class="wrapLine">
-											Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
-										</q>
+										<div class="text-quote">
+											<p class="wrapLine">
+												Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
+											</p>
+										</div>
 									</div>
 								</div>
 								<div class="container-nav elAnim__slide anim__delayMedium_10">

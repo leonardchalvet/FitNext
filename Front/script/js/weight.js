@@ -20,7 +20,7 @@ $(window).on('load', function() {
 
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-1').removeClass('active');
-				}, 3500)
+				}, 5500)
 
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-2').addClass('active');
@@ -29,25 +29,25 @@ $(window).on('load', function() {
 					$('#section-cover-1 .container-illu .illu-1 .first-rect').removeClass('active');
 					$('#section-cover-1 .container-illu .illu-1 .second-line').removeClass('active');
 					$('#section-cover-1 .container-illu .illu-1 .second-rect').removeClass('active');
-				}, 3750)
+				}, 5750)
 
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-2 .first-line').addClass('active');
-				}, 4000)
+				}, 6000)
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-2 .first-rect').addClass('active');
-				}, 4750)
+				}, 6750)
 
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-2 .second-line').addClass('active');
-				}, 5250)
+				}, 7250)
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-2 .second-rect').addClass('active');
-				}, 6250)
+				}, 8250)
 
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-2').removeClass('active');
-				}, 7500)
+				}, 11500)
 
 				setTimeout(function(){
 					$('#section-cover-1 .container-illu .illu-1').addClass('active');
@@ -56,7 +56,7 @@ $(window).on('load', function() {
 					$('#section-cover-1 .container-illu .illu-2 .first-rect').removeClass('active');
 					$('#section-cover-1 .container-illu .illu-2 .second-line').removeClass('active');
 					$('#section-cover-1 .container-illu .illu-2 .second-rect').removeClass('active');
-				}, 7750)
+				}, 11750)
 
 			}
 			setTimeout(function(){
@@ -64,7 +64,7 @@ $(window).on('load', function() {
 
 				setInterval(function(){
 					cover1Illu();
-				}, 9000);
+				}, 12000);
 			}, 2500)
 		}
 
@@ -126,18 +126,17 @@ $(window).on('load', function() {
 					if(drtc === 'next') {
 
 						function nextEl(El) {
-							$(El + ':not(.active)').removeClass('left').addClass('right displayNone');
+							$(El + ':not(.active)').removeClass('left').addClass('right');
 							setTimeout(function() {
-								$(El).removeClass('displayNone');
 								setTimeout(function() {
 									$(El + '.active').removeClass('active').addClass('left');
 									$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
 
 									setTimeout(function() {
-										$(El + ':not(.active)').removeClass('left').addClass('right displayNone');
-									}, 400)
-								}, 50)
-							}, 50)
+										$(El + ':not(.active)').removeClass('left').addClass('right');
+									}, 0)
+								}, 0)
+							}, 0)
 						}
 						nextEl(El1);
 						nextEl(El2);
@@ -145,18 +144,17 @@ $(window).on('load', function() {
 					else if(drtc === 'prev') {
 
 						function prevEl(El) {
-							$(El + ':not(.active)').removeClass('right').addClass('left displayNone');
+							$(El + ':not(.active)').removeClass('right').addClass('left');
 							setTimeout(function() {
-								$(El).removeClass('displayNone');
 								setTimeout(function() {
 									$(El + '.active').removeClass('active').addClass('right');
 									$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
 
 									setTimeout(function() {
-										$(El + ':not(.active)').removeClass('right').addClass('left displayNone');
-									}, 400)
-								}, 50)
-							}, 50)
+										$(El + ':not(.active)').removeClass('right').addClass('left');
+									}, 0)
+								}, 0)
+							}, 0)
 						}
 						prevEl(El1);
 						prevEl(El2);
@@ -227,21 +225,43 @@ $(window).on('load', function() {
 
 		};
 
-		let stateStartQuote = false;
-		$window = $(window);
-		$window.scroll(function() {
-			let windowHeight = $window.height();
-			if( !stateStartQuote && 
-				$window.scrollTop() >= $('#common-section-quote-1').offset().top - windowHeight ) {
-				
-				sectionQuoteCaroussel(
-					7000,
-					'#common-section-quote-1',  
-					".container-img .el",  
-					".container-text .el",
-					".container-nav .arrow"
-				);
-				stateStartQuote = true;
-			}
-		})
+		if($('#common-section-quote-1').length) {
+			let stateStartQuote1 = false;
+			$window = $(window);
+			$window.scroll(function() {
+				let windowHeight = $window.height();
+				if( !stateStartQuote1 && 
+					$window.scrollTop() >= $('#common-section-quote-1').offset().top - windowHeight ) {
+					
+					sectionQuoteCaroussel(
+						7000,
+						'#common-section-quote-1',  
+						".container-img .el",  
+						".container-text .el",
+						".container-nav .arrow"
+					);
+					stateStartQuote1 = true;
+				}
+			})
+		}
+
+		if($('#common-section-quote-2').length) {
+			let stateStartQuote2 = false;
+			$window = $(window);
+			$window.scroll(function() {
+				let windowHeight = $window.height();
+				if( !stateStartQuote2 && 
+					$window.scrollTop() >= $('#common-section-quote-2').offset().top - windowHeight ) {
+					
+					sectionQuoteCaroussel(
+						7000,
+						'#common-section-quote-2',  
+						".container .video .el",  
+						".container-quote .container-el .el",
+						".container-nav .arrow"
+					);
+					stateStartQuote2 = true;
+				}
+			})
+		}
 })

@@ -365,6 +365,7 @@ main
 					}
 				}
 				@media screen and (max-width: $breakPoint_mobile){
+					padding: 20px 25px;
 					.btn-arrow {
 						margin-left: 10px;
 						width: 16px;
@@ -481,8 +482,8 @@ main
 				}
 				@media screen and (max-width: $breakPoint_mobile){
 					width: $grid_mobile;
-					padding-right: 25px;
-					padding-left: 25px;
+					padding-right: 15px;
+					padding-left: 15px;
 				}
 			}
 
@@ -726,8 +727,10 @@ section {
 	#common-section-book {
 		padding-left: 15px;
 		padding-right: 15px;
+		padding-bottom: 10px;
 		.wrapper {
 			padding: 45px 30px;
+			padding-bottom: 0;
 			flex-direction: column;
 		}
 		.container-text {
