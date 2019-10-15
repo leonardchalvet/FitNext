@@ -22,7 +22,8 @@
 		<main>
 
 			<section id="section-cover-3" class="section-cover sectionAnim_container">
-				<div class="bg elAnim__fade anim__delayMedium_2" style="background-image:url(img/weight/cover-3/illu.jpg);">
+				<div class="lg elAnim__fade anim__delayMedium_2"></div>
+				<div class="bg elAnim__fade anim__delayMedium_2" style="background-image:url(img/weight/cover-3/illu.jpg);"></div>
 				<div class="wrapper">
 					<div class="container-text">
 						<h1 class="elAnim__slide anim__delayMedium_4 wrapLine">
@@ -273,6 +274,24 @@
 					</div>
 				</section>
 			</div>
+
+			<section id="common-section-foot" class="sectionAnim_container">
+				<div class="wrapper">
+					<h2 class="elAnim__slide anim__delayMedium_2" >Combien de kilos allez-vous perdre?</h2>
+					<div class="elAnim__slide anim__delayMedium_4">
+						<a class="btn" href="">
+							<span class="btn-text">Créer mon programme personnalisé</span>
+							<span class="btn-arrow">
+								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+								    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+								  </g>
+								</svg>
+							</span>
+						</a>
+					</div>
+				</div>
+			</section>
 
 		</main>
 

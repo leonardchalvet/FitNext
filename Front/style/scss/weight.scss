@@ -11,9 +11,8 @@ main {
 
 .gradient {
 	margin-top: 50px;
-	padding-top: 60px;
 	padding-bottom: 30px;
-	background: linear-gradient(to top, #{$colorGradient_4_1}, #{$colorGradient_4_2});
+	background: linear-gradient(to top, #{$colorGradient_4_1}, #{$colorGradient_4_2} 20%);
 }
 
 .section-cover {
@@ -27,43 +26,54 @@ main {
 	}
 	.container-text {
 		width: 440px;
-		h1 {
-			@include styleH1;
-		}
-		p {
-			margin-top: 25px;
-			@include styleParagraphHuge;
-			em {
-				&.o {
-					color: $colorPrimary_2;
-				}
-				&.b {
-					color: $colorPrimary_3;
-				}
-				&.g {
-					color: $colorPrimary_1;
-				}
+	}
+	h1 {
+		@include styleH1;
+	}
+	p {
+		margin-top: 25px;
+		@include styleParagraphHuge;
+		em {
+			&.o {
+				color: $colorPrimary_2;
 			}
-			span {
-				@for $i from 0 to 20 {
-				    &:nth-child(#{$i}) span {
-				    	transition-delay: ($i/10) + 0.1s !important;
-				    }
-				}
+			&.b {
+				color: $colorPrimary_3;
+			}
+			&.g {
+				color: $colorPrimary_1;
 			}
 		}
-		.container-btn {
-			margin-top: 65px;
-			.btn {
-				@include styleButtonBig;
+		span {
+			@for $i from 0 to 20 {
+			    &:nth-child(#{$i}) span {
+			    	transition-delay: ($i/10) + 0.1s !important;
+			    }
 			}
+		}
+	}
+	.container-btn {
+		margin-top: 65px;
+		.btn {
+			@include styleButtonBig;
 		}
 	}
 }
 
 #section-cover-1 {
-	.container-illu {
+	.wrapper {
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	h1, p, .container-btn {
+		width: 440px;
+	}
+	.container-illu {
+		position: absolute;
+		top: 0;
+		right: 0;
 		width: 590px;
 		height: 435px;
 		svg {
@@ -74,7 +84,6 @@ main {
 			height: 100%;
 		}
 		.illu-1, .illu-2 {
-
 			opacity: 0;
 			transition: opacity .5s ease;
 			&.active {
@@ -109,9 +118,9 @@ main {
 				}
 			}
 			.second-rect {
-				transform: scale(.5) translate(409 130.467);
+				transform: scale(.5) translate(432 130.467);
 				&.active {
-					transform: scale(1) translate(409 130.467);
+					transform: scale(1) translate(432 130.467);
 				}
 			}
 		}
@@ -123,9 +132,9 @@ main {
 				}
 			}
 			.second-rect {
-				transform: scale(.5) translate(488.243 357.467);
+				transform: scale(.5) translate(431 357.467);
 				&.active {
-					transform: scale(1) translate(488.243 357.467);
+					transform: scale(1) translate(431 357.467);
 				}
 			}
 		}
@@ -155,24 +164,33 @@ main {
 	position: relative;
 	margin-bottom: 40px;
 	height: 700px;
+	.lg {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to right, rgba(#000000, .6), transparent);
+	}
 	.bg {
 		position: absolute;
 		z-index: 0;
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: calc(100% + 400px);
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
 	}
 	.wrapper {
+		position: relative;
+		z-index: 2;
 		padding-top: 110px;
 		padding-bottom: 130px;
 	}
 	.container-text {
-		position: relative;
-		z-index: 1;
 		h1 {
 			color: #FFF;
 		}
@@ -342,7 +360,7 @@ main {
 		}
 		&:after {
 			bottom: 0;
-			transition-delay: 1s;
+			transition-delay: .3s;
 		}
 	}
 	&.reach .wrapper {
@@ -811,12 +829,36 @@ main {
 
 	.gradient {
 		margin-top: 25px;
-		padding-top: 30px;
 		padding-bottom: 15px;
 	}
 
 	#section-cover-1 {
-
+		padding-top: 20px;
+		padding-bottom: 0;
+		h1, p, .container-btn {
+			width: 100%;
+		}
+		h1 {
+			order: 1;
+			text-align: center;
+		}
+		p {
+			order: 4;
+			text-align: center;
+		}
+		.container-btn {
+			margin-top: 45px;
+			order: 2;
+			display: flex;
+			justify-content: center;
+		}
+		.container-illu {
+			order: 3;
+			margin-top: 55px;
+			position: relative;
+			width: 100%;
+			height: 265px;
+		}
 	}
 
 	#section-cover-2 {
@@ -846,12 +888,15 @@ main {
 
 	#section-cover-3 {
 		margin-bottom: 0;
-		height: 800px;
+		height: 850px;
 		.wrapper {
 			padding-top: 350px;
 		}
+		.bg, .lg {
+			height: calc(100% - 190px);
+		}
 		.bg {
-			height: calc(100% - 200px);
+			background-position: -430px center;
 		}
 		.container-text {
 			display: flex;
@@ -957,7 +1002,7 @@ main {
 			h2 {
 				width: 165px;
 				left: 22px;
-				top: calc(100% - 75px);
+				top: calc(100% - 85px);
 			}
 		}
 	}

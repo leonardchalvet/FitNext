@@ -659,13 +659,13 @@
 		},
 	"/img/weight/cover-3/illu.jpg": {
 		"ft": 16384,
-		"iS": 487398,
+		"iS": 1416582,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/weight/cover-3/illu.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/weight/features/icn-1.svg": {
@@ -757,6 +757,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/weight/quote-1/img-2.jpg": {
+		"ft": 16384,
+		"iS": 89674,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/quote-1/img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/weight/quote-1/img-3.jpg": {
+		"ft": 16384,
+		"iS": 142628,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/quote-1/img-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/weight/quote-1/img-4.jpg": {
+		"ft": 16384,
+		"iS": 198075,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/quote-1/img-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/weight/quote-1/img-5.jpg": {
+		"ft": 16384,
+		"iS": 143999,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/weight/quote-1/img-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/weight/quote-1/quote.svg": {

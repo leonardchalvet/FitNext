@@ -23,25 +23,23 @@
 			
 			<section id="section-cover-1" class="section-cover sectionAnim_container">
 				<div class="wrapper">
-					<div class="container-text">
-						<h1 class="elAnim__slide anim__delayMedium_2 wrapLine">
-							Non aux régimes démoralisants et  leur effet yoyo !
-						</h1>
-						<p class="elAnim__slide anim__delayMedium_4 wrapLine">
-							La méthode Fitnext agit différemment et durablement. Notre fond nutritionnel booste votre microbiote intestinal qui conditionne la perte de <em class="o">poids</em>, le moral, le <em class="b">bien-être</em> et <em class="g">la santé</em>.
-						</p>
-						<div class="container-btn elAnim__slide anim__delayMedium_8">
-							<a class="btn" href="">
-								<span class="btn-text">Créer mon programme personnalisé</span>
-								<span class="btn-arrow">
-									<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
-									  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-									    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
-									  </g>
-									</svg>
-								</span>
-							</a>
-						</div>
+					<h1 class="elAnim__slide anim__delayMedium_2 wrapLine">
+						Non aux régimes démoralisants et  leur effet yoyo !
+					</h1>
+					<p class="elAnim__slide anim__delayMedium_4 wrapLine">
+						La méthode Fitnext agit différemment et durablement. Notre fond nutritionnel booste votre microbiote intestinal qui conditionne la perte de <em class="o">poids</em>, le moral, le <em class="b">bien-être</em> et <em class="g">la santé</em>.
+					</p>
+					<div class="container-btn elAnim__slide anim__delayMedium_8">
+						<a class="btn" href="">
+							<span class="btn-text">Créer mon programme personnalisé</span>
+							<span class="btn-arrow">
+								<svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+								  <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+								    <path d="M7.7 1.297l5 5-5 5M12.7 6.3h-11"/>
+								  </g>
+								</svg>
+							</span>
+						</a>
 					</div>
 					<div class="container-illu elAnim__fade anim__delayMedium_10">
 						<div class="illu-1 active">
@@ -52,10 +50,10 @@
 									</g>
 									<g transform="translate(-6.243 -12.467)">
 										<path class="second-line" d="M9.078 77.342c101.271 393.314 292.945 414.367 575.02 63.16" stroke="#FF7171" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-										<g class="second-rect" transform="translate(409 130.467)">
-											<rect fill="#FF7171" width="178" height="36.52" rx="4.98"/>
+										<g class="second-rect" transform="translate(432 130.467)">
+											<rect fill="#FF7171" width="155" height="36" rx="4.98"/>
 											<text font-family="Roboto-Bold" font-size="16" fill="#FFF">
-												<tspan x="19" y="24">Régimes restrictifs</tspan>
+												<tspan x="9.5" y="24">Régimes restrictifs</tspan>
 											</text>
 										</g>
 										<path class="first-line" d="M9.078 77.342c155.595 207.08 347.268 310.619 575.02 310.619" stroke="#3DB5A9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -93,10 +91,10 @@
 											<path d="M526.711 61.73v11.534h1.822V60.59zM532.531 58.027l-1.821 1.187v9.731c0 2.326 1.821 4.272 3.998 4.272h1.467v-1.946h-1.111c-1.466 0-2.577-1.187-2.577-2.753v-5.032h3.643V61.54h-3.643l.044-3.513zM546.97 73.264h-1.82V66.24c-.178-1.566-1.29-2.753-2.755-2.753-1.467 0-2.755 1.376-2.755 2.943v6.646h-1.822V61.73h1.822v.996c.71-.57 1.822-.996 2.755-.996 2.532 0 4.576 2.136 4.576 4.889v6.645zM558.256 68.185v-.76c0-3.132-2.177-5.838-4.932-5.838-2.754 0-4.931 2.516-4.931 5.839 0 3.323 2.177 5.838 4.931 5.838 1.644 0 3.288-.996 4.177-2.515l-1.644-.997c-.533.997-1.467 1.566-2.533 1.566-1.466 0-2.754-1.376-3.11-3.133h8.042zm-4.887-4.7c1.466 0 2.532 1.188 2.932 2.754h-6.042c.533-1.566 1.643-2.753 3.11-2.753z"/>
 											<path d="M569.23 61.73h-2.355l-3.288 4.13-3.287-4.13h-2.4l4.399 5.648-4.576 5.886h2.399l3.465-4.51 3.466 4.51h2.355l-4.754-5.886zM575.805 61.73h-3.643v-3.513l-1.821 1.187v9.731c0 2.326 1.821 4.272 3.998 4.272h1.466V71.46h-1.11c-1.467 0-2.577-1.187-2.577-2.754v-5.031h3.643V61.73h.044zM519.78 60.78v12.484h2v-9.778h3.643V61.54h-3.644v-.38c0-1.567 1.111-2.753 2.577-2.753h4.399V56.46h-4.976c-2.355 0-3.999 1.993-3.999 4.32M514.734 56.366l-7.848 3.417v13.671c.93-.184 1.818-.37 2.749-.554V61.492l6.207-2.679-1.108-2.447zM496.174 56.366l-.931 2.494 6.207 2.678V72.9c.931.37 1.818.554 2.749.554v-13.67l-8.025-3.418zM506.886 56.366c0-.973-.7-1.9-1.791-1.9-1.093 0-1.792.742-1.792 1.9 0 .972.7 1.898 1.792 1.898s1.79-.972 1.79-1.898"/>
 										</g>
-										<g class="second-rect" transform="translate(408.243 203.467)">
-											<rect fill="#FF7171" width="178" height="36.52" rx="4.98"/>
+										<g class="second-rect" transform="translate(431 203.467)">
+											<rect fill="#FF7171" width="155" height="36" rx="4.98"/>
 											<text font-family="Roboto-Bold" font-size="16" fill="#FFF">
-												<tspan x="19" y="24">Regimes restrictifs</tspan>
+												<tspan x="9.5" y="24">Regimes restrictifs</tspan>
 											</text>
 										</g>
 										<text transform="translate(7 12.5)" fill="#1A2238" font-family="Campton-Medium, Campton" font-size="18" font-weight="400">
@@ -235,42 +233,70 @@
 									<div class="img elAnim__fade anim__delayMedium_4">
 										<img src="img/weight/quote-1/img-1.jpg">
 										<div class="before">
-											Isabelle Avant
+											Céline Avant
 										</div>
 										<div class="after">
-											Isabelle Après
+											Céline Après
 										</div>
 									</div>
 									<div class="info elAnim__slide anim__delayMedium_6">
-										21 kilos perdus en 6 mois
+										7 kilos perdus en 1 mois 1/2
 									</div>
 								</div>
 								<div class="el">
 									<div class="img elAnim__fade anim__delayMedium_4">
-										<img src="img/weight/quote-1/img-1.jpg">
+										<img src="img/weight/quote-1/img-2.jpg">
 										<div class="before">
-											Isabelle Avant
+											Wassim Avant
 										</div>
 										<div class="after">
-											Isabelle Après
+											Wassim Après
 										</div>
 									</div>
 									<div class="info elAnim__slide anim__delayMedium_6">
-										21 kilos perdus en 6 mois
+										16 kilos perdus en 4 mois
 									</div>
 								</div>
 								<div class="el">
 									<div class="img elAnim__fade anim__delayMedium_4">
-										<img src="img/weight/quote-1/img-1.jpg">
+										<img src="img/weight/quote-1/img-3.jpg">
 										<div class="before">
-											Isabelle Avant
+											Jimmy Avant
 										</div>
 										<div class="after">
-											Isabelle Après
+											Jimmy Après
 										</div>
 									</div>
 									<div class="info elAnim__slide anim__delayMedium_6">
-										21 kilos perdus en 6 mois
+										10 kilos perdus en 1 mois 1/2
+									</div>
+								</div>
+								<div class="el">
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-4.jpg">
+										<div class="before">
+											Emily Avant
+										</div>
+										<div class="after">
+											Emily Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										8 kilos perdus en 3 mois
+									</div>
+								</div>
+								<div class="el">
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-5.jpg">
+										<div class="before">
+											Sophie Avant
+										</div>
+										<div class="after">
+											Sophie Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										9 kilos perdus en 6 mois
 									</div>
 								</div>
 							</div>
@@ -288,7 +314,7 @@
 										<img class="quote" src="img/weight/quote-1/quote.svg">
 										<div class="text-quote">
 											<p class="wrapLine">
-												Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
+												Fitnext le contrôle de son corps, de son mental
 											</p>
 										</div>
 									</div>
@@ -296,7 +322,23 @@
 										<img class="quote" src="img/weight/quote-1/quote.svg">
 										<div class="text-quote">
 											<p class="wrapLine">
-												Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
+												j'ai eu un regain d'énergie et un moral au top dès le début du programme
+											</p>
+										</div>
+									</div>
+									<div class="el">
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine">
+												les kilos se sont envolés sans que j'ai l'impression de faire d'efforts et j'ai retrouvé mon énergie
+											</p>
+										</div>
+									</div>
+									<div class="el">
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine">
+												j’ai retrouvé quasi instantanément une forme que je n’avais plus depuis des années.
 											</p>
 										</div>
 									</div>
