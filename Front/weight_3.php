@@ -15,7 +15,7 @@
 
 	</head>
 	
-	<body>
+	<body class="style-promo">
 
 		<?php include('common-header.php') ?>
 
@@ -51,7 +51,7 @@
 			<section id="section-feature" class="sectionAnim_container">
 				<div class="wrapper">
 					<div class="container-text">
-						<h2 class="elAnim__slide anim__delayMedium_2 wrapLine">
+						<h2 class="elAnim__slide anim__delayMedium_2">
 							Le coach digital <em>sport</em> & <em>nutrition</em> Fitnext
 						</h2>
 						<div class="container-el">
@@ -107,17 +107,22 @@
 					</div>
 					<div class="card">
 						<div class="color elAnim__fade anim__delayMedium_11"></div>
-						<div class="container-illu elAnim__fade anim__delayMedium_12">
-							<img class="back" src="img/common/iphone_back.svg">
-							<div class="video">
-								<iframe src="https://player.vimeo.com/video/113502896?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<div class="container-img">
+							<div class="container-media elAnim__fade anim__delayMedium_12">
+								<img class="shape" src="img/home/section-features/shape-iphone-2.svg" alt="">
+								<div class="video">
+									<iframe src="https://player.vimeo.com/video/366379829?play=false&loop=true&api=1&background=1&mute=0" frameborder="0"></iframe>
+								</div>
+								<img class="poster" src="img/home/section-features/feature-1-poster.png" alt="">
 							</div>
-							<img class="behind" src="img/common/iphone_behind.svg">
+							
 						</div>
-						<div class="text">
-							<p class="elAnim__fade anim__delayMedium_14 wrapLine">
-								Nos coachés perdent durablement 3 kg par mois en moyenne et boostent leur bien-être avec une phase de détoxification profonde, des recettes gourmandes pro-microbiote, des conseils au restaurant et des repas libres.
-							</p>
+						<div class="container-desc">
+							<div class="desc">
+								<p>
+									Nos coachés perdent durablement 3 kg par mois en moyenne et boostent leur bien-être avec une phase de détoxification profonde, des recettes gourmandes pro-microbiote, des conseils au restaurant et des repas libres.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -142,103 +147,133 @@
 			</section>
 
 			<div class="gradient">
-				<section id="common-section-quote-2" class="sectionAnim_container">
+				<section id="common-section-quote-1" class="sectionAnim_container">
 					<div class="wrapper">
-						<h2 class="elAnim__slide anim__delayMedium_2">
-							Pourquoi je reprends mes kilos ?
+						<h2 class="elAnim__slide anim__delayMedium_2 wrapLine">
+							Pourquoi je reprends mes kilos ? 
 						</h2>
-						<div class="container elAnim__slide anim__delayMedium_4">
-							<div class="video">
+						<div class="container-quotes">
+							<div class="container-img">
 								<div class="el">
-									<iframe src="https://player.vimeo.com/video/298017984" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-1.jpg">
+										<div class="before">
+											Céline Avant
+										</div>
+										<div class="after">
+											Céline Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										7 kilos perdus en 1 mois 1/2
+									</div>
 								</div>
 								<div class="el">
-									<iframe src="https://player.vimeo.com/video/298017984" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-2.jpg">
+										<div class="before">
+											Wassim Avant
+										</div>
+										<div class="after">
+											Wassim Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										16 kilos perdus en 4 mois
+									</div>
 								</div>
 								<div class="el">
-									<iframe src="https://player.vimeo.com/video/298017984" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-3.jpg">
+										<div class="before">
+											Jimmy Avant
+										</div>
+										<div class="after">
+											Jimmy Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										10 kilos perdus en 1 mois 1/2
+									</div>
+								</div>
+								<div class="el">
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-4.jpg">
+										<div class="before">
+											Emily Avant
+										</div>
+										<div class="after">
+											Emily Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										8 kilos perdus en 3 mois
+									</div>
+								</div>
+								<div class="el">
+									<div class="img elAnim__fade anim__delayMedium_4">
+										<img src="img/weight/quote-1/img-5.jpg">
+										<div class="before">
+											Sophie Avant
+										</div>
+										<div class="after">
+											Sophie Après
+										</div>
+									</div>
+									<div class="info elAnim__slide anim__delayMedium_6">
+										9 kilos perdus en 6 mois
+									</div>
 								</div>
 							</div>
-							<div class="container-quote">
-								<div class="container-el">
+							<div class="container-text">
+								<div class="container-el elAnim__slide anim__delayMedium_8">
 									<div class="el">
-										<div class="text elAnim__slide anim__delayMedium_6">
-											<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-											</svg>
-											<p class="elAnim__slide wrapLine">Je me sens mieux, aussi bien dans mon corps que dans ma tête</p>
-										</div>
-										<div class="person">
-											<div class="pp elAnim__slide anim__delayMedium_8">
-												<div class="bg" style="background-image: url(img/home/quote-pp-1.jpg);"></div>
-											</div>
-											<div class="infoP">
-												<div class="name elAnim__slide anim__delayMedium_9">
-													Isabelle F.
-												</div>
-												<div class="use elAnim__slide anim__delayMedium_10">
-													Utilise fitnext depuis 18 mois
-												</div>
-											</div>
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine medium">
+												Avec Fitnext, j’ai perdu du poids, mon corps a changé, il est plus tonique et surtout je suis beaucoup moins malade, plus en forme…
+											</p>
 										</div>
 									</div>
 									<div class="el">
-										<div class="text">
-											<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-											</svg>
-											<p class="elAnim__slide wrapLine">J'ai gagné un bien-être intérieur, de l'assurance et je m'apprécie enfin.</p>
-										</div>
-										<div class="person">
-											<div class="pp elAnim__slide anim__delayMedium_8">
-												<div class="bg" style="background-image: url(img/home/quote-pp-2.jpg);"></div>
-											</div>
-											<div class="infoP">
-												<div class="name elAnim__slide anim__delayMedium_9">
-													Elodie.
-												</div>
-												<div class="use elAnim__slide anim__delayMedium_10">
-													Utilise fitnext depuis 18 mois
-												</div>
-											</div>
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine">
+												Fitnext le contrôle de son corps, de son mental
+											</p>
 										</div>
 									</div>
 									<div class="el">
-										<div class="text">
-											<svg viewBox="0 0 42 31" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M42 0v30.383H24.128V12.775L42 0zM17.872 0v30.383H0V12.775L17.872 0z" fill="#E9E9E9" fill-rule="nonzero"/>
-											</svg>
-											<p class="elAnim__slide wrapLine">J'ai plus d'énergie et mon moral est bien meilleur.</p>
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine">
+												j'ai eu un regain d'énergie et un moral au top dès le début du programme
+											</p>
 										</div>
-										<div class="person">
-											<div class="pp elAnim__slide anim__delayMedium_8">
-												<div class="bg" style="background-image: url(img/home/quote-pp-3.jpg);"></div>
-											</div>
-											<div class="infoP">
-												<div class="name elAnim__slide anim__delayMedium_9">
-													Isabelle.
-												</div>
-												<div class="use elAnim__slide anim__delayMedium_10">
-													Utilise fitnext depuis 18 mois
-												</div>
-											</div>
+									</div>
+									<div class="el">
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine">
+												les kilos se sont envolés sans que j'ai l'impression de faire d'efforts et j'ai retrouvé mon énergie
+											</p>
+										</div>
+									</div>
+									<div class="el">
+										<img class="quote" src="img/weight/quote-1/quote.svg">
+										<div class="text-quote">
+											<p class="wrapLine">
+												j’ai retrouvé quasi instantanément une forme que je n’avais plus depuis des années.
+											</p>
 										</div>
 									</div>
 								</div>
-								<div class="container-nav elAnim__slide anim__delayMedium_12">
-									<div class="arrow left">
-										<svg viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
-										  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-										    <path d="M18.088 1.5L1.078 18.51l17.01 17.01M1.078 18.52H38.5"/>
-										  </g>
-										</svg>
+								<div class="container-nav elAnim__slide anim__delayMedium_10">
+									<div class="nav prev">
+										<img src="img/weight/section-quote-2/arrow-photo.svg" alt="">
 									</div>
-									<div class="arrow right">
-										<svg viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
-										  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-										    <path d="M18.088 1.5L1.078 18.51l17.01 17.01M1.078 18.52H38.5"/>
-										  </g>
-										</svg>
+									<div class="nav next">
+										<img src="img/weight/section-quote-2/arrow-photo.svg" alt="">
 									</div>
 								</div>
 							</div>

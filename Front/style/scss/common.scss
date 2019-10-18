@@ -34,6 +34,9 @@ body.block
 {
 	overflow:hidden;
 }
+body.style-promo{
+	padding-top: 45px;
+}
 
 /* ------------------------------------------------------------- */
 /* ********************* CONTAINER GENERAL ********************* */
@@ -43,7 +46,6 @@ main
 {
 	position: relative;
 	width: 100%;
-	//overflow:hidden;
 }
 
 /* ----------------------------------------------------------------- */
@@ -443,20 +445,20 @@ main
 				&:before {
 					content: " ";
 					position: absolute;
-					left: 0;
+					
 					bottom: -10px;
 					width: calc(100% - 35px);
 					height: 2px;
 					background-color: $colorSecondary_1;
 
 					opacity: 0;
-					transform: translateY(10px);
+					transform: translateY(7px);
 					transition: all 250ms cubic-bezier(0.070, 0.965, 0.560, 1.000);
 				}
 				&:hover {
 					&:before {
 						opacity: 1;
-						transform: translateY(0);
+						transform: translateY(0px);
 					}
 				}
 				@media screen and (max-width: $breakPoint_mobile){
@@ -597,7 +599,7 @@ main
 }
 
 section {
-	&:not(#section-list) {
+	&:not(#section-list, #section-features) {
 		overflow: hidden;
 	}
 	h1, h2, p {
@@ -673,6 +675,259 @@ section {
 	}
 }
 
+#common-section-quote-1 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	.wrapper {
+		@include styleGrid3;
+	}
+	h2 {
+		@include styleH2;
+		width: 455px;
+	}
+	.container-quotes {
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-between;
+		.container-img {
+			position: relative;
+			width: 440px;
+			height: 395px;
+			.el {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				.img {
+					position: relative;
+					width: 100%;
+					height: 315px;
+					img {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						border-radius: 14px;
+						background-repeat: no-repeat;
+						background-position: center center;
+						background-size: cover;
+					}
+					.before, .after {
+						position: absolute;
+						top: 20px;
+						padding: 9px 15px;
+						border-radius: 3px;
+						background-color: rgba(#000, .6);
+						@include styleParagraphSmall;
+						color: #FFF;
+						font-family: $font_3;
+					}
+					.before {
+						left: 15px;
+					}
+					.after {
+						right: 75px;
+					}
+				}
+				.info {
+					margin-top: 30px;
+					padding: 8px 0;
+					width: 100%;
+					@include styleH4;
+					color: #FFF;
+					text-align: center;
+					border-radius: 8px;
+					background: linear-gradient(to left, #{$colorGradient_1_2}, #{$colorGradient_1_1});
+				}
+
+				transition: all 1000ms ease;
+				transform: scale(1.1);
+				&.left,
+				&.right {
+					transition: all 400ms cubic-bezier(0.535, 0.005, 1.000, 0.500);
+					transform: scale(0.95);
+					opacity: 0;
+				}
+				&.active {
+					transition: all 400ms cubic-bezier(0.000, 0.525, 0.370, 1.000);
+					transition-delay: 0.5s;
+					transform: scale(1);
+					opacity: 1;
+				}
+				&.displayNone {
+					display: none;
+				}
+			}
+		}
+		.container-text {
+			position: relative;
+			width: 440px;
+			height: 395px;
+			.container-el {
+				position: relative;
+				width: 100%;
+				height: 315px;
+				.el {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					.quote {
+						position: absolute;
+						z-index: 1;
+						top: 16px;
+						left: -18px;
+						width: 42px;
+						height: 30px;
+						opacity: 0.1;
+					}
+					.text-quote {
+						position: absolute;
+						z-index: 2;
+						top: 20px;
+						left: 0;
+						width: 100%;
+						top: 50%;
+						transform: translateY(-50%);
+						overflow: hidden;
+						p {
+							@include styleH3;
+							span {
+								@for $i from 0 to 20 {
+								    &:nth-child(#{$i}) span {
+								    	transition-delay: ($i/10) + .4s !important;
+								    }
+								}
+							}
+						}
+					}
+					transition: all 600ms cubic-bezier(0.000, 0.710, 0.335, 1.000);
+					&.left,
+					&.right {
+						.text-quote p {
+							span span {
+								transform: translateY(100px);
+							}
+							span {
+								@for $i from 0 to 20 {
+								    &:nth-child(#{$i}) span {
+								    	transition-delay: ($i/10) + .1s !important;
+								    }
+								}
+							}
+						}
+					}
+					&.active {
+						.text-quote p {
+							span span {
+								transform: translateY(0px);
+							}
+							span {
+								@for $i from 0 to 20 {
+								    &:nth-child(#{$i}) span {
+								    	transition-delay: ($i/10) + .15s !important;
+								    }
+								}
+							}
+						}
+					}
+					&.displayNone {
+						display: none;
+					}
+				}
+			}
+			.container-nav{
+				position: absolute;
+				left: 0;
+				bottom: 2px;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				.nav{
+					height: 35px;
+					width: 35px;
+					position: relative;
+					cursor: pointer;
+					margin: 0px 15px 0px 15px;
+					img{
+						width: 100%;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+					}
+					&.prev{
+						img{
+							transform: translate(-50%, -50%) rotate(180deg);
+						}
+					}
+					&.next{
+						img{
+							transform: translate(-50%, -50%);
+						}
+					}
+				}
+			}
+		}
+	}
+	.container-btn{
+		margin-top: 85px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		.btn{
+			@include styleButtonBig;
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile) {
+	#common-section-quote-1 {
+		padding-bottom: 0;
+		h2 {
+			width: 100%;
+		}
+		.container-quotes {
+			margin-top: 25px;
+			flex-wrap: wrap;
+			.container-img {
+				width: 100%;
+				max-width: 340px;
+				height: 330px;
+				.el {
+					.img {
+						height: 245px;
+						.after {
+							right: 30px;
+						}
+					}
+					.info {
+						margin-top: 25px;
+					}
+				}
+			}
+			.container-text {
+				width: 100%;
+				height: 250px;
+				.container-el {
+					height: 200px;
+					.el {
+						.quote {
+							left: 0;
+						}
+					}
+				}
+			}
+		}
+		.container-btn{
+			.btn{
+				width: 100%;
+				justify-content: center;
+			}
+		}
+	}
+}
+
 #common-section-foot {
 	margin-top: 20px;
 	padding-top: 100px;
@@ -729,8 +984,7 @@ section {
 		padding-right: 15px;
 		padding-bottom: 10px;
 		.wrapper {
-			padding: 45px 30px;
-			padding-bottom: 0;
+			padding: 45px 30px 45px 30px;
 			flex-direction: column;
 		}
 		.container-text {

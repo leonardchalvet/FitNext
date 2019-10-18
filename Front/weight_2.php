@@ -15,7 +15,7 @@
 
 	</head>
 	
-	<body>
+	<body class="style-promo">
 
 		<?php include('common-header.php') ?>
 
@@ -52,7 +52,7 @@
 			<section id="section-feature" class="sectionAnim_container">
 				<div class="wrapper">
 					<div class="container-text">
-						<h2 class="elAnim__slide anim__delayMedium_2 wrapLine">
+						<h2 class="elAnim__slide anim__delayMedium_2">
 							Le coach digital <em>sport</em> & <em>nutrition</em> Fitnext
 						</h2>
 						<div class="container-el">
@@ -108,17 +108,22 @@
 					</div>
 					<div class="card">
 						<div class="color elAnim__fade anim__delayMedium_11"></div>
-						<div class="container-illu elAnim__fade anim__delayMedium_12">
-							<img class="back" src="img/common/iphone_back.svg">
-							<div class="video">
-								<iframe src="https://player.vimeo.com/video/113502896?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<div class="container-img">
+							<div class="container-media elAnim__fade anim__delayMedium_12">
+								<img class="shape" src="img/home/section-features/shape-iphone-2.svg" alt="">
+								<div class="video">
+									<iframe src="https://player.vimeo.com/video/366379829?play=false&loop=true&api=1&background=1&mute=0" frameborder="0"></iframe>
+								</div>
+								<img class="poster" src="img/home/section-features/feature-1-poster.png" alt="">
 							</div>
-							<img class="behind" src="img/common/iphone_behind.svg">
+							
 						</div>
-						<div class="text">
-							<p class="elAnim__fade anim__delayMedium_14 wrapLine">
-								Nos coachés perdent durablement 3 kg par mois en moyenne et boostent leur bien-être avec une phase de détoxification profonde, des recettes gourmandes pro-microbiote, des conseils au restaurant et des repas libres.
-							</p>
+						<div class="container-desc">
+							<div class="desc">
+								<p>
+									Nos coachés perdent durablement 3 kg par mois en moyenne et boostent leur bien-être avec une phase de détoxification profonde, des recettes gourmandes pro-microbiote, des conseils au restaurant et des repas libres.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -161,6 +166,95 @@
 			</section>
 
 			<div class="gradient">
+
+				<section id="common-section-quote-2" class="sectionAnim_container">
+					<div class="wrapper">
+						<div class="container-text">
+							<h2>
+								Pourquoi je reprends mes kilos ? 
+							</h2>
+						</div>
+						<div class="container-carousel elAnim__slide anim__delayMedium_1">
+							<div class="container-videos">
+								<div class="el-video">
+									<iframe src="https://player.vimeo.com/video/298017984" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+								</div>
+								<div class="el-video">
+									<iframe src="https://player.vimeo.com/video/298017984" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+								</div>
+								<div class="el-video">
+									<iframe src="https://player.vimeo.com/video/298017984" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+								</div>
+
+								<div class="container-play">
+									<div class="play">
+										<img src="img/weight/section-quote-2/play.svg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="container-text elAnim__slide anim__delayMedium_2">
+								<div class="el-text">
+									<img class="icn-quote" src="img/weight/section-quote-2/quote.svg" alt="">
+									<q>
+										Je me sens mieux, aussi bien dans mon corps que dans ma tête
+									</q>
+									<div class="container-infos">
+										<div class="pp">
+											<img src="img/home/quote-pp-1.jpg" alt="">
+										</div>
+										<div class="infos">
+											<div class="name">Elodie.</div>
+											<div class="desc">Utilise fitnext depuis 18 mois</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="el-text">
+									<img class="icn-quote" src="img/weight/section-quote-2/quote.svg" alt="">
+									<q>
+										J'ai gagné un bien-être intérieur, de l'assurance et je m'apprécie enfin.
+									</q>
+									<div class="container-infos">
+										<div class="pp">
+											<img src="img/home/quote-pp-2.jpg" alt="">
+										</div>
+										<div class="infos">
+											<div class="name">Isabelle.</div>
+											<div class="desc">Utilise fitnext depuis 18 mois</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="el-text">
+									<img class="icn-quote" src="img/weight/section-quote-2/quote.svg" alt="">
+									<q>
+										J'ai plus d'énergie et mon moral est bien meilleur.
+									</q>
+									<div class="container-infos">
+										<div class="pp">
+											<img src="img/home/quote-pp-3.jpg" alt="">
+										</div>
+										<div class="infos">
+											<div class="name">Isabelle F.</div>
+											<div class="desc">Utilise fitnext depuis 18 mois</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="container-nav">
+									<div class="nav prev">
+										<img src="img/weight/section-quote-2/arrow-photo.svg" alt="">
+									</div>
+									<div class="nav next">
+										<img src="img/weight/section-quote-2/arrow-photo.svg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--
 				<section id="common-section-quote-2" class="sectionAnim_container">
 					<div class="wrapper">
 						<h2 class="elAnim__slide anim__delayMedium_2">
@@ -264,6 +358,7 @@
 						</div>
 					</div>
 				</section>
+				-->
 
 				<section id="common-section-book" class="sectionAnim_container">
 					<div class="wrapper">

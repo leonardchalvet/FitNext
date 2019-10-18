@@ -15,7 +15,7 @@
 
 	</head>
 	
-	<body>
+	<body class="style-promo">
 
 		<?php include('common-header.php') ?>
 
@@ -119,7 +119,7 @@
 			<section id="section-feature" class="sectionAnim_container">
 				<div class="wrapper">
 					<div class="container-text">
-						<h2 class="elAnim__slide anim__delayMedium_2 wrapLine">
+						<h2 class="elAnim__slide anim__delayMedium_2">
 							Le coach digital <em>sport</em> & <em>nutrition</em> Fitnext
 						</h2>
 						<div class="container-el">
@@ -175,17 +175,22 @@
 					</div>
 					<div class="card">
 						<div class="color elAnim__fade anim__delayMedium_11"></div>
-						<div class="container-illu elAnim__fade anim__delayMedium_12">
-							<img class="back" src="img/common/iphone_back.svg">
-							<div class="video">
-								<iframe src="https://player.vimeo.com/video/113502896?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<div class="container-img">
+							<div class="container-media elAnim__fade anim__delayMedium_12">
+								<img class="shape" src="img/home/section-features/shape-iphone-2.svg" alt="">
+								<div class="video">
+									<iframe src="https://player.vimeo.com/video/366379829?play=false&loop=true&api=1&background=1&mute=0" frameborder="0"></iframe>
+								</div>
+								<img class="poster" src="img/home/section-features/feature-1-poster.png" alt="">
 							</div>
-							<img class="behind" src="img/common/iphone_behind.svg">
+							
 						</div>
-						<div class="text">
-							<p class="elAnim__fade anim__delayMedium_14 wrapLine">
-								Nos coachés perdent durablement 3 kg par mois en moyenne et boostent leur bien-être avec une phase de détoxification profonde, des recettes gourmandes pro-microbiote, des conseils au restaurant et des repas libres.
-							</p>
+						<div class="container-desc">
+							<div class="desc">
+								<p>
+									Nos coachés perdent durablement 3 kg par mois en moyenne et boostent leur bien-être avec une phase de détoxification profonde, des recettes gourmandes pro-microbiote, des conseils au restaurant et des repas libres.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -344,19 +349,11 @@
 									</div>
 								</div>
 								<div class="container-nav elAnim__slide anim__delayMedium_10">
-									<div class="arrow left">
-										<svg viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
-										  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-										    <path d="M18.088 1.5L1.078 18.51l17.01 17.01M1.078 18.52H38.5"/>
-										  </g>
-										</svg>
+									<div class="nav prev">
+										<img src="img/weight/section-quote-2/arrow-photo.svg" alt="">
 									</div>
-									<div class="arrow right">
-										<svg viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
-										  <g stroke="#1A2238" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-										    <path d="M18.088 1.5L1.078 18.51l17.01 17.01M1.078 18.52H38.5"/>
-										  </g>
-										</svg>
+									<div class="nav next">
+										<img src="img/weight/section-quote-2/arrow-photo.svg" alt="">
 									</div>
 								</div>
 							</div>

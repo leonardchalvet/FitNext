@@ -102,19 +102,30 @@ $(window).on('load', function() {
 	/********************/
 	/*       QUOTE      */
 	/********************/
-		function sectionQuoteCaroussel(Delay, Section, El1, El2, Nav){
-			
-			El1 = Section + ' ' + El1;
-			El2 = Section + ' ' + El2;
-			Nav = Section + ' ' + Nav;
+	
+		
+	
 
+		function sectionQuotes2Caroussel(OptDelay, Delay, Section, Text, Quote, Btn){
+		
+			Text = Section + ' ' + Text;
+			Quote = Section + ' ' + Quote;
+			Btn = Section + ' ' + Btn;
+			
 			var valDelay = 0;
-			var numberEl = $(El1).length;
+			var numberEl = $(Text).length;
 			var countEl = 1;
 			
 			var drtc;
 
+			let interval;
+
 			function prg(drtc){
+
+				$(Btn).addClass('disable');
+
+				$(Btn + ' .stroke-full').removeClass('active').outerWidth();
+				$(Btn + ' .stroke-full').addClass('active');
 
 				if (drtc === 'next') {
 					countEl++;
@@ -123,145 +134,128 @@ $(window).on('load', function() {
 				};
 
 				if (countEl <= numberEl && countEl >= 1) {
-					if(drtc === 'next') {
 
-						function nextEl(El) {
-							$(El + ':not(.active)').removeClass('left').addClass('right');
-							setTimeout(function() {
-								setTimeout(function() {
-									$(El + '.active').removeClass('active').addClass('left');
-									$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+					$(Text).removeClass('active hide').addClass('hide');
+					$(Quote).removeClass('active').addClass('hide');
+					setTimeout(function(){ 
+						$(Text).removeClass('displayBlock').addClass('displayNone');
+						$(Quote).removeClass('displayBlock hide');
+						setTimeout(function(){ 
+							$(Text + ':nth-child('+countEl+')').addClass('displayBlock').removeClass('displayNone');
+						}, 250);
+						setTimeout(function(){ 
+							$(Text + ':nth-child('+countEl+')').addClass('active').removeClass('hide');
+						}, 300);
 
-									setTimeout(function() {
-										$(El + ':not(.active)').removeClass('left').addClass('right');
-									}, 0)
-								}, 0)
-							}, 0)
-						}
-						nextEl(El1);
-						nextEl(El2);
-					}
-					else if(drtc === 'prev') {
+						$(Quote + ':nth-child('+countEl+')').addClass('displayBlock').addClass('displayBlock').find('q:not(.wrapActive)').each(function (index) {
+							$(this).splitLines({tag:'<span><span>'});
+							$(this).addClass('wrapActive');
+						}).outerWidth();
+						setTimeout(function(){ 
+							$(Quote + ':nth-child('+countEl+')').addClass('active');
+						}, 50);
+						
+					}, 500);
 
-						function prevEl(El) {
-							$(El + ':not(.active)').removeClass('right').addClass('left');
-							setTimeout(function() {
-								setTimeout(function() {
-									$(El + '.active').removeClass('active').addClass('right');
-									$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+					setTimeout(function(){ 
+						$(Btn).removeClass('disable');
+					}, 1000);
 
-									setTimeout(function() {
-										$(El + ':not(.active)').removeClass('right').addClass('left');
-									}, 0)
-								}, 0)
-							}, 0)
-						}
-						prevEl(El1);
-						prevEl(El2);
-					}
-
-					setTimeout(function(){
-						$(El1).removeClass('displayNone');
-						$(El2).removeClass('displayNone');
-					}, 1000)
-
-					clearInterval(interval);
-					interval = setInterval(function() {
-				      	prg('next');
-				    }, valDelay);
+					if (OptDelay === "on") {
+						clearInterval(interval);
+						interval = setInterval(function() {
+					      	prg('next');
+					    }, valDelay);
+					};
+				    
 
 				} else if (countEl < 1) {
-					countEl = numberEl + 1;
-					prg(drtc);
+					countEl = numberEl;
+					prg();
 				} else {
-					countEl = 0;
-					prg(drtc);
+					countEl = 1;
+					prg();
 				};
 				
 			};
 
-			function init(){	    
-				$(El1 + ':nth-child(1)').addClass('active');
-				$(El1 + '.active').nextAll().addClass('right');
-				$(El1 + ':last-child').removeClass('right').addClass('left');
+			function init(){	
 
-				$(El2 + ':nth-child(1)').addClass('active');
-				$(El2 + '.active').nextAll().addClass('right');
-				$(El2 + ':last-child').removeClass('right').addClass('left');
+				$(Btn + ' .stroke-full').removeClass('active').outerWidth();
+				$(Btn + ' .stroke-full').addClass('active');
+
+				$(Text).removeClass('active');
+				$(Text + ':nth-child('+countEl+')').addClass('displayBlock').removeClass('displayNone');
+				$(Text + ':not(:nth-child('+countEl+'))').removeClass('displayBlock').addClass('displayNone');
+				setTimeout(function(){ 
+					$(Text + ':nth-child('+countEl+')').addClass('active');
+				}, 250);
+
+				$(Quote + ':nth-child('+countEl+')').addClass('displayBlock').addClass('displayBlock').find('.wrapLine:not(.wrapActive)').each(function (index) {
+					$(this).splitLines({tag:'<span><span>'});
+					$(this).addClass('wrapActive');
+				}).outerWidth();
+				setTimeout(function(){ 
+					$(Quote + ':nth-child('+countEl+')').addClass('active');
+				}, 50);
 			};
-
-			let state = false;
-			$(Nav + ':nth-child(1)').click(function(){
-				if(!state) {
-					clearInterval(interval);
-					prg('prev');
-
-					state = true;
-					setTimeout(function(){
-						state= false;
-					},1000)
-				}
-			})
-
-			$(Nav + ':nth-child(2)').click(function(){
-				if(!state) {
-					clearInterval(interval);
-					prg('next');
-
-					state = true;
-					setTimeout(function(){
-						state= false;
-					},1000)
-				}
-			})
 
 			init();
 
-			valDelay = Delay;
+			$(Btn).click(function(){
+				if (!$(Btn).hasClass('disable')) {
+					let iframe = document.querySelector('#common-section-quote-2 .container-carousel .container-videos .el-video.active iframe');
+				    let player = new Vimeo.Player(iframe);
+					player.pause();
+					$('#common-section-quote-2 .container-carousel .container-videos .container-play').removeClass('displayNone');
+					setTimeout(function(){ 
+						$('#common-section-quote-2 .container-carousel .container-videos .container-play').removeClass('hide');
+					}, 50);
+					if ($(this).hasClass('prev')) {
+						prg('prev');
+					} else if ($(this).hasClass('next')) {
+						prg('next');
+					}
+				};
+			})
 
-			var interval = setInterval(function() {
-		    	prg('next');
-		    }, valDelay);
+			if (OptDelay === "on") {
+				clearInterval(interval);
+				interval = setInterval(function() {
+			      	prg('next');
+			    }, valDelay);
+			};
+
+		    valDelay = Delay;
 
 		};
 
-		if($('#common-section-quote-1').length) {
-			let stateStartQuote1 = false;
-			$window = $(window);
-			$window.scroll(function() {
-				let windowHeight = $window.height();
-				if( !stateStartQuote1 && 
-					$window.scrollTop() >= $('#common-section-quote-1').offset().top - windowHeight ) {
-					
-					sectionQuoteCaroussel(
-						7000,
-						'#common-section-quote-1',  
-						".container-img .el",  
-						".container-text .el",
-						".container-nav .arrow"
-					);
-					stateStartQuote1 = true;
-				}
-			})
-		}
+
+		$('#common-section-quote-2 .container-carousel .container-videos .container-play .play').click(function(){
+			$('#common-section-quote-2 .container-carousel .container-videos .container-play').addClass('hide');
+			setTimeout(function(){ 
+				$('#common-section-quote-2 .container-carousel .container-videos .container-play').addClass('displayNone');
+			}, 500);
+
+			let iframe = document.querySelector('#common-section-quote-2 .container-carousel .container-videos .el-video.active iframe');
+		    let player = new Vimeo.Player(iframe);
+			player.play();
+		})
+		
+
+		
+		
 
 		if($('#common-section-quote-2').length) {
-			let stateStartQuote2 = false;
-			$window = $(window);
-			$window.scroll(function() {
-				let windowHeight = $window.height();
-				if( !stateStartQuote2 && 
-					$window.scrollTop() >= $('#common-section-quote-2').offset().top - windowHeight ) {
-					
-					sectionQuoteCaroussel(
-						7000,
-						'#common-section-quote-2',  
-						".container .video .el",  
-						".container-quote .container-el .el",
-						".container-nav .arrow"
-					);
-					stateStartQuote2 = true;
-				}
-			})
+			sectionQuotes2Caroussel(
+				'off',
+				20000,
+				'#common-section-quote-2',  
+				".container-videos .el-video", 
+				".container-text .el-text",
+				".container-nav .nav"
+			);
 		}
+
+		
 })

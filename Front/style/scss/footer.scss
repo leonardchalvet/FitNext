@@ -129,6 +129,9 @@ footer {
 			padding-bottom: 25px;
 			flex-wrap: wrap;
 			.col {
+				.logo{
+					width: 170px;
+				}
 				&:first-child {
 					.container-el {
 						.el {

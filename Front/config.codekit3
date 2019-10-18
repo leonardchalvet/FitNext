@@ -49,6 +49,56 @@
 		"oAP": "/fonts/Roboto-Regular.ttf",
 		"oF": 0
 		},
+	"/img/common/arrow-1-green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/arrow-1-green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/arrow-1-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/common/arrow-1-white.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/arrow-2-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/common/arrow-2-black.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/cross-gray.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/common/cross-gray.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/cross.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/common/cross.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/common/iphone_back.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -247,30 +297,10 @@
 	"/img/home/dev/dottwice.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/img/home/dev/dottwice.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 4010962575359,
-		"prP": 0
-		},
-	"/img/home/dev/dottwice2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/home/dev/dottwice2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 4010962575359,
-		"prP": 0
-		},
-	"/img/home/dev/dottwicephoto.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/home/dev/dottwicephoto.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
@@ -415,11 +445,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/home/logos/franceinfo.png": {
+	"/img/home/logos/Franceinfo.png": {
 		"ft": 32768,
-		"iS": 6404,
+		"iS": 2920,
 		"oA": 0,
-		"oAP": "/img/home/logos/franceinfo.png",
+		"oAP": "/img/home/logos/Franceinfo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -580,6 +610,69 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/home/section-features/dottwice.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/home/section-features/dottwice.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-features/feature-1-poster.png": {
+		"ft": 32768,
+		"iS": 282612,
+		"oA": 0,
+		"oAP": "/img/home/section-features/feature-1-poster.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/section-features/feature-2-poster.png": {
+		"ft": 32768,
+		"iS": 294239,
+		"oA": 0,
+		"oAP": "/img/home/section-features/feature-2-poster.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/section-features/feature-3-poster.png": {
+		"ft": 32768,
+		"iS": 376862,
+		"oA": 0,
+		"oAP": "/img/home/section-features/feature-3-poster.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/section-features/shape-iphone-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-features/shape-iphone-2.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-features/shape-iphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-features/shape-iphone.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/home/sectionHome-illu.png": {
 		"ft": 32768,
 		"iS": 243964,
@@ -659,13 +752,13 @@
 		},
 	"/img/weight/cover-3/illu.jpg": {
 		"ft": 16384,
-		"iS": 1416582,
+		"iS": 487398,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/weight/cover-3/illu.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/weight/features/icn-1.svg": {
@@ -833,6 +926,36 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/img/weight/section-quote-2/arrow-photo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/weight/section-quote-2/arrow-photo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/section-quote-2/play.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/weight/section-quote-2/play.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/weight/section-quote-2/quote.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/weight/section-quote-2/quote.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
 		},
 	"/index.php": {
 		"cB": 0,
@@ -1057,8 +1180,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 561315058.37998199,
-	"displayValue": "Front",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Fitnext",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 0
 	},

@@ -193,8 +193,172 @@ $(window).on('load', function() {
 		} else {
 			$('body').addClass('block');
 		}
-		
-
 	})
+
+	$('#bnd-promo .close').click(function(){
+		$('#bnd-promo').addClass('hide');
+		$('#header-desktop').removeClass('style-bnd-promo');
+		$('#header-mobile').removeClass('style-bnd-promo');
+		$('body').removeClass('style-promo');
+	})
+
+	$('#bnd-promo .text').click(function(){
+		$('#lightbox-promo').addClass('displayBlock');
+		$('body').addClass('block');
+		setTimeout(function(){
+			$('#lightbox-promo').addClass('show');
+		}, 50);
+	})
+
+	$('#lightbox-promo .container-promo .close').click(function(){
+		$('#lightbox-promo').removeClass('show');
+		$('body').removeClass('block');
+		setTimeout(function(){
+			$('#lightbox-promo').removeClass('displayBlock');
+		}, 250);
+	})
+
+	$('#lightbox-promo .background').click(function(){
+		$('#lightbox-promo').removeClass('show');
+		$('body').removeClass('block');
+		setTimeout(function(){
+			$('#lightbox-promo').removeClass('displayBlock');
+		}, 250);
+	})
+
+
+	function sectionQuotes1Caroussel(Delay, Section, El1, El2, Nav){
+			
+			El1 = Section + ' ' + El1;
+			El2 = Section + ' ' + El2;
+			Nav = Section + ' ' + Nav;
+
+			var valDelay = 0;
+			var numberEl = $(El1).length;
+			var countEl = 1;
+			
+			var drtc;
+
+			function prg(drtc){
+
+				if (drtc === 'next') {
+					countEl++;
+				} else if (drtc === 'prev') {
+					countEl--;
+				};
+
+				if (countEl <= numberEl && countEl >= 1) {
+					if(drtc === 'next') {
+
+						function nextEl(El) {
+							$(El + ':not(.active)').removeClass('left').addClass('right');
+							setTimeout(function() {
+								setTimeout(function() {
+									$(El + '.active').removeClass('active').addClass('left');
+									$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+
+									setTimeout(function() {
+										$(El + ':not(.active)').removeClass('left').addClass('right');
+									}, 0)
+								}, 0)
+							}, 0)
+						}
+						nextEl(El1);
+						nextEl(El2);
+					}
+					else if(drtc === 'prev') {
+
+						function prevEl(El) {
+							$(El + ':not(.active)').removeClass('right').addClass('left');
+							setTimeout(function() {
+								setTimeout(function() {
+									$(El + '.active').removeClass('active').addClass('right');
+									$(El + ':nth-child('+countEl+')').addClass('active').removeClass('right left');
+
+									setTimeout(function() {
+										$(El + ':not(.active)').removeClass('right').addClass('left');
+									}, 0)
+								}, 0)
+							}, 0)
+						}
+						prevEl(El1);
+						prevEl(El2);
+					}
+
+					setTimeout(function(){
+						$(El1).removeClass('displayNone');
+						$(El2).removeClass('displayNone');
+					}, 1000)
+
+					clearInterval(interval);
+					interval = setInterval(function() {
+				      	prg('next');
+				    }, valDelay);
+
+				} else if (countEl < 1) {
+					countEl = numberEl + 1;
+					prg(drtc);
+				} else {
+					countEl = 0;
+					prg(drtc);
+				};
+				
+			};
+
+			function init(){	    
+				$(El1 + ':nth-child(1)').addClass('active');
+				$(El1 + '.active').nextAll().addClass('right');
+				$(El1 + ':last-child').removeClass('right').addClass('left');
+
+				$(El2 + ':nth-child(1)').addClass('active');
+				$(El2 + '.active').nextAll().addClass('right');
+				$(El2 + ':last-child').removeClass('right').addClass('left');
+			};
+
+			let state = false;
+			$(Nav + ':nth-child(1)').click(function(){
+				if(!state) {
+					clearInterval(interval);
+					prg('prev');
+
+					state = true;
+					setTimeout(function(){
+						state= false;
+					},1000)
+				}
+			})
+
+			$(Nav + ':nth-child(2)').click(function(){
+				if(!state) {
+					clearInterval(interval);
+					prg('next');
+
+					state = true;
+					setTimeout(function(){
+						state= false;
+					},1000)
+				}
+			})
+
+			init();
+
+			valDelay = Delay;
+
+			var interval = setInterval(function() {
+		    	prg('next');
+		    }, valDelay);
+
+		};
+		if($('#common-section-quote-1').length) {
+
+
+			sectionQuotes1Caroussel(
+				100000,
+				'#common-section-quote-1',  
+				".container-img .el", 
+				".container-text .el",
+				".container-nav .nav"
+			);
+		}
 
 })
