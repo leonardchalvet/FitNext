@@ -92,7 +92,7 @@
 									<img src="img/weight/features/icn-5.svg">
 								</div>
 								<h6>
-									Conseil au restau’, chez des amis…
+									Coach a votre écoute 7/7
 								</h6>
 							</div>
 							<div class="el elAnim__slide anim__delayMedium_9">

@@ -367,15 +367,15 @@
 									</div>
 									<div class="container-desc">
 										<div class="desc">
-											<h3>Une nutrition pro-microbiote</h3>
+											<h3>Efficacité optimale</h3>
 											<p>
-												Boostez votre microbiote intestinal qui conditionne la santé, le moral et la perte de poids. Détoxifiez votre organisme en 40 jours.
+												Des exercices de Fitness, HIIT*, bodyweight et cardio calibrés en fonction de vos capacités, de vos progrès et de vos objectifs
 											</p>
 										</div>
 										<div class="desc">
-											<h3>Plaisir et liberté</h3>
+											<h3>Adapté à votre agenda</h3>
 											<p>
-												Des recettes gourmandes, des conseils au restaurant, des repas libres.
+												Séances de 9 à 50 minutes, sans matériel, chez soi ou à l’extérieur
 											</p>
 										</div>
 									</div>
@@ -402,15 +402,15 @@
 									</div>
 									<div class="container-desc">
 										<div class="desc">
-											<h3>Une nutrition pro-microbiote</h3>
+											<h3>Des coachs à votre écoute</h3>
 											<p>
-												Boostez votre microbiote intestinal qui conditionne la santé, le moral et la perte de poids. Détoxifiez votre organisme en 40 jours.
+												des conseils, des explications et de la motivation avec le support de notre équipe de coachs.
 											</p>
 										</div>
 										<div class="desc">
-											<h3>Plaisir et liberté</h3>
+											<h3>S'adapte en continu</h3>
 											<p>
-												Des recettes gourmandes, des conseils au restaurant, des repas libres.
+												programme proposé en fonction de vos ressentis, progressions, objectifs, envies et agenda.
 											</p>
 										</div>
 									</div>
@@ -560,7 +560,7 @@
 								En rayon le 12/09
 							</h6>
 							<p class="elAnim__slide anim__delayMedium_6">
-								Découvrez la nouvelle méthode Fitnext enrichie des dernière recherches d'Erwann.
+								Découvrez la nouvelle méthode Fitnext enrichie des dernières recherches d'Erwann.
 							</p>
 							<div class="elAnim__slide anim__delayMedium_8">
 								<a class="btn" href="">
